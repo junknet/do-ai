@@ -80,3 +80,7 @@ curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/uninstall.sh | b
 - Go >= 1.20
 - github.com/creack/pty
 - golang.org/x/term
+
+## 平台支持
+
+- ✅ Linux（目前只提供 Linux 版本）

@@ -127,3 +127,9 @@ A：可以，修改 `src/main.go` 中 `autoMessage`，重新编译。
 - [ ] 直接使用 `./do-ai <cli>` 前缀启动
 - [ ] 3 分钟无输出自动注入成功
 - [ ] Claude / Codex / Gemini 三端均可正常进入 TUI
+
+---
+
+## 平台支持
+
+- ✅ Linux（当前仅提供 Linux 版本）
