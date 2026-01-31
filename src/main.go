@@ -22,6 +22,7 @@ const (
 	dsrReply    = "\x1b[1;1R"
 	dsrDelay    = 50 * time.Millisecond
 	tailSize    = 32
+	submitDelay = 80 * time.Millisecond
 )
 
 func main() {
@@ -149,6 +150,11 @@ func main() {
 				if debug {
 					fmt.Fprintf(os.Stderr, "[do-ai] 自动注入 %s\n", time.Now().Format("2006-01-02 15:04:05"))
 				}
+				if submit := submitPayload(); len(submit) > 0 {
+					time.AfterFunc(submitDelay, func() {
+						_, _ = ptmx.Write(submit)
+					})
+				}
 				atomic.StoreInt64(&lastKick, time.Now().UnixNano())
 			}
 		}
@@ -170,6 +176,15 @@ func shouldKick(sinceOutput, sinceKick, idle time.Duration) bool {
 
 func kickPayload() []byte {
 	return []byte(autoMessage + "\n")
+}
+
+// 默认开启自动提交，可用 DO_AI_SUBMIT=0 关闭。
+func submitPayload() []byte {
+	if os.Getenv("DO_AI_SUBMIT") == "0" {
+		return nil
+	}
+	// 依次尝试 Alt+Enter 与 Ctrl+Enter（CSI u），以适配不同 TUI。
+	return []byte("\x1b\r\x1b[13;5u")
 }
 
 // 仅在输出包含“可见文本”时才刷新空闲计时，避免纯 ANSI 刷屏阻断无人值守。

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"os"
 	"testing"
 	"time"
 )
@@ -72,5 +73,21 @@ func TestIsMeaningfulOutput(t *testing.T) {
 	}
 	if !isMeaningfulOutput([]byte("⠋")) {
 		t.Fatalf("应当识别可见 Unicode 字符")
+	}
+}
+
+func TestSubmitPayload(t *testing.T) {
+	old := os.Getenv("DO_AI_SUBMIT")
+	_ = os.Setenv("DO_AI_SUBMIT", "0")
+	if len(submitPayload()) != 0 {
+		t.Fatalf("DO_AI_SUBMIT=0 时不应发送提交键")
+	}
+	if old == "" {
+		_ = os.Unsetenv("DO_AI_SUBMIT")
+	} else {
+		_ = os.Setenv("DO_AI_SUBMIT", old)
+	}
+	if len(submitPayload()) == 0 {
+		t.Fatalf("默认应发送提交键")
 	}
 }
