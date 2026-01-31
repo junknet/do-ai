@@ -87,7 +87,14 @@ func TestSubmitPayload(t *testing.T) {
 	} else {
 		_ = os.Setenv("DO_AI_SUBMIT", old)
 	}
-	if len(submitPayload()) == 0 {
-		t.Fatalf("默认应发送提交键")
+
+	_ = os.Unsetenv("DO_AI_SUBMIT_MODE")
+	if string(submitPayload()) != "\r" {
+		t.Fatalf("默认应发送回车提交")
+	}
+
+	_ = os.Setenv("DO_AI_SUBMIT_MODE", "ctrl-enter")
+	if string(submitPayload()) != "\x1b[13;5u" {
+		t.Fatalf("ctrl-enter 模式不匹配")
 	}
 }

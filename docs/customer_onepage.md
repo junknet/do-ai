@@ -78,7 +78,7 @@ DO_AI_DEBUG=1 ./do-ai codex
 [do-ai] 自动注入 YYYY-MM-DD HH:MM:SS
 ```
 
-> 默认会自动提交（Alt+Enter + Ctrl+Enter）。如需关闭：`DO_AI_SUBMIT=0`
+> 默认自动提交（Enter）。如需关闭：`DO_AI_SUBMIT=0`；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 

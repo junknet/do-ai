@@ -108,7 +108,7 @@ DO_AI_DEBUG=1 ./do-ai codex
 - **透明 TUI**：保留所有颜色、光标、布局和快捷键
 - **Codex 兼容**：内置 DSR 回写，避免光标位置读取失败
 - **刷屏不干扰**：忽略纯 ANSI 刷屏输出，保证 3 分钟 idle 能触发
-- **自动提交**：默认尝试 Alt+Enter + Ctrl+Enter 发送消息（可用 `DO_AI_SUBMIT=0` 关闭）
+- **自动提交**：默认 Enter 提交（可用 `DO_AI_SUBMIT=0` 关闭）；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 

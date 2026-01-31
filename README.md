@@ -38,7 +38,7 @@ DO_AI_DEBUG=1 do-ai codex
 
 - 仅在 **PTY 无输出 3 分钟** 时注入指令（忽略纯 ANSI 刷屏/空白输出）
 - 注入内容固定为：`自主决策，按照业务需求高roi继续推进`
-- 默认自动尝试提交（Alt+Enter + Ctrl+Enter），如需关闭：`DO_AI_SUBMIT=0`
+- 默认自动提交（Enter）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 - 不做提示词识别，不做语义判断，专注“无限继续”
 - 内置 **DSR 兼容**：当终端未回传光标位置时，自动补发 `ESC[1;1R`，提升 Codex TUI 兼容性
 

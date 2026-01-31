@@ -178,13 +178,31 @@ func kickPayload() []byte {
 	return []byte(autoMessage + "\n")
 }
 
-// 默认开启自动提交，可用 DO_AI_SUBMIT=0 关闭。
+// 默认开启自动提交（Enter），可用 DO_AI_SUBMIT=0 关闭。
 func submitPayload() []byte {
 	if os.Getenv("DO_AI_SUBMIT") == "0" {
 		return nil
 	}
-	// 依次尝试 Alt+Enter 与 Ctrl+Enter（CSI u），以适配不同 TUI。
-	return []byte("\x1b\r\x1b[13;5u")
+	mode := os.Getenv("DO_AI_SUBMIT_MODE")
+	if mode == "" {
+		mode = "enter"
+	}
+	switch mode {
+	case "enter":
+		return []byte("\r")
+	case "ctrl-enter":
+		return []byte("\x1b[13;5u")
+	case "alt-enter":
+		return []byte("\x1b\r")
+	case "enter+ctrl":
+		return []byte("\r\x1b[13;5u")
+	case "enter+alt":
+		return []byte("\r\x1b\r")
+	case "all":
+		return []byte("\r\x1b\r\x1b[13;5u")
+	default:
+		return []byte("\r")
+	}
 }
 
 // 仅在输出包含“可见文本”时才刷新空闲计时，避免纯 ANSI 刷屏阻断无人值守。
