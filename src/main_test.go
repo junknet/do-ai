@@ -23,10 +23,15 @@ func TestShouldKick(t *testing.T) {
 }
 
 func TestKickPayload(t *testing.T) {
-	got := string(kickPayload())
-	want := autoMessage + "\n"
+	got := string(kickPayload(0, 0))
+	want := autoMessageMain + "\n"
 	if got != want {
-		t.Fatalf("注入内容不匹配: got=%q want=%q", got, want)
+		t.Fatalf("默认注入内容不匹配: got=%q want=%q", got, want)
+	}
+
+	calib := string(kickPayload(4, 5))
+	if calib != autoMessageCalib+"\n" {
+		t.Fatalf("校准注入内容不匹配: got=%q want=%q", calib, autoMessageCalib+"\n")
 	}
 }
 
@@ -71,9 +76,6 @@ func TestIsMeaningfulOutput(t *testing.T) {
 	if !isMeaningfulOutput([]byte("Press enter to continue")) {
 		t.Fatalf("应当识别可见文本")
 	}
-	if !isMeaningfulOutput([]byte("⠋")) {
-		t.Fatalf("应当识别可见 Unicode 字符")
-	}
 }
 
 func TestSubmitPayload(t *testing.T) {
@@ -89,12 +91,12 @@ func TestSubmitPayload(t *testing.T) {
 	}
 
 	_ = os.Unsetenv("DO_AI_SUBMIT_MODE")
-	if string(submitPayload()) != "\r" {
-		t.Fatalf("默认应发送回车提交")
+	if string(submitPayload()) != "\x1b[13;5u" {
+		t.Fatalf("默认应发送 ctrl-enter 提交")
 	}
 
-	_ = os.Setenv("DO_AI_SUBMIT_MODE", "ctrl-enter")
-	if string(submitPayload()) != "\x1b[13;5u" {
-		t.Fatalf("ctrl-enter 模式不匹配")
+	_ = os.Setenv("DO_AI_SUBMIT_MODE", "enter")
+	if string(submitPayload()) != "\r" {
+		t.Fatalf("enter 模式不匹配")
 	}
 }

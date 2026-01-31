@@ -3,7 +3,7 @@
 一个“监工式”前缀工具：以 **透明 TUI 代理** 的方式启动 Claude/Codex/Gemini 等 CLI，当 **连续 3 分钟无输出** 时，自动输入：
 
 ```
-自主决策，按照业务需求高roi继续推进
+继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。
 ```
 
 ## 设计目标
@@ -37,8 +37,9 @@ DO_AI_DEBUG=1 do-ai codex
 ## 行为说明
 
 - 仅在 **PTY 无输出 3 分钟** 时注入指令（忽略纯 ANSI 刷屏/空白输出）
-- 注入内容固定为：`自主决策，按照业务需求高roi继续推进`
-- 默认自动提交（Enter）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+- 注入内容固定为：`继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。`
+- 每 5 次注入会插入一次“校准提示”（`先输出当前计划(3-7条)和已完成清单，再继续执行下一条。`），可用 `DO_AI_CALIB_EVERY=0` 关闭或调整频率
+- 默认自动提交（Ctrl+Enter）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 - 不做提示词识别，不做语义判断，专注“无限继续”
 - 内置 **DSR 兼容**：当终端未回传光标位置时，自动补发 `ESC[1;1R`，提升 Codex TUI 兼容性
 

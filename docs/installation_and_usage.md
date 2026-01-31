@@ -72,7 +72,7 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 
 > 行为说明：只要连续 3 分钟没有“可见文本输出”，do-ai 自动注入：
 > 
-> **自主决策，按照业务需求高roi继续推进**
+> **继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。**
 
 ---
 
@@ -88,7 +88,7 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 
 1. 启动 TUI：`./do-ai codex`
 2. 不做任何输入，离开即可
-3. do-ai 每 3 分钟自动注入推进语句，持续推进
+3. do-ai 每 3 分钟自动注入推进语句，持续推进（含周期性“校准提示”）
 
 ### 3.3 调试验证（仅需要时）
 
@@ -108,7 +108,8 @@ DO_AI_DEBUG=1 ./do-ai codex
 - **透明 TUI**：保留所有颜色、光标、布局和快捷键
 - **Codex 兼容**：内置 DSR 回写，避免光标位置读取失败
 - **刷屏不干扰**：忽略纯 ANSI 刷屏输出，保证 3 分钟 idle 能触发
-- **自动提交**：默认 Enter 提交（可用 `DO_AI_SUBMIT=0` 关闭）；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+- **自动校准**：默认每 5 次注入插入一次“计划/已完成清单”提示（`先输出当前计划(3-7条)和已完成清单，再继续执行下一条。`），可用 `DO_AI_CALIB_EVERY=0` 关闭或调整频率
+- **自动提交**：默认 Ctrl+Enter 提交（可用 `DO_AI_SUBMIT=0` 关闭）；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 
@@ -121,7 +122,7 @@ A：如果界面持续有“可见文本输出”，计时会重置。仅在**�
 A：已加入 DSR 回写兼容，若仍异常，建议在本地真实终端运行。
 
 ### Q3：能否改成别的注入语句？
-A：可以，修改 `src/main.go` 中 `autoMessage`，重新编译。
+A：可以，修改 `src/main.go` 中 `autoMessageMain` / `autoMessageCalib`，重新编译。
 
 ---
 

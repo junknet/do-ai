@@ -51,7 +51,13 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 **规则**：连续 3 分钟无可见输出 → 自动输入：
 
 ```
-自主决策，按照业务需求高roi继续推进
+继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。
+```
+
+并且每 5 次注入会插入一次“校准提示”：
+
+```
+先输出当前计划(3-7条)和已完成清单，再继续执行下一条。
 ```
 
 ---
@@ -78,7 +84,7 @@ DO_AI_DEBUG=1 ./do-ai codex
 [do-ai] 自动注入 YYYY-MM-DD HH:MM:SS
 ```
 
-> 默认自动提交（Enter）。如需关闭：`DO_AI_SUBMIT=0`；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+> 默认自动提交（Ctrl+Enter）。如需关闭：`DO_AI_SUBMIT=0`；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 

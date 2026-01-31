@@ -6,6 +6,7 @@ import (
 	"os"
 	"os/exec"
 	"os/signal"
+	"strconv"
 	"sync"
 	"sync/atomic"
 	"syscall"
@@ -16,13 +17,14 @@ import (
 )
 
 const (
-	idleTimeout = 3 * time.Minute
-	autoMessage = "自主决策，按照业务需求高roi继续推进"
-	dsrRequest  = "\x1b[6n"
-	dsrReply    = "\x1b[1;1R"
-	dsrDelay    = 50 * time.Millisecond
-	tailSize    = 32
-	submitDelay = 80 * time.Millisecond
+	idleTimeout      = 3 * time.Minute
+	autoMessageMain  = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。"
+	autoMessageCalib = "先输出当前计划(3-7条)和已完成清单，再继续执行下一条。"
+	dsrRequest       = "\x1b[6n"
+	dsrReply         = "\x1b[1;1R"
+	dsrDelay         = 50 * time.Millisecond
+	tailSize         = 32
+	submitDelay      = 80 * time.Millisecond
 )
 
 func main() {
@@ -132,6 +134,8 @@ func main() {
 
 	ticker := time.NewTicker(1 * time.Second)
 	defer ticker.Stop()
+	kickCount := uint64(0)
+	calibEvery := calibEveryFromEnv()
 
 	for {
 		select {
@@ -146,7 +150,7 @@ func main() {
 			sinceKick := now.Sub(lastKickAt)
 
 			if shouldKick(sinceOut, sinceKick, idleTimeout) {
-				_, _ = ptmx.Write(kickPayload())
+				_, _ = ptmx.Write(kickPayload(kickCount, calibEvery))
 				if debug {
 					fmt.Fprintf(os.Stderr, "[do-ai] 自动注入 %s\n", time.Now().Format("2006-01-02 15:04:05"))
 				}
@@ -155,6 +159,7 @@ func main() {
 						_, _ = ptmx.Write(submit)
 					})
 				}
+				kickCount++
 				atomic.StoreInt64(&lastKick, time.Now().UnixNano())
 			}
 		}
@@ -174,18 +179,37 @@ func shouldKick(sinceOutput, sinceKick, idle time.Duration) bool {
 	return true
 }
 
-func kickPayload() []byte {
-	return []byte(autoMessage + "\n")
+func kickPayload(kickCount uint64, calibEvery int) []byte {
+	msg := autoMessageMain
+	if calibEvery > 0 && (kickCount+1)%uint64(calibEvery) == 0 {
+		msg = autoMessageCalib
+	}
+	return []byte(msg + "\n")
 }
 
-// 默认开启自动提交（Enter），可用 DO_AI_SUBMIT=0 关闭。
+func calibEveryFromEnv() int {
+	val := os.Getenv("DO_AI_CALIB_EVERY")
+	if val == "" {
+		return 5
+	}
+	if val == "0" {
+		return 0
+	}
+	n, err := strconv.Atoi(val)
+	if err != nil || n < 1 {
+		return 5
+	}
+	return n
+}
+
+// 默认开启自动提交（Ctrl+Enter），可用 DO_AI_SUBMIT=0 关闭。
 func submitPayload() []byte {
 	if os.Getenv("DO_AI_SUBMIT") == "0" {
 		return nil
 	}
 	mode := os.Getenv("DO_AI_SUBMIT_MODE")
 	if mode == "" {
-		mode = "enter"
+		mode = "ctrl-enter"
 	}
 	switch mode {
 	case "enter":
