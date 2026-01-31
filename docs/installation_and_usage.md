@@ -28,6 +28,8 @@ go build -trimpath -ldflags "-s -w" -o do-ai ./src
 curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/install.sh | bash
 ```
 
+> 说明：通过 `curl | bash` 安装会自动下载源码归档并本地编译。
+
 ### 1.3 验证可执行
 
 ```bash
