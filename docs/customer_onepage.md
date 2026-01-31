@@ -21,7 +21,7 @@ go build -trimpath -ldflags "-s -w" -o do-ai ./src
 远程一键安装：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/install.sh | bash
+curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/install.sh | bash
 ```
 
 > 说明：通过 `curl | bash` 安装会自动下载源码归档并本地编译。
@@ -35,7 +35,7 @@ curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/install.sh | bas
 远程卸载：
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/uninstall.sh | bash
+curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.sh | bash
 ```
 
 ---
