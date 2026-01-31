@@ -29,7 +29,10 @@ fi
 
 mkdir -p "$DEST_DIR"
 
-go build -trimpath -ldflags "-s -w" -o "$DEST_DIR/$BIN_NAME" "$ROOT_DIR/src"
+(
+  cd "$ROOT_DIR"
+  go build -trimpath -ldflags "-s -w" -o "$DEST_DIR/$BIN_NAME" ./src
+)
 
 cat <<INFO
 安装完成：$DEST_DIR/$BIN_NAME
