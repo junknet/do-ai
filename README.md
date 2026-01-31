@@ -63,6 +63,18 @@ go build -trimpath -ldflags "-s -w" -o do-ai ./src
 curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/install.sh | bash
 ```
 
+## 卸载
+
+```bash
+./uninstall.sh
+```
+
+远程卸载：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/uninstall.sh | bash
+```
+
 ## 依赖
 
 - Go >= 1.20

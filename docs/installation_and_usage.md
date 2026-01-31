@@ -34,6 +34,18 @@ curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/install.sh | bas
 ./do-ai --help 2>/dev/null || true
 ```
 
+### 1.4 卸载
+
+```bash
+./uninstall.sh
+```
+
+远程卸载：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/junknet/do-ai/main/uninstall.sh | bash
+```
+
 ---
 
 ## 2. 使用方式（**只用前缀，不用 alias**）
