@@ -1,0 +1,9 @@
+# Go build outputs
+/do-ai
+/bin/
+/out/
+/tmp/
+
+# Go tooling
+*.test
+*.out
