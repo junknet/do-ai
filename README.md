@@ -39,7 +39,8 @@ DO_AI_DEBUG=1 do-ai codex
 - 仅在 **PTY 无输出 3 分钟** 时注入指令（忽略纯 ANSI 刷屏/空白输出）
 - 注入内容固定为：`继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。`
 - 每 5 次注入会插入一次“校准提示”（`先输出当前计划(3-7条)和已完成清单，再继续执行下一条。`），可用 `DO_AI_CALIB_EVERY=0` 关闭或调整频率
-- 默认自动提交（Ctrl+Enter）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+- 默认自动提交（Enter+Ctrl+Enter）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=enter|ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+- 可临时改成 10 秒触发（测试用）：`DO_AI_IDLE=10s do-ai codex`
 - 不做提示词识别，不做语义判断，专注“无限继续”
 - 内置 **DSR 兼容**：当终端未回传光标位置时，自动补发 `ESC[1;1R`，提升 Codex TUI 兼容性
 

@@ -84,7 +84,13 @@ DO_AI_DEBUG=1 ./do-ai codex
 [do-ai] 自动注入 YYYY-MM-DD HH:MM:SS
 ```
 
-> 默认自动提交（Ctrl+Enter）。如需关闭：`DO_AI_SUBMIT=0`；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+快速测试（10 秒触发）：
+
+```bash
+DO_AI_IDLE=10s ./do-ai codex
+```
+
+> 默认自动提交（Enter+Ctrl+Enter）。如需关闭：`DO_AI_SUBMIT=0`；可选 `DO_AI_SUBMIT_MODE=enter|ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 

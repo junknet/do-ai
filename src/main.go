@@ -17,14 +17,14 @@ import (
 )
 
 const (
-	idleTimeout      = 3 * time.Minute
-	autoMessageMain  = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。"
-	autoMessageCalib = "先输出当前计划(3-7条)和已完成清单，再继续执行下一条。"
-	dsrRequest       = "\x1b[6n"
-	dsrReply         = "\x1b[1;1R"
-	dsrDelay         = 50 * time.Millisecond
-	tailSize         = 32
-	submitDelay      = 80 * time.Millisecond
+	defaultIdleTimeout = 3 * time.Minute
+	autoMessageMain    = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。"
+	autoMessageCalib   = "先输出当前计划(3-7条)和已完成清单，再继续执行下一条。"
+	dsrRequest         = "\x1b[6n"
+	dsrReply           = "\x1b[1;1R"
+	dsrDelay           = 50 * time.Millisecond
+	tailSize           = 32
+	submitDelay        = 80 * time.Millisecond
 )
 
 func main() {
@@ -136,6 +136,7 @@ func main() {
 	defer ticker.Stop()
 	kickCount := uint64(0)
 	calibEvery := calibEveryFromEnv()
+	idle := idleFromEnv()
 
 	for {
 		select {
@@ -149,7 +150,7 @@ func main() {
 			sinceOut := now.Sub(lastOutAt)
 			sinceKick := now.Sub(lastKickAt)
 
-			if shouldKick(sinceOut, sinceKick, idleTimeout) {
+			if shouldKick(sinceOut, sinceKick, idle) {
 				_, _ = ptmx.Write(kickPayload(kickCount, calibEvery))
 				if debug {
 					fmt.Fprintf(os.Stderr, "[do-ai] 自动注入 %s\n", time.Now().Format("2006-01-02 15:04:05"))
@@ -184,7 +185,7 @@ func kickPayload(kickCount uint64, calibEvery int) []byte {
 	if calibEvery > 0 && (kickCount+1)%uint64(calibEvery) == 0 {
 		msg = autoMessageCalib
 	}
-	return []byte(msg + "\n")
+	return []byte(msg)
 }
 
 func calibEveryFromEnv() int {
@@ -202,6 +203,20 @@ func calibEveryFromEnv() int {
 	return n
 }
 
+func idleFromEnv() time.Duration {
+	val := os.Getenv("DO_AI_IDLE")
+	if val == "" {
+		return defaultIdleTimeout
+	}
+	if secs, err := strconv.Atoi(val); err == nil && secs > 0 {
+		return time.Duration(secs) * time.Second
+	}
+	if d, err := time.ParseDuration(val); err == nil && d > 0 {
+		return d
+	}
+	return defaultIdleTimeout
+}
+
 // 默认开启自动提交（Ctrl+Enter），可用 DO_AI_SUBMIT=0 关闭。
 func submitPayload() []byte {
 	if os.Getenv("DO_AI_SUBMIT") == "0" {
@@ -209,7 +224,7 @@ func submitPayload() []byte {
 	}
 	mode := os.Getenv("DO_AI_SUBMIT_MODE")
 	if mode == "" {
-		mode = "ctrl-enter"
+		mode = "enter+ctrl"
 	}
 	switch mode {
 	case "enter":

@@ -100,6 +100,12 @@ DO_AI_DEBUG=1 ./do-ai codex
 [do-ai] 自动注入 YYYY-MM-DD HH:MM:SS
 ```
 
+快速测试（10 秒触发）：
+
+```bash
+DO_AI_IDLE=10s ./do-ai codex
+```
+
 ---
 
 ## 4. 设计要点（已客户化）
@@ -109,7 +115,7 @@ DO_AI_DEBUG=1 ./do-ai codex
 - **Codex 兼容**：内置 DSR 回写，避免光标位置读取失败
 - **刷屏不干扰**：忽略纯 ANSI 刷屏输出，保证 3 分钟 idle 能触发
 - **自动校准**：默认每 5 次注入插入一次“计划/已完成清单”提示（`先输出当前计划(3-7条)和已完成清单，再继续执行下一条。`），可用 `DO_AI_CALIB_EVERY=0` 关闭或调整频率
-- **自动提交**：默认 Ctrl+Enter 提交（可用 `DO_AI_SUBMIT=0` 关闭）；可选 `DO_AI_SUBMIT_MODE=ctrl-enter|enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
+- **自动提交**：默认 Enter+Ctrl+Enter 提交（可用 `DO_AI_SUBMIT=0` 关闭）；可选 `DO_AI_SUBMIT_MODE=enter|ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 
 ---
 

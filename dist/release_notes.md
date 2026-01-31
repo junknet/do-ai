@@ -1,9 +1,9 @@
-# do-ai v0.1.6
+# do-ai v0.1.7
 
 ## 变更
-- 注入提示改为“推荐版”：高 ROI 继续推进 + 计划缺失先补计划
-- 新增周期性“校准提示”（默认每 5 次注入一次，可用 DO_AI_CALIB_EVERY=0 关闭）
-- 默认自动提交改为 Ctrl+Enter，避免只换行不提交
+- 新增 DO_AI_IDLE，可用 10s 快速验证自动注入
+- 自动提交默认改为 Enter+Ctrl+Enter，提高 Codex/Claude 兼容性
+- 注入消息不再强制追加换行，避免只换行不提交
 
 ## 资产
 - do-ai_linux_amd64

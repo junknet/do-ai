@@ -24,14 +24,14 @@ func TestShouldKick(t *testing.T) {
 
 func TestKickPayload(t *testing.T) {
 	got := string(kickPayload(0, 0))
-	want := autoMessageMain + "\n"
+	want := autoMessageMain
 	if got != want {
 		t.Fatalf("默认注入内容不匹配: got=%q want=%q", got, want)
 	}
 
 	calib := string(kickPayload(4, 5))
-	if calib != autoMessageCalib+"\n" {
-		t.Fatalf("校准注入内容不匹配: got=%q want=%q", calib, autoMessageCalib+"\n")
+	if calib != autoMessageCalib {
+		t.Fatalf("校准注入内容不匹配: got=%q want=%q", calib, autoMessageCalib)
 	}
 }
 
@@ -91,8 +91,8 @@ func TestSubmitPayload(t *testing.T) {
 	}
 
 	_ = os.Unsetenv("DO_AI_SUBMIT_MODE")
-	if string(submitPayload()) != "\x1b[13;5u" {
-		t.Fatalf("默认应发送 ctrl-enter 提交")
+	if string(submitPayload()) != "\r\x1b[13;5u" {
+		t.Fatalf("默认应发送 enter+ctrl 提交")
 	}
 
 	_ = os.Setenv("DO_AI_SUBMIT_MODE", "enter")
