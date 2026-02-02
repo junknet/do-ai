@@ -3,22 +3,18 @@ package main
 import (
 	"bytes"
 	"fmt"
+	"io"
 	"os"
 	"os/exec"
-	"os/signal"
 	"strconv"
 	"sync"
 	"sync/atomic"
-	"syscall"
 	"time"
-
-	"github.com/creack/pty"
-	"golang.org/x/term"
 )
 
 const (
-	defaultIdleTimeout = 3 * time.Minute
-	autoMessageMain    = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。"
+	defaultIdleTimeout = 5 * time.Second
+	autoMessageMain    = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。如果可以交付就明确告知然后暂停"
 	autoMessageCalib   = "先输出当前计划(3-7条)和已完成清单，再继续执行下一条。"
 	dsrRequest         = "\x1b[6n"
 	dsrReply           = "\x1b[1;1R"
@@ -37,7 +33,7 @@ func main() {
 		return
 	}
 
-	if !term.IsTerminal(int(os.Stdin.Fd())) {
+	if !isTerminal(int(os.Stdin.Fd())) {
 		fmt.Fprintln(os.Stderr, "错误: 需要在真实终端中运行")
 		exitCode = 2
 		return
@@ -48,7 +44,7 @@ func main() {
 
 	debug := os.Getenv("DO_AI_DEBUG") == "1"
 
-	ptmx, err := pty.Start(cmd)
+	ptmx, err := startPTY(cmd)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "启动失败:", err)
 		exitCode = 1
@@ -57,23 +53,16 @@ func main() {
 	defer func() { _ = ptmx.Close() }()
 
 	// 进入 Raw 模式，保证 TUI 完整透传
-	oldState, err := term.MakeRaw(int(os.Stdin.Fd()))
+	oldState, err := makeRaw(int(os.Stdin.Fd()))
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "无法进入 raw 模式:", err)
 		exitCode = 1
 		return
 	}
-	defer func() { _ = term.Restore(int(os.Stdin.Fd()), oldState) }()
+	defer func() { _ = oldState.restore() }()
 
-	// 窗口大小变化同步
-	winch := make(chan os.Signal, 1)
-	signal.Notify(winch, syscall.SIGWINCH)
-	go func() {
-		for range winch {
-			_ = pty.InheritSize(os.Stdin, ptmx)
-		}
-	}()
-	winch <- syscall.SIGWINCH
+	// 窗口大小变化同步 (Unix: SIGWINCH, Windows: polling)
+	_ = setupWinchHandler(ptmx)
 
 	// 输出与注入的时间戳
 	lastOutput := time.Now().UnixNano()
@@ -81,7 +70,7 @@ func main() {
 	atomic.StoreInt64(&lastOutput, lastOutput)
 	atomic.StoreInt64(&lastKick, lastKick)
 
-	dsr := newDSRController(ptmx)
+	dsr := newDSRController(ptmx.AsWriter())
 
 	// 读取子进程输出 → 原样写回终端
 	go func() {
@@ -127,9 +116,10 @@ func main() {
 	}()
 
 	// 等待子进程结束
-	waitCh := make(chan error, 1)
+	waitCh := make(chan int, 1)
 	go func() {
-		waitCh <- cmd.Wait()
+		code, _ := ptmx.Wait()
+		waitCh <- code
 	}()
 
 	ticker := time.NewTicker(1 * time.Second)
@@ -140,8 +130,8 @@ func main() {
 
 	for {
 		select {
-		case err := <-waitCh:
-			exitCode = exitCodeFromErr(err)
+		case code := <-waitCh:
+			exitCode = code
 			return
 		case <-ticker.C:
 			now := time.Now()
@@ -244,7 +234,7 @@ func submitPayload() []byte {
 	}
 }
 
-// 仅在输出包含“可见文本”时才刷新空闲计时，避免纯 ANSI 刷屏阻断无人值守。
+// 仅在输出包含"可见文本"时才刷新空闲计时，避免纯 ANSI 刷屏阻断无人值守。
 func isMeaningfulOutput(out []byte) bool {
 	for i := 0; i < len(out); {
 		if out[i] == 0x1b {
@@ -306,10 +296,10 @@ func skipANSIEscape(out []byte, i int) int {
 type dsrController struct {
 	mu    sync.Mutex
 	timer *time.Timer
-	ptmx  *os.File
+	ptmx  io.Writer
 }
 
-func newDSRController(ptmx *os.File) *dsrController {
+func newDSRController(ptmx io.Writer) *dsrController {
 	return &dsrController{ptmx: ptmx}
 }
 
@@ -400,9 +390,5 @@ func exitCodeFromErr(err error) int {
 	if !ok {
 		return 1
 	}
-	status, ok := exitErr.Sys().(syscall.WaitStatus)
-	if !ok {
-		return 1
-	}
-	return status.ExitStatus()
+	return exitErr.ExitCode()
 }
