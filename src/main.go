@@ -13,8 +13,8 @@ import (
 )
 
 const (
-	defaultIdleTimeout = 5 * time.Second
-	autoMessageMain    = "继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。如果可以交付就明确告知然后暂停"
+	defaultIdleTimeout = 3 * time.Minute
+	autoMessageMain    = "继续按当前计划推进，按照功能ROI高低去做；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。更改的代码，推进的功能需要严格的真实场景数据的e2e测试，边界测试，禁止mock数据。如果可以交付就明确告知,然后暂停"
 	autoMessageCalib   = "先输出当前计划(3-7条)和已完成清单，再继续执行下一条。"
 	dsrRequest         = "\x1b[6n"
 	dsrReply           = "\x1b[1;1R"
