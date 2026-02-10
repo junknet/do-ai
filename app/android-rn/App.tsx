@@ -700,6 +700,7 @@ export default function App() {
   const suppressCardPressSessionRef = useRef('');
   const terminateTimerRef = useRef<Record<string, ReturnType<typeof setTimeout>>>({});
   const statusOnlyKickRef = useRef<Record<string, number>>({});
+  const enforcedSessionRef = useRef<string>('');
   const pulse = useRef(new Animated.Value(0.4)).current;
   const tabIndicatorX = useRef(new Animated.Value(0)).current;
   const tabIndicatorWidth = useRef(new Animated.Value(44)).current;
@@ -1155,14 +1156,21 @@ export default function App() {
   }, [activeSessionId, terminalVisible, reloadTerminalTail]);
 
   useEffect(() => {
-    if (!terminalVisible) return;
+    if (!terminalVisible) {
+      enforcedSessionRef.current = '';
+      return;
+    }
+    if (enforcedSessionRef.current === activeSessionId) return;
+    if (!activeSession) return;
+
     if (isAiTuiSession) {
       setControlPanelVisible(false);
       setHistoryVisible(false);
-      return;
+    } else {
+      setControlPanelVisible(true);
     }
-    setControlPanelVisible(true);
-  }, [terminalVisible, activeSessionId, isAiTuiSession]);
+    enforcedSessionRef.current = activeSessionId;
+  }, [terminalVisible, activeSessionId, isAiTuiSession, activeSession]);
 
   useEffect(() => {
     if (!terminalVisible || !immersiveMode) return;
@@ -1562,13 +1570,16 @@ export default function App() {
 
   const focusCommandInput = useCallback(() => {
     hitLight();
-    if (!controlPanelVisible) {
+    if (immersiveMode) {
+      setImmersiveMode(false);
+    }
+    if (!controlPanelVisible || isAiTuiSession) {
       setControlPanelVisible(true);
     }
     setTimeout(() => {
       commandInputRef.current?.focus();
     }, 60);
-  }, [hitLight, controlPanelVisible]);
+  }, [hitLight, controlPanelVisible, immersiveMode, isAiTuiSession]);
 
   // --- Render ---
 
@@ -2390,7 +2401,7 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   termScroll: { flex: 1 },
-  termScrollContent: { padding: 8, paddingBottom: 20 },
+  termScrollContent: { padding: 8, paddingBottom: 90 },
   termLine: {
     color: '#34D779',
     fontSize: 13,
@@ -2407,6 +2418,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 6,
     paddingVertical: 2,
     borderRadius: 4,
+  },
+  termFloatStatsImmersive: {
+    top: 6,
+    right: 6,
+    backgroundColor: 'rgba(10, 22, 62, 0.72)',
   },
   termStatsText: { color: '#7EE2AE', fontSize: 9, fontWeight: '700' },
   termErrorBadge: {
@@ -2442,6 +2458,85 @@ const styles = StyleSheet.create({
     color: '#B6C5EC',
     fontSize: 11,
     fontWeight: '600',
+  },
+  termDock: {
+    position: 'absolute',
+    left: 8,
+    right: 8,
+    bottom: 10,
+    minHeight: 46,
+    borderRadius: 23,
+    backgroundColor: 'rgba(232, 236, 242, 0.96)',
+    borderWidth: 1,
+    borderColor: '#C8D0DE',
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 8,
+    gap: 8,
+    elevation: 8,
+  },
+  termDockImmersive: {
+    backgroundColor: 'rgba(236, 241, 248, 0.88)',
+    borderColor: '#D3D9E5',
+    bottom: 8,
+  },
+  dockBtn: {
+    flex: 1,
+    height: 32,
+    borderRadius: 16,
+    backgroundColor: '#E8EEF8',
+    borderWidth: 1,
+    borderColor: '#CCD6E8',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dockBtnActive: {
+    backgroundColor: '#DDE7F7',
+    borderColor: '#AFC2EE',
+  },
+  dockBtnText: {
+    color: '#2A3858',
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  dockBtnTextActive: {
+    color: '#1E315C',
+  },
+  dockIconBtn: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    backgroundColor: '#EEF3FB',
+    borderWidth: 1,
+    borderColor: '#CED9EC',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  dockIconBtnActive: {
+    backgroundColor: '#DDE8FB',
+    borderColor: '#A8C0EF',
+  },
+  dockIconText: {
+    color: '#243A67',
+    fontSize: 12,
+    fontWeight: '700',
+  },
+  dockIconTextActive: {
+    color: '#163A86',
+  },
+  dockKeyboardBtn: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: '#2F5DFF',
+    alignItems: 'center',
+    justifyContent: 'center',
+    elevation: 2,
+  },
+  dockKeyboardText: {
+    color: '#FFFFFF',
+    fontSize: 19,
+    fontWeight: '700',
   },
   toastOverlay: {
     position: 'absolute',
