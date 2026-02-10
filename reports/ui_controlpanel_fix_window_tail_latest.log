@@ -1,0 +1,80 @@
+    mOwnerUid=1000 showForAllUsers=false package=com.android.settings appop=NONE
+    mAttrs={(0,0)(fillxfill) sim={adjust=pan} ty=BASE_APPLICATION wanim=0x10302f4
+      fl=LAYOUT_IN_SCREEN LAYOUT_INSET_DECOR SPLIT_TOUCH HARDWARE_ACCELERATED DRAWS_SYSTEM_BAR_BACKGROUNDS
+      pfl=NO_MOVE_ANIMATION FORCE_DRAW_STATUS_BAR_BACKGROUND USE_BLAST FIT_INSETS_CONTROLLED
+      vsysui=LAYOUT_STABLE LAYOUT_FULLSCREEN LIGHT_STATUS_BAR LIGHT_NAVIGATION_BAR
+      apr=LIGHT_STATUS_BARS LIGHT_NAVIGATION_BARS
+      bhv=DEFAULT
+      fitSides=}
+    Requested w=1080 h=2280 mLayoutSeq=118
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+    mActivityRecord=ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+    mAppDied=false    drawnStateEvaluated=true    mightAffectAllDrawn=true
+    mViewVisibility=0x8 mHaveFrame=true mObscured=true
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw392dp w392dp h750dp 440dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 0 - 1080, 2148) mMaxBounds=Rect(0, 0 - 1080, 2280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw392dp w392dp h750dp 440dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 0 - 1080, 2148) mMaxBounds=Rect(0, 0 - 1080, 2280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} s.1 fontWeightAdjustment=0}
+    mHasSurface=false isReadyForDisplay()=false mWindowRemovalAllowed=false
+    Frames: parent=[0,0][1080,2280] display=[0,0][1080,2280] frame=[0,0][1080,2280] last=[0,0][1080,2280] insetsChanged=false
+     surface=[0,0][0,0]
+    WindowStateAnimator{baeaec5 com.android.settings/com.android.settings.Settings$WifiSettingsActivity}:
+      mDrawState=NO_SURFACE       mLastHidden=true
+      mEnterAnimationPending=false      mSystemDecorRect=[0,0][0,0]
+    mForceSeamlesslyRotate=false seamlesslyRotate: pending=null    isOnScreen=false
+    isVisible=false
+    keepClearAreas: restricted=[], unrestricted=[]
+  Window #13 Window{e334ad8 u0 com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1}:
+    mDisplayId=0 rootTaskId=1 mSession=Session{e7f3bb5 2510:u0a10185} mClient=android.os.BinderProxy@28075bb
+    mOwnerUid=10185 showForAllUsers=false package=com.breel.wallpapers19 appop=NONE
+    mAttrs={(0,0)(fillxfill) gr=TOP START CENTER layoutInDisplayCutoutMode=always ty=WALLPAPER fmt=RGBX_8888 wanim=0x1030310
+      fl=NOT_FOCUSABLE LAYOUT_IN_SCREEN LAYOUT_NO_LIMITS LAYOUT_INSET_DECOR
+      pfl=WANTS_OFFSET_NOTIFICATIONS USE_BLAST
+      bhv=DEFAULT}
+    Requested w=-1 h=-1 mLayoutSeq=1376
+    mIsImWindow=false mIsWallpaper=true mIsFloatingLayer=true
+    mBaseLayer=11000 mSubLayer=0    mToken=WallpaperWindowToken{ab8c3c0 token=android.os.Binder@8ce2143}
+    mViewVisibility=0x0 mHaveFrame=true mObscured=true
+    mGivenContentInsets=[0,0][0,0] mGivenVisibleInsets=[0,0][0,0]
+    mFullConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw392dp w392dp h750dp 440dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 0 - 1080, 2148) mMaxBounds=Rect(0, 0 - 1080, 2280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.13 fontWeightAdjustment=0}
+    mLastReportedConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw392dp w392dp h750dp 440dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 0 - 1080, 2148) mMaxBounds=Rect(0, 0 - 1080, 2280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.13 fontWeightAdjustment=0}
+    mHasSurface=true isReadyForDisplay()=false mWindowRemovalAllowed=false
+    Frames: parent=[0,0][1080,2280] display=[-100000,-100000][100000,100000] frame=[0,0][1080,2280] last=[0,0][1080,2280] insetsChanged=false
+     surface=[0,0][0,0]
+    WindowStateAnimator{3fea01a com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1}:
+      mSurface=Surface(name=com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1)/@0x64e474b
+      Surface: shown=false layer=0 alpha=1.0 rect=(0.0,0.0)  transform=(1.0, 0.0, 0.0, 1.0)
+      mDrawState=HAS_DRAWN       mLastHidden=true
+      mEnterAnimationPending=false      mSystemDecorRect=[0,0][0,0]
+    mLastFreezeDuration=+15s517ms
+    mForceSeamlesslyRotate=false seamlesslyRotate: pending=null    mWallpaperX=0.0 mWallpaperY=0.5
+    mWallpaperXStep=0.33333334 mWallpaperYStep=1.0
+    mWallpaperZoomOut=0.0
+    isOnScreen=false
+    isVisible=false
+    keepClearAreas: restricted=[], unrestricted=[]
+
+  mGlobalConfiguration={1.0 ?mcc?mnc [zh_CN_#Hans] ldltr sw392dp w392dp h750dp 440dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2280) mAppBounds=Rect(0, 0 - 1080, 2148) mMaxBounds=Rect(0, 0 - 1080, 2280) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} s.13 fontWeightAdjustment=0}
+  mHasPermanentDpad=false
+  mTopFocusedDisplayId=0
+  imeLayeringTarget in display# 0 Window{9544580 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+  imeInputTarget in display# 0 Window{9544580 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+  imeControlTarget in display# 0 Window{9544580 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+  Minimum task size of display#0 220  mInTouchMode=true
+  mBlurEnabled=false
+  mLastDisplayFreezeDuration=0 due to Window{1525d40 u0 ScreenDecorOverlayBottom}
+  mLastWakeLockHoldingWindow=null mLastWakeLockObscuringWindow=null
+  mHighResTaskSnapshotScale=0.8
+  mTaskSnapshotEnabled=true
+  SnapshotCache
+    Entry taskId=816
+      topApp=ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+      snapshot=TaskSnapshot{ mId=1766775775694 mTopActivityComponent=com.android.settings/.Settings$WifiSettingsActivity mSnapshot=android.hardware.HardwareBuffer@80f6528 (864x1824) mColorSpace=Display P3 (id=7, model=RGB) mOrientation=1 mRotation=0 mTaskSize=Point(1080, 2280) mContentInsets=[0,83][0,132] mLetterboxInsets=[0,0][0,0] mIsLowResolution=false mIsRealSnapshot=true mWindowingMode=1 mAppearance=24 mIsTranslucent=false mHasImeSurface=false
+  mInputMethodWindow=Window{4509ef9 u0 InputMethod}
+  mTraversalScheduled=false
+  mHoldScreenWindow=null
+  mObscuringWindow=Window{9544580 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+  mSystemBooted=true mDisplayEnabled=true
+  mTransactionSequence=8086
+  mDisplayFrozen=false windows=0 client=false apps=0  mRotation=0  mLastOrientation=1
+ waitingForConfig=false
+  Animation settings: disabled=false window=0.0 transition=0.0 animator=0.0

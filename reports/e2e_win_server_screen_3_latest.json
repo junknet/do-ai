@@ -1,0 +1,202 @@
+{
+    "session_id": "win-chromium-build-1770746026410872300",
+    "lines": [
+        "Microsoft Windows [\u7248\u672c 10.0.20348.4529]",
+        "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346",
+        "WIN_E2E_TOKEN_20260211_015346",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>ver",
+        "",
+        "Microsoft Windows [\u7248\u672c 10.0.20348.4529]",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>dir C:\\tools\\do-ai.exe",
+        " \u9a71\u52a8\u5668 C \u4e2d\u7684\u5377\u6ca1\u6709\u6807\u7b7e\u3002",
+        " \u5377\u7684\u5e8f\u5217\u53f7\u662f 5803-AA14",
+        "",
+        " C:\\tools \u7684\u76ee\u5f55",
+        "",
+        "2026/02/09  03:38         7,374,336 do-ai.exe",
+        "               1 \u4e2a\u6587\u4ef6      7,374,336 \u5b57\u8282",
+        "               0 \u4e2a\u76ee\u5f55 12,659,105,792 \u53ef\u7528\u5b57\u8282",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+    ],
+    "styled_lines": [
+        {
+            "segments": [
+                {
+                    "text": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "WIN_E2E_TOKEN_20260211_015346"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>ver"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>dir C:\\tools\\do-ai.exe"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": " \u9a71\u52a8\u5668 C \u4e2d\u7684\u5377\u6ca1\u6709\u6807\u7b7e\u3002"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": " \u5377\u7684\u5e8f\u5217\u53f7\u662f 5803-AA14"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": " C:\\tools \u7684\u76ee\u5f55"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "2026/02/09  03:38         7,374,336 do-ai.exe"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "               1 \u4e2a\u6587\u4ef6      7,374,336 \u5b57\u8282"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "               0 \u4e2a\u76ee\u5f55 12,659,105,792 \u53ef\u7528\u5b57\u8282"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        }
+    ],
+    "content": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]\n(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346\nWIN_E2E_TOKEN_20260211_015346\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>ver\n\nMicrosoft Windows [\u7248\u672c 10.0.20348.4529]\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>dir C:\\tools\\do-ai.exe\n \u9a71\u52a8\u5668 C \u4e2d\u7684\u5377\u6ca1\u6709\u6807\u7b7e\u3002\n \u5377\u7684\u5e8f\u5217\u53f7\u662f 5803-AA14\n\n C:\\tools \u7684\u76ee\u5f55\n\n2026/02/09  03:38         7,374,336 do-ai.exe\n               1 \u4e2a\u6587\u4ef6      7,374,336 \u5b57\u8282\n               0 \u4e2a\u76ee\u5f55 12,659,105,792 \u53ef\u7528\u5b57\u8282\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+    "line_count": 27,
+    "cursor_row": 26,
+    "cursor_col": 52,
+    "revision": 500,
+    "truncated": false,
+    "ts": 1770746038
+}

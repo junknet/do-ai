@@ -1,0 +1,18 @@
+{
+  "session_id": "do-junknet-home-1770639853770546870",
+  "session_name": "real-codex-live-1770639900",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "codex --dangerously-bypass-approvals-and-sandbox resume --last",
+  "pid": 975321,
+  "state": "running",
+  "started_at": 1770639853,
+  "updated_at": 1770639886,
+  "last_output_at": 1770639858,
+  "idle_seconds": 27,
+  "last_text": "do_ai_cod 1:do-ai  do-ai                                          do-ai  20:24",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": true,
+  "age_seconds": 0
+}

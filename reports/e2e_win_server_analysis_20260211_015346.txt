@@ -1,0 +1,24 @@
+=== E2E Windows Server SSH 断言 ===
+revision_chain=497->498->499->500
+三次 control/send 均成功: PASS
+终止指令发送成功: PASS
+出现 Win token 回显: PASS
+出现 Windows 版本信息: PASS
+出现 do-ai.exe 路径信息: FAIL
+screen revision 有增量: PASS
+无 panic/fatal/segfault: PASS
+overall=FAIL
+
+=== screen3 前12行 ===
+L00: Microsoft Windows [版本 10.0.20348.4529]
+L01: (c) Microsoft Corporation。保留所有权利。
+L02: 
+L03: administrator@CHROMIUM-BUILD C:\Users\administrator>echo WIN_E2E_TOKEN_20260211_015346
+L04: WIN_E2E_TOKEN_20260211_015346
+L05: 
+L06: administrator@CHROMIUM-BUILD C:\Users\administrator>
+L07: administrator@CHROMIUM-BUILD C:\Users\administrator>
+L08: administrator@CHROMIUM-BUILD C:\Users\administrator>ver
+L09: 
+L10: Microsoft Windows [版本 10.0.20348.4529]
+L11: 

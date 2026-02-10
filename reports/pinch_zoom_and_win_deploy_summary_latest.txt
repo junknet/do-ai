@@ -1,0 +1,39 @@
+时间: 2026-02-11
+项目: do-ai
+
+[1] Android App 两指缩放实现
+- 文件: app/android-rn/App.tsx
+- 已实现: 终端双指 pinch 缩放字号 (10~24), 并与左右滑动切 tab 兼容
+- 可见指标: 终端状态角标新增 Zxx% (缩放百分比)
+
+[2] Android 构建与安装验证
+- npx tsc --noEmit: PASS
+- ./gradlew assembleDebug: PASS (BUILD SUCCESSFUL)
+- adb install -r dist/do-ai-android-debug.apk: Success
+- 设备: Pixel 4 / Android 13 / device id 99091FFA1G66MC
+
+[3] Windows Server 部署 (47.98.158.221)
+- 构建: dist/do-ai-windows-amd64.exe
+- 上传: scp 到 Administrator@47.98.158.221
+- 安装: 替换 C:\tools\do-ai.exe
+- 验证: where do-ai + do-ai -h 正常
+- 哈希: local==remote (SHA256 match=true)
+- PTY 冒烟: ssh -tt 执行 do-ai 10s cmd /c echo ... 成功回显
+
+[4] Linux 跨平台构建
+- 构建: dist/do-ai-linux-amd64
+- 结果: PASS
+
+[5] 限制说明
+- 生产机 adbd 不可 root，无法通过 sendevent 自动注入多点触控 (Permission denied)
+- 因此「双指 pinch 的最终视觉操作」需在真机手动执行；代码/构建/安装链路已完整通过
+
+关键证据文件:
+- reports/pinch_zoom_tsc_latest.log
+- reports/pinch_zoom_assemble_debug_latest.log
+- reports/pinch_zoom_adb_install_latest.log
+- reports/pinch_zoom_adb_devices_latest.log
+- reports/deploy_win_remote_install_latest.log
+- reports/deploy_win_hash_compare_latest.txt
+- reports/deploy_win_remote_smoke_latest.log
+- reports/deploy_linux_build_latest.log

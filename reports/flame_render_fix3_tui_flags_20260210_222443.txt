@@ -1,0 +1,5 @@
+HAS_SESSION=True
+HAS_ESC=True
+HAS_CTRL_C=True
+HAS_INPUT=True
+HAS_R_STAT=True

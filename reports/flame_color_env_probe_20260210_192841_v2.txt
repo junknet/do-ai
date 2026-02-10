@@ -1,0 +1,4 @@
+TERM=xterm-256color
+COLORTERM=truecolor
+NO_COLOR=
+FORCE_COLOR=

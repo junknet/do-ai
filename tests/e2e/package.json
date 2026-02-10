@@ -1,0 +1,11 @@
+{
+  "name": "do-ai-e2e",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:gui": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2"
+  }
+}

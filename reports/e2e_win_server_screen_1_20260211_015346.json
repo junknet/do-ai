@@ -1,0 +1,78 @@
+{
+    "session_id": "win-chromium-build-1770746026410872300",
+    "lines": [
+        "Microsoft Windows [\u7248\u672c 10.0.20348.4529]",
+        "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346",
+        "WIN_E2E_TOKEN_20260211_015346",
+        "",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+        "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+    ],
+    "styled_lines": [
+        {
+            "segments": [
+                {
+                    "text": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "WIN_E2E_TOKEN_20260211_015346"
+                }
+            ]
+        },
+        {
+            "segments": []
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        },
+        {
+            "segments": [
+                {
+                    "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>"
+                }
+            ]
+        }
+    ],
+    "content": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]\n(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>echo WIN_E2E_TOKEN_20260211_015346\nWIN_E2E_TOKEN_20260211_015346\n\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>\nadministrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+    "line_count": 9,
+    "cursor_row": 8,
+    "cursor_col": 52,
+    "revision": 498,
+    "truncated": false,
+    "ts": 1770746031
+}

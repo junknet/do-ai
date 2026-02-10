@@ -1,0 +1,2 @@
+SESSION_NAME=phone-tmux-compact-stress-1770642200
+SESSION_ID=do-junknet-home-1770642005756031248

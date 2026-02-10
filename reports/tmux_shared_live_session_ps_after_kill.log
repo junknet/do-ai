@@ -1,0 +1,3 @@
+828:junknet  2766525    1105  0 00:35 ?        00:00:00 script -q -c DO_AI_DEBUG=1 DO_AI_IDLE=600s ./do-ai 600s cat /dev/null
+845:junknet  2810856 1976848  0 00:37 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && kill 2766522 2767682 2>/dev/null || true && sleep 1 && ps -ef | rg "DO_AI_IDLE=600s ./do-ai 600s cat|script -q -c" -n | tee reports/tmux_shared_live_session_ps_after_kill.log
+862:junknet  2811250 2810856  0 00:37 ?        00:00:00 rg DO_AI_IDLE=600s ./do-ai 600s cat|script -q -c -n

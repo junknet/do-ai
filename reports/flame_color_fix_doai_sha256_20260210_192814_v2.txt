@@ -1,0 +1,1 @@
+c0cc75189dbb24dbd077d6133f70a94719285584ed6427fcdd4d0d9e7a464d61  /home/junknet/.local/bin/do-ai

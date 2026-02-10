@@ -1,0 +1,7 @@
+TS=20260210_134944
+HOME=reports/flame_home_20260210_134944.png
+TERM=reports/flame_terminal_20260210_134944.png
+TERM_RES=reports/flame_terminal_result_20260210_134944.png
+-rw-r--r-- 1 junknet junknet 159K Feb 10 13:49 reports/flame_home_20260210_134944.png
+-rw-r--r-- 1 junknet junknet 204K Feb 10 13:50 reports/flame_terminal_20260210_134944.png
+-rw-r--r-- 1 junknet junknet 205K Feb 10 13:50 reports/flame_terminal_result_20260210_134944.png

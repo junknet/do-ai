@@ -1,0 +1,4 @@
+text="R189 • 22"
+text="ESC"
+text="CTRL-C"
+text="Enter command..."

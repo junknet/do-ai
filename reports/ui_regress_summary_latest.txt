@@ -1,0 +1,18 @@
+时间: 2026-02-11
+
+结论: 你说得对，刚才确实坏了，且我已定位并恢复。
+
+1) 第一个坏点（语法）
+- App.tsx 末尾多了一个 `});`，导致 TS 报错 TS1128。
+- 已修复。
+
+2) 第二个坏点（运行链路）
+- 设备一直加载到旧 bundle（出现 do-ai Terminal / Deck Control 旧界面）。
+- 清理了 android/app/src/main/assets/index.android.bundle 后，若未连 Metro 会红屏 “Unable to load script”。
+- 最终通过 Metro + adb reverse 恢复运行并加载最新 App.tsx（显示 Terminals / SSH Sessions 新界面）。
+
+关键证据:
+- 语法错误: reports/ui_regress_tsc_latest.log
+- 红屏截图: reports/ui_regress_screen_after_bundle_cleanup_20260211_024942.png
+- Metro 启动并成功打包日志: reports/ui_regress_metro_runtime_latest.log
+- 恢复后截图: reports/ui_regress_screen_latest.png

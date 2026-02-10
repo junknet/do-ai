@@ -1,0 +1,7 @@
+[STEP] relay health
+{"ok":true}
+[STEP] remote quick check
+chromium-build
+C:\tools\do-ai.exe
+[INFO] started ssh pid=298863
+[INFO] session_id=win-chromium-build-1770746026410872300

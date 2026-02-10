@@ -1,0 +1,6 @@
+text="claude-hotfix-1770662406"
+text="claude"
+text="R219 • 30"
+text="ESC"
+text="CTRL-C"
+text="Enter command..."

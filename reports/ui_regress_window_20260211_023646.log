@@ -1,0 +1,25 @@
+2:  Window #0 Window{1525d40 u0 ScreenDecorOverlayBottom}:
+30:  Window #1 Window{4a0a34b u0 ScreenDecorOverlay}:
+58:  Window #2 Window{ed9fa88 u0 pip-dismiss-overlay}:
+81:  Window #3 Window{4d9a132 u0 NavigationBar0}:
+130:  Window #4 Window{aecf u0 NotificationShade}:
+155:  Window #5 Window{5157ce1 u0 StatusBar}:
+197:  Window #6 Window{44eec48 u0 ShellDropTarget}:
+220:  Window #7 Window{4509ef9 u0 InputMethod}:
+253:  Window #8 Window{69e0275 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}:
+255:    mOwnerUid=10242 showForAllUsers=false package=com.anonymous.androidrn appop=NONE
+264:    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{11f04d9 u0 com.anonymous.androidrn/.MainActivity} t840}
+265:    mActivityRecord=ActivityRecord{11f04d9 u0 com.anonymous.androidrn/.MainActivity} t840}
+274:    WindowStateAnimator{6c36b09 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}:
+275:      mSurface=Surface(name=com.anonymous.androidrn/com.anonymous.androidrn.MainActivity)/@0xdc7810e
+282:  Window #9 Window{8cd3ec9 u0 (1-1)-Window{f203c4e alpha=1.0 fl=}}:
+303:    WindowStateAnimator{618672f (1-1)-Window{f203c4e alpha=1.0 fl=}}:
+310:  Window #10 Window{d063e32 u0 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity}:
+340:  Window #11 Window{57c0152 u0 com.android.settings/com.android.settings.Settings$WifiSettingsActivity}:
+367:  Window #12 Window{e334ad8 u0 com.breel.wallpapers19.doodle.wallpaper.variations.DoodleWallpaperV1}:
+400:  imeLayeringTarget in display# 0 Window{69e0275 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+401:  imeInputTarget in display# 0 Window{69e0275 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+402:  imeControlTarget in display# 0 Window{69e0275 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+405:  mLastDisplayFreezeDuration=0 due to Window{1525d40 u0 ScreenDecorOverlayBottom}
+413:  mInputMethodWindow=Window{4509ef9 u0 InputMethod}
+416:  mObscuringWindow=Window{69e0275 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}

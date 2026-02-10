@@ -1,0 +1,4 @@
+[do-ai] relay 上报已启用: http://127.0.0.1:19789/api/v1/heartbeat session_id=do-junknet-home-1770555891080883762
+[do-ai] relay 远程指令: session=do-junknet-home-1770555891080883762 submit=true input=""
+
+

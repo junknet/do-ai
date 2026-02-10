@@ -1,0 +1,57 @@
+[RUN-1] START
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770577254317715504
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS
+[RUN-1] PASS
+[RUN-2] START
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770577261015151593
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS
+[RUN-2] PASS
+[RUN-3] START
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770577269036612885
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] fallback: wait prompt + send READY prompt via relay
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS
+[RUN-3] PASS
+[RUN-4] START
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770577361544097826
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] fallback: wait prompt + send READY prompt via relay
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS
+[RUN-4] PASS
+[RUN-5] START
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770577452936693603
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS
+[RUN-5] PASS

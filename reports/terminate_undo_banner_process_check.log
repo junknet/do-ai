@@ -1,0 +1,2 @@
+674:junknet   907034 1976848  0 02:25 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && sha256sum dist/do-ai-android-release.apk | tee reports/terminate_undo_banner_apk_sha256.txt && ps -ef | rg "do-ai 600s cat|emulator.*Small_Phone|qemu-system" -n | tee reports/terminate_undo_banner_process_check.log
+676:junknet   907092  907034  0 02:25 ?        00:00:00 rg do-ai 600s cat|emulator.*Small_Phone|qemu-system -n

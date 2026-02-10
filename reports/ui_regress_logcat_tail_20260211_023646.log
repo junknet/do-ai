@@ -1,0 +1,400 @@
+12-27 15:51:28.238  2517 12924 D NetworkMonitor/100: PROBE_DNS www.google.com 31ms OK 2607:f8b0:400a:801::2004,142.251.34.196
+12-27 15:51:28.239  2517 12925 D NetworkMonitor/100: PROBE_DNS connectivitycheck.gstatic.com 32ms OK 180.163.151.162
+12-27 15:51:28.241  2517 12924 D TrafficStats: tagSocket(95) with statsTag=0xffffff81, statsUid=-1
+12-27 15:51:28.241  2517 12925 D TrafficStats: tagSocket(96) with statsTag=0xffffff81, statsUid=-1
+12-27 15:51:28.377  2517 12925 D NetworkMonitor/100: PROBE_HTTP http://connectivitycheck.gstatic.com/generate_204 time=137ms ret=204 request={Connection=[close], User-Agent=[Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36]} headers={null=[HTTP/1.1 204 No Content], Connection=[close], Content-Length=[0], Cross-Origin-Resource-Policy=[cross-origin], Date=[Tue, 10 Feb 2026 18:36:00 GMT], X-Android-Received-Millis=[1766821888377], X-Android-Response-Source=[NETWORK 204], X-Android-Selected-Protocol=[http/1.1], X-Android-Sent-Millis=[1766821888259]}
+12-27 15:51:28.389 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:29.088 11726 11757 D TrafficStats: tagSocket(87) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:29.090 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:29.176 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:29.176 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:30.398 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:30.719  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:31.091 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:31.096 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:31.211  2517 12923 D TrafficStats: tagSocket(96) with statsTag=0xffffff81, statsUid=-1
+12-27 15:51:31.676 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:31.677 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:32.407 11726 12353 D TrafficStats: tagSocket(136) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:33.094 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:33.098 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:33.143  2421  2482 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+12-27 15:51:33.150  2421  2482 D ControlsListingControllerImpl: Unsubscribing callback
+12-27 15:51:33.467  3253  4042 I bctd    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+12-27 15:51:33.741  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:34.187 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:34.187 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:34.416 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:35.097 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:35.101 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:35.509  1885  2179 W ActivityManager: Background start not allowed: service Intent { cmp=com.zhiliaoapp.musically/com.bytedance.common.wschannel.client.WsClientService } to com.zhiliaoapp.musically/com.bytedance.common.wschannel.client.WsClientService from pid=3956 uid=10237 pkg=com.zhiliaoapp.musically startFg?=false
+12-27 15:51:35.514  3956  5121 W jato    : UpdateProcessState:1
+12-27 15:51:35.514  3956  5121 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 15:51:35.521  3956 11005 W jato    : UpdateProcessState:1
+12-27 15:51:35.521  3956 11005 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 15:51:36.424 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:36.681 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:36.681 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:36.758  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:37.099 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:37.103 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:38.253  2517 12924 D TrafficStats: tagSocket(95) with statsTag=0xffffff81, statsUid=-1
+12-27 15:51:38.432 11726 12353 D TrafficStats: tagSocket(132) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:39.100 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:39.103 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:39.184 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:39.184 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:39.770  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:40.441 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:41.105 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:41.109 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:41.224  2517 12923 D TrafficStats: tagSocket(96) with statsTag=0xffffff81, statsUid=-1
+12-27 15:51:41.691 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:41.691 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:42.450 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:42.791  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:43.107 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:43.111 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:44.214 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:44.214 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:44.461 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:45.109 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:45.114 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:45.545  3956 11005 W jato    : UpdateProcessState:1
+12-27 15:51:45.546  3956 11005 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 15:51:45.549  3956 11005 W jato    : UpdateProcessState:1
+12-27 15:51:45.549  3956 11005 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 15:51:45.811  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:46.468 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:46.696 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:46.697 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:47.113 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:47.118 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:48.266  2517 12924 D NetworkMonitor/100: PROBE_HTTPS https://www.google.com/generate_204 Probe failed with exception java.net.SocketTimeoutException: failed to connect to www.google.com/142.251.34.196 (port 443) from /192.168.0.102 (port 46080) after 10000ms
+12-27 15:51:48.475 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:48.830  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:49.112 11726 11757 D TrafficStats: tagSocket(73) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:49.114 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:49.198 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:49.198 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:50.482 11726 12353 D TrafficStats: tagSocket(86) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:51.050  3090  3090 W ThreadPoolForeg: type=1400 audit(0.0:2597): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=37398 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+12-27 15:51:51.119 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:51.123 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:51.236  2517 12923 D NetworkMonitor/100: PROBE_FALLBACK http://www.google.com/gen_204 Probe failed with exception java.net.SocketTimeoutException: failed to connect to www.google.com/142.251.34.196 (port 80) from /192.168.0.102 (port 47286) after 10000ms
+12-27 15:51:51.238  2517 12923 D NetworkMonitor/100: isCaptivePortal: isSuccessful()=false isPortal()=false RedirectUrl=null isPartialConnectivity()=true Time=23032ms
+12-27 15:51:51.239  1885  2347 D ConnectivityService: [100 WIFI] validation failed
+12-27 15:51:51.704 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:51.704 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:51.849  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:51.922  1130  1152 D rlsservice: MonitorDisplayStatus client num 0, display status 1, sensor status 0
+12-27 15:51:52.491 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:53.122 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:53.125 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:54.212 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:54.212 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:54.500 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:54.879  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:55.124 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:55.128 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:56.507 11726 12353 D TrafficStats: tagSocket(123) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:56.713 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:56.713 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:57.123 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:57.128 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:57.838  9987 10078 E PlayCommon: [101] Failed to connect to server for server timestamp: java.net.SocketTimeoutException: failed to connect to play.googleapis.com/216.239.36.223 (port 443) from /192.168.0.102 (port 40934) after 40000ms
+12-27 15:51:57.899  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:51:57.901  3090  3106 W Auth    : [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ]
+12-27 15:51:57.901  3090  3106 W Auth    : cpmc: Failed to process request
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 15:51:57.901  3090  3106 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 15:51:57.901  3090  3106 W Auth    : Caused by: cpoz: Connectivity error
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 15:51:57.901  3090  3106 W Auth    : 	... 20 more
+12-27 15:51:57.901  3090  3106 W Auth    : Caused by: java.io.IOException
+12-27 15:51:57.901  3090  3106 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 15:51:57.901  3090  3106 W Auth    : 	... 20 more
+12-27 15:51:57.902  3090  3106 E AuthPII : [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.android.vending, Service: oauth2:https://www.googleapis.com/auth/googleplay
+12-27 15:51:57.902  3090  3106 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 12 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 13 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 13 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 20 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: java.io.IOException
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 20 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Message is Error when calling server using GmsNetworkStack.
+12-27 15:51:57.902  3090  3106 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 12 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 13 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 13 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 20 more
+12-27 15:51:57.902  3090  3106 E AuthPII : Caused by: java.io.IOException
+12-27 15:51:57.902  3090  3106 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 15:51:57.902  3090  3106 E AuthPII : 	... 20 more
+12-27 15:51:57.902  3090  3106 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with non recoverable status code: %s 
+12-27 15:51:57.903  3090  3106 W Auth    : [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googleplay [CONTEXT service_id=153 ]
+12-27 15:51:57.903  3090  3106 W Auth    : aejs: GetToken failed with status code: NetworkError
+12-27 15:51:57.903  3090  3106 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):349)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 15:51:57.903  3090  3106 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 15:51:57.903  3090  3106 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+12-27 15:51:57.906  9987 10078 E PlayCommon: [101] Failed to get auth token: java.io.IOException: NetworkError
+12-27 15:51:57.906  9987 10078 W PlayCommon: [101] Deferring log upload because couldn't retrieve auth token
+12-27 15:51:57.951   662   812 D libnos_transport: Calling App 2 with params 0x000a
+12-27 15:51:57.952   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 15:51:57.958   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 15:51:57.964   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 15:51:57.970   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 15:51:57.975   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 15:51:57.983   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:57.983   662   812 D libnos_transport: Send app 2 command data (1564 bytes)
+12-27 15:51:57.994   662   812 D libnos_transport: Send app 2 go command 0x0002000a
+12-27 15:51:57.995   662   812 D libnos_transport: Polling app 2
+12-27 15:51:58.023   662   812 D libnos_transport: App 2 polled=13 status=0x80000000 reply_len=18 flags=0x0000
+12-27 15:51:58.023   662   812 D libnos_transport: Read app 2 reply data (18 bytes)
+12-27 15:51:58.024   662   812 D libnos_transport: App 2 returning 0x0
+12-27 15:51:58.026   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 15:51:58.028   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:58.028   662   812 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 15:51:58.031   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 15:51:58.032   662   812 D libnos_transport: Polling app 2
+12-27 15:51:58.038   662   812 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 15:51:58.038   662   812 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 15:51:58.039   662   812 D libnos_transport: App 2 returning 0x0
+12-27 15:51:58.039   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 15:51:58.041   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:58.041   662   811 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 15:51:58.044   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 15:51:58.045   662   811 D libnos_transport: Polling app 2
+12-27 15:51:58.051   662   811 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 15:51:58.051   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 15:51:58.052   662   811 D libnos_transport: App 2 returning 0x0
+12-27 15:51:58.052   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 15:51:58.055   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:58.055   662   811 D libnos_transport: Send app 2 command data (60 bytes)
+12-27 15:51:58.058   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 15:51:58.059   662   811 D libnos_transport: Polling app 2
+12-27 15:51:58.063   662   811 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=2 flags=0x0000
+12-27 15:51:58.063   662   811 D libnos_transport: Read app 2 reply data (2 bytes)
+12-27 15:51:58.064   662   811 D libnos_transport: App 2 returning 0x0
+12-27 15:51:58.064   662   812 D libnos_transport: Calling App 2 with params 0x000c
+12-27 15:51:58.066   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:58.066   662   812 D libnos_transport: Send app 2 command data (21 bytes)
+12-27 15:51:58.067   662   812 D libnos_transport: Send app 2 go command 0x0002000c
+12-27 15:51:58.067   662   812 D libnos_transport: Polling app 2
+12-27 15:51:58.094   662   812 D libnos_transport: App 2 polled=13 status=0x80000000 reply_len=72 flags=0x0000
+12-27 15:51:58.094   662   812 D libnos_transport: Read app 2 reply data (72 bytes)
+12-27 15:51:58.096   662   812 D libnos_transport: App 2 returning 0x0
+12-27 15:51:58.515 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:58.596   662   677 D libnos_transport: Calling App 0 with params 0x0200
+12-27 15:51:58.599   662   677 D libnos_transport: App 0 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 15:51:58.599   662   677 D libnos_transport: Send app 0 command data (0 bytes)
+12-27 15:51:58.599   662   677 D libnos_transport: Send app 0 go command 0x00000200
+12-27 15:51:58.600   662   677 D libnos_transport: Polling app 0
+12-27 15:51:58.604   662   677 D libnos_transport: App 0 polled=2 status=0x80000000 reply_len=92 flags=0x0000
+12-27 15:51:58.604   662   677 D libnos_transport: Read app 0 reply data (92 bytes)
+12-27 15:51:58.605   662   677 D libnos_transport: App 0 returning 0x0
+12-27 15:51:59.125 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:51:59.129 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:51:59.216 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:51:59.216 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:00.005  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 15:52:00.005  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 15:52:00.005  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 15:52:00.005  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 15:52:00.005  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 15:52:00.005  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 15:52:00.006  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 15:52:00.006  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 15:52:00.006  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 15:52:00.006  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 15:52:00.006  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 15:52:00.007  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 15:52:00.008  2875  2875 E BcSmartspaceCard: No tap action can be set up
+12-27 15:52:00.524 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:00.758  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 977 BSSID 74:39:89:e2:b8:89 SSID 'junknet_2.4G' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=0 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 978 BSSID 7e:39:89:e2:b8:89 SSID '' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=768 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 979 BSSID 44:f7:70:29:bf:c2 SSID 'Xiaomi_904' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=0 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 980 BSSID fa:6f:b0:cd:ab:59 SSID '' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=0 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 981 BSSID 00:5c:c2:d0:58:74 SSID '\xe9\xba\xbb\xe8\xbe\xa3\xe7\x83\xab\xe5\xb0\x8f\xe7\x8e\x8b\xe5\xad\x90' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=768 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 982 BSSID 44:f7:70:29:bf:c3 SSID 'Xiaomi_904' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=1536 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 983 BSSID 22:ab:c5:7e:01:06 SSID 'HUAWEI-ET1CV8' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=2304 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 984 BSSID 58:ea:1f:b1:c2:91 SSID '\xe7\x8c\xaa\xe7\x8c\xaa\xe4\xb9\x90\xe5\x9b\xad' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=3072 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 985 BSSID 58:ea:1f:35:22:7a SSID 'Xiaomi_9F71' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=3840 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 986 BSSID 50:d2:f5:83:30:e7 SSID 'Xiaomi_eve' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=4608 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 987 BSSID 90:fb:5d:fd:cb:02 SSID 'Xiaomi_804' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=5376 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 988 BSSID 90:0f:0c:e3:f5:31 SSID 'AAWrt' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=6144 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 989 BSSID 62:ea:1f:35:22:7b SSID '' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=6912 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 990 BSSID 58:ea:1f:35:22:7b SSID 'Xiaomi_9F71' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=7680 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 991 BSSID aa:ba:70:70:6a:92 SSID '' due to wpa_bss_flush_by_age
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=8448 send_len=44
+12-27 15:52:00.759  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00
+12-27 15:52:00.916  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:52:01.126 11726 11757 D TrafficStats: tagSocket(119) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:01.131 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:01.720 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:01.720 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:02.533 11726 12353 D TrafficStats: tagSocket(114) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:03.130 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:03.136 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:03.742 11040 11155 D TrafficStats: tagSocket(90) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:03.927  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:52:04.213 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:04.213 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:04.541 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:05.131 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:05.136 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:06.549 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:06.723 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:06.723 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:06.963  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:52:07.134 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:07.140 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:07.604  3090 12098 D TrafficStats: tagSocket(74) with statsTag=0x4000609, statsUid=10132
+12-27 15:52:08.099   706 12963 I keystore2: keystore2::watchdog: Watchdog thread idle -> terminating. Have a great day.
+12-27 15:52:08.557 11726 12353 D TrafficStats: tagSocket(87) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:09.135 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:09.138 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:09.224 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:09.224 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:09.973  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:52:10.563 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:11.137 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:11.140 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:11.732 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:11.732 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:12.572 11726 12353 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:13.000  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 15:52:13.139 11726 11757 D TrafficStats: tagSocket(5) with statsTag=0xffffffff, statsUid=-1
+12-27 15:52:13.143 11726 11726 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 15:52:14.039 13003 13003 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+12-27 15:52:14.050   654   654 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+12-27 15:52:14.051 13003 13004 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-27 15:52:14.051 13003 13004 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-27 15:52:14.047 13003 13003 W binder:13003_1: type=1400 audit(0.0:2598): avc: denied { read } for name="gpu_model" dev="sysfs" ino=64126 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_msm_subsys:s0 tclass=file permissive=0
+12-27 15:52:14.219 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 15:52:14.219 11726 11768 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.

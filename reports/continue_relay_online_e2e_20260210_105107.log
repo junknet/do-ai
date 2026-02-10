@@ -1,0 +1,7 @@
+[INFO] 2026-02-10T10:51:08+08:00 relay_online_e2e
+[ONLINE-E2E] check relay health @ http://47.110.255.240:18787
+[ONLINE-E2E] build do-ai
+[ONLINE-E2E] start do-ai session -> remote relay
+[ONLINE-E2E] session_id=do-junknet-home-1770691868224626017
+[ONLINE-E2E] send command marker=ONLINE_E2E_LINE_1770691868
+[ONLINE-E2E] PASS

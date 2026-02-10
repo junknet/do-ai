@@ -1,0 +1,2 @@
+882:junknet  3969910 1976848  0 01:31 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && sha256sum dist/do-ai-android-release.apk | tee reports/terminate_session_hide_apk_sha256.txt && ps -ef | rg "do-ai 600s cat|emulator.*Small_Phone|qemu-system" -n | tee reports/terminate_session_hide_process_check.log
+884:junknet  3969914 3969910  0 01:31 ?        00:00:00 rg do-ai 600s cat|emulator.*Small_Phone|qemu-system -n

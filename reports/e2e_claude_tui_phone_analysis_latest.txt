@@ -1,0 +1,23 @@
+=== E2E Claude TUI 真机断言（精简）===
+session_command=claude --dangerously-skip-permissions --continue
+state=running
+line_count_before=1 revision_before=478
+line_count_after=260 revision_after=481
+会话命令是 claude: PASS
+relay 控制发送成功: PASS
+日志出现真实远程输入: PASS
+注入日志显示 bracketed=true: PASS
+screen 存在 TUI 结构文本: PASS
+screen 发生增量刷新: PASS
+无运行时崩溃关键字: PASS
+overall=PASS
+
+=== screen 后快照前8行 ===
+L00:       adb forward tcp:28787 tcp:18787 2>&1…)
+L01:   ⎿  28787
+L02:      {
+L03:        "count": 0,
+L04:      … +4 lines (ctrl+o to expand)
+L05: 
+L06: ● Relay 正常。现在在真机上运行 do-ai 包裹一个 shell 命令，用 codex 作为 target
+L07:   名以触发 bracketed paste。

@@ -1,0 +1,52 @@
+2:02-08 20:55:10.014   538   841 I ActivityManager: Force stopping com.anonymous.androidrn appid=10105 user=0: from pid 2150
+3:02-08 20:55:10.014   538   841 I ActivityManager: Killing 1794:com.anonymous.androidrn/u0a105 (adj 0): stop com.anonymous.androidrn due to from pid 2150
+4:02-08 20:55:10.014   538   841 W ActivityTaskManager: Force removing ActivityRecord{bfec5ec u0 com.anonymous.androidrn/.MainActivity t297 f}}: app died, no saved state
+6:02-08 20:55:10.015   538   841 W InputManager-JNI: Input channel object 'c038b11 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity (client)' was disposed without first being removed with the input manager!
+17:02-08 20:55:10.024   538   834 V ActivityManager: Got obituary of 1794:com.anonymous.androidrn
+32:02-08 20:55:10.032   538  2153 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.anonymous.androidrn/.MainActivity} from uid 2000
+40:02-08 20:55:10.033   711   784 D StartingSurfaceDrawer: addSplashScreen com.anonymous.androidrn theme=7f0f0104 task=299 suggestType=3
+49:02-08 20:55:10.037   538   567 I ActivityManager: Start proc 2159:com.anonymous.androidrn/u0a105 for pre-top-activity {com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+65:02-08 20:55:10.051  2159  2159 V GraphicsEnvironment: ANGLE Developer option for 'com.anonymous.androidrn' set to: 'default'
+77:02-08 20:55:10.059  2159  2159 W SoLoader: Recording new base apk path: /data/app/~~whbAsXZNgWL0BQEr0asSPg==/com.anonymous.androidrn-i_FFQDAu_fECT299FmuOYw==/base.apk
+81:02-08 20:55:10.059  2159  2159 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~whbAsXZNgWL0BQEr0asSPg==/com.anonymous.androidrn-i_FFQDAu_fECT299FmuOYw==/base.apk!/lib/x86_64]]
+83:02-08 20:55:10.061  2159  2159 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~whbAsXZNgWL0BQEr0asSPg==/com.anonymous.androidrn-i_FFQDAu_fECT299FmuOYw==/lib/x86_64 flags = 0]]
+177:02-08 20:55:10.216  2159  2203 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.anonymous.androidrn/app_webview/variations_seed_new"
+180:02-08 20:55:10.221   538   555 I ActivityTaskManager: Displayed com.anonymous.androidrn/.MainActivity: +186ms
+185:02-08 20:55:10.512   538   553 W InputManager-JNI: Input channel object '2b72b8a Splash Screen com.anonymous.androidrn (client)' was disposed without first being removed with the input manager!
+245:02-08 20:55:15.114  2159  2217 D ProfileInstaller: Skipping profile installation for com.anonymous.androidrn
+513:02-08 20:55:34.362   538   965 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.anonymous.androidrn/.MainActivity} from uid 2000
+1650:02-08 20:57:11.972   538   566 I ActivityManager: Force stopping com.anonymous.androidrn appid=10105 user=-1: installPackageLI
+1651:02-08 20:57:11.973   538   566 I ActivityManager: Killing 2159:com.anonymous.androidrn/u0a105 (adj 0): stop com.anonymous.androidrn due to installPackageLI
+1652:02-08 20:57:11.973   538   588 I PackageManager: Update package com.anonymous.androidrn code path from /data/app/~~whbAsXZNgWL0BQEr0asSPg==/com.anonymous.androidrn-i_FFQDAu_fECT299FmuOYw== to /data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==; Retain data and using new
+1653:02-08 20:57:11.973   538   566 W ActivityTaskManager: Force removing ActivityRecord{b045adf u0 com.anonymous.androidrn/.MainActivity t299 f}}: app died, no saved state
+1654:02-08 20:57:11.974   538   566 W InputManager-JNI: Input channel object '901578c com.anonymous.androidrn/com.anonymous.androidrn.MainActivity (client)' was disposed without first being removed with the input manager!
+1666:02-08 20:57:11.998   538  1761 V ActivityManager: Got obituary of 2159:com.anonymous.androidrn
+1668:02-08 20:57:12.000   538   588 I PackageDexOptimizer: Running dexopt (dexoptNeeded=1) on: /data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/base.apk pkg=com.anonymous.androidrn isa=x86_64 dexoptFlags=boot_complete,profile_guided,public,enable_hidden_api_checks targetFilter=speed-profile oatDir=/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/oat classLoaderContext=PCL[]{}
+1669:02-08 20:57:12.000   450   473 V installd: DexInv: --- BEGIN '/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/base.apk' ---
+1670:02-08 20:57:12.000   450   473 V installd: Running /apex/com.android.art/bin/dex2oat64 in=base.apk out=/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/oat/x86_64/base.odex
+1675:02-08 20:57:12.019  2300  2300 W dex2oat64: /apex/com.android.art/bin/dex2oat64 --zip-fd=8 --zip-location=base.apk --oat-fd=9 --oat-location=/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/oat/x86_64/base.odex --input-vdex-fd=-1 --output-vdex-fd=10 --swap-fd=11 --classpath-dir=/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q== --class-loader-context=PCL[]{} --compact-dex-level=none --instruction-set=x86_64 --instruction-set-features=default --instruction-set-variant=x86_64 --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info --runtime-arg -Xtarget-sdk-version:36 --runtime-arg -Xhidden-api-policy:enabled --runtime-arg -Xms64m --runtime-arg -Xmx512m
+1676:02-08 20:57:12.019  2300  2300 I dex2oat64: /apex/com.android.art/bin/dex2oat64 --input-vdex-fd=-1 --output-vdex-fd=10 --classpath-dir=/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q== --class-loader-context=PCL[]{} --compact-dex-level=none --compiler-filter=speed-profile --compilation-reason=install --max-image-block-size=524288 --resolve-startup-const-strings=true --generate-mini-debug-info
+1692:02-08 20:57:12.361   450   473 V installd: DexInv: --- END '/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/base.apk' (success) ---
+1695:02-08 20:57:12.368   538   588 I ActivityManager: Force stopping com.anonymous.androidrn appid=10105 user=0: pkg removed
+1696:02-08 20:57:12.370  1281  1281 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.anonymous.androidrn. Reason: package android.intent.action.PACKAGE_REMOVED
+1698:02-08 20:57:12.372   538   566 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REMOVED dat=package:com.anonymous.androidrn flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+1703:02-08 20:57:12.374   538   538 I Telecom : CarModeTracker: Package com.anonymous.androidrn is not tracked.: SSH.oR@AGo
+1706:02-08 20:57:12.376   538   566 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anonymous.androidrn flg=0x4000010 (has extras) } to com.android.packageinstaller/.PackageInstalledReceiver
+1707:02-08 20:57:12.376   538   566 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_ADDED dat=package:com.anonymous.androidrn flg=0x4000010 (has extras) } to com.android.gallery3d/.app.PackagesMonitor
+1709:02-08 20:57:12.377   695   695 D MediaPlayerList: Name of package changed: com.anonymous.androidrn
+1712:02-08 20:57:12.378  1281  1281 I MediaProvider: Invalidating LocalCallingIdentity cache for package com.anonymous.androidrn. Reason: package android.intent.action.PACKAGE_ADDED
+1723:02-08 20:57:12.390   538   567 I ActivityManager: Start proc 2321:com.anonymous.androidrn/u0a105 for broadcast {com.anonymous.androidrn/expo.modules.notifications.service.NotificationsService}
+1724:02-08 20:57:12.390   538   555 D CompanionDeviceManagerService: onPackageModified(packageName = com.anonymous.androidrn)
+1727:02-08 20:57:12.395   865   865 D ImsResolver: maybeAddedImsService, packageName: com.anonymous.androidrn
+1729:02-08 20:57:12.398   538   832 I ActivityManager: Force stopping com.anonymous.androidrn appid=10105 user=0: from pid 2317
+1730:02-08 20:57:12.399   538   832 I ActivityManager: Killing 2321:com.anonymous.androidrn/u0a105 (adj -10000): stop com.anonymous.androidrn due to from pid 2317
+1735:02-08 20:57:12.415   538   965 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.anonymous.androidrn/.MainActivity} from uid 2000
+1741:02-08 20:57:12.419   711   784 D StartingSurfaceDrawer: addSplashScreen com.anonymous.androidrn theme=7f0f0104 task=300 suggestType=3
+1744:02-08 20:57:12.422   538   567 I ActivityManager: Start proc 2328:com.anonymous.androidrn/u0a105 for pre-top-activity {com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+1753:02-08 20:57:12.441  2328  2328 V GraphicsEnvironment: ANGLE Developer option for 'com.anonymous.androidrn' set to: 'default'
+1765:02-08 20:57:12.454  2328  2328 W SoLoader: Recording new base apk path: /data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/base.apk
+1769:02-08 20:57:12.455  2328  2328 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/base.apk!/lib/x86_64]]
+1770:02-08 20:57:12.456  2328  2328 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~MjZ2xY_mcxa3JTy64VCdfA==/com.anonymous.androidrn-qexYAgdqd_65OVxK1H9G2Q==/lib/x86_64 flags = 0]]
+1905:02-08 20:57:12.595  2328  2374 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.anonymous.androidrn/app_webview/variations_seed_new"
+1914:02-08 20:57:12.604   538   555 I ActivityTaskManager: Displayed com.anonymous.androidrn/.MainActivity: +187ms
+1923:02-08 20:57:12.894   538   841 W InputManager-JNI: Input channel object '9a67ac Splash Screen com.anonymous.androidrn (client)' was disposed without first being removed with the input manager!

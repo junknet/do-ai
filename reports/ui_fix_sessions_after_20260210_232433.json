@@ -1,0 +1,29 @@
+{
+  "count": 4,
+  "sessions": [
+    {
+      "id": "do-junknet-home-1770662219379322872",
+      "name": "localbin-proof-1770662219",
+      "idle": 339,
+      "last": "[junknet@junknet-home do-ai]$"
+    },
+    {
+      "id": "do-junknet-home-1770662160929394623",
+      "name": "screen-proof-1770662160",
+      "idle": 159,
+      "last": "[junknet@junknet-home do-ai]$"
+    },
+    {
+      "id": "do-junknet-home-1770660189195897474",
+      "name": "align-shell-1770660189",
+      "idle": 502,
+      "last": "[junknet@junknet-home do-ai]$"
+    },
+    {
+      "id": "do-junknet-home-1770659709602576313",
+      "name": "align-fix-live-1770659709",
+      "idle": 576,
+      "last": "继续执行，别停，别问。我当前离线（睡觉中）。你是【被监工的执行 Agent】，继续执行当前任务，无需等待确认，可以直接执行 shell。本次运行的生命线文件（sentinel）为：/home/junk"
+    }
+  ]
+}

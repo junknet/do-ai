@@ -1,0 +1,4 @@
+req_fail=0
+/api/v1/output/screen=0
+[CRITICAL]=0
+TypeError=0

@@ -1,0 +1,15 @@
+02-09 21:09:45.543 10458 10492 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to localhost/127.0.0.1:8081
+02-09 21:09:45.558 10458 10458 W unknown:ReactNative: Packager connection already open, nooping.
+02-09 21:09:45.611 10458 10458 W unknown:ReactNative: Packager connection already open, nooping.
+02-09 21:09:45.745 10458 10532 I ReactNativeJS: Running "main"
+02-09 21:09:45.812 10458 10532 W ReactNativeJS: The app is running using the Legacy Architecture. The Legacy Architecture is deprecated and will be removed in a future version of React Native. Please consider migrating to the New Architecture. For more information, please see https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here
+02-09 21:09:45.818 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:45.818 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:45.840 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:45.840 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:46.009 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:46.009 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+02-09 21:09:47.086 10458 10458 E unknown:ReactNative: Tried to remove non-existent frame callback
+02-09 21:09:47.087 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is null.
+02-09 21:09:47.087 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is null.
+02-09 21:09:47.087 10458 10533 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is null.

@@ -1,0 +1,2 @@
+mode=compact batches=1 total_lines=186 total_raw=0
+mode=raw batches=1 total_lines=173 total_raw=13

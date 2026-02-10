@@ -1,0 +1,63 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+[2J[m[H[do-ai] relay 上报已启用: http://47.110.255.240:18787/api/v1/heartbeat session_id=win-chromium-build-1770746026410872300
+]0;C:\Windows\system32\conhost.exe[?25h[2J[?25l[31;1H
+[HMicrosoft Windows [版本 10.0.20348.4529][K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;41H]0;C:\Windows\system32\cmd.exe[?25h[?25l
+(c) Microsoft Corporation。保留所有权利。[4;1Hadministrator@CHROMIUM-BUILD C:\Users\administrator>]0;管理员: C:\Windows\system32\cmd.exe[?25h[do-ai] relay 输出上报成功: lines=2 raw=2 status=200 OK
+[do-ai] relay 远程指令: session=win-chromium-build-1770746026410872300 submit=true input="echo WIN_E2E_TOKEN_20260211_015346"
+[do-ai] relay 输入写入: session=win-chromium-build-1770746026410872300 bytes=34 err=<nil>
+[do-ai] relay 提交写入: session=win-chromium-build-1770746026410872300 bytes=10 err=<nil> hex=0d1b5b31333b35751b0d mode=all
+echo WIN_E2E_TOKEN_20260211_015346[?25l[7;1Hadministrator@CHROMIUM-BUILD C:\Users\administrator>
+administrator@CHROMIUM-BUILD C:\Users\administrator>[12;1HWIN_E2E_TOKEN_20260211_015346[8;53H[?25h[do-ai] relay 补偿提交: session=win-chromium-build-1770746026410872300 bytes=1 err=<nil> hex=0d delay=120ms
+
+administrator@CHROMIUM-BUILD C:\Users\administrator>[do-ai] relay 输出上报成功: lines=4 raw=4 status=200 OK
+[do-ai] relay 远程指令: session=win-chromium-build-1770746026410872300 submit=true input="ver"
+[do-ai] relay 输入写入: session=win-chromium-build-1770746026410872300 bytes=3 err=<nil>
+[do-ai] relay 提交写入: session=win-chromium-build-1770746026410872300 bytes=10 err=<nil> hex=0d1b5b31333b35751b0d mode=all
+ver[?25l[11;1HMicrosoft Windows [版本 10.0.20348.4529][13;1Hadministrator@CHROMIUM-BUILD C:\Users\administrator>
+administrator@CHROMIUM-BUILD C:\Users\administrator>[?25h[do-ai] relay 补偿提交: session=win-chromium-build-1770746026410872300 bytes=1 err=<nil> hex=0d delay=120ms
+
+administrator@CHROMIUM-BUILD C:\Users\administrator>[do-ai] relay 输出上报成功: lines=4 raw=4 status=200 OK
+[do-ai] relay 远程指令: session=win-chromium-build-1770746026410872300 submit=true input="dir C:\\tools\\do-ai.exe"
+[do-ai] relay 输入写入: session=win-chromium-build-1770746026410872300 bytes=22 err=<nil>
+[do-ai] relay 提交写入: session=win-chromium-build-1770746026410872300 bytes=10 err=<nil> hex=0d1b5b31333b35751b0d mode=all
+dir C:\tools\do-ai.exe[?25l[19;1H C:\tools 的目录[21;1H2026/02/09  03:38         7,374,336 do-ai.exe
+               1 个文件      7,374,336 字节
+               0 个目录 12,659,105,792 可用字节[25;1Hadministrator@CHROMIUM-BUILD C:\Users\administrator>
+administrator@CHROMIUM-BUILD C:\Users\administrator>[?25h[do-ai] relay 补偿提交: session=win-chromium-build-1770746026410872300 bytes=1 err=<nil> hex=0d delay=120ms
+
+administrator@CHROMIUM-BUILD C:\Users\administrator>[do-ai] relay 输出上报成功: lines=7 raw=4 status=200 OK
+[?25l[33;1H
+
+[28;108H[CRITICAL] [do-ai] relay 终止指令: session=win-chromium-build-1770746026410872300 source=e2e-win-terminate                           
+                                                                                                                        [30;94H[?25hConnection to 47.98.158.221 closed.

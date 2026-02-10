@@ -1,0 +1,4 @@
+TERM=tmux-256color
+COLORTERM=truecolor
+NO_COLOR=1
+FORCE_COLOR=

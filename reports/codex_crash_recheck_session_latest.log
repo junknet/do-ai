@@ -1,0 +1,17 @@
+[do-ai] relay 上报已启用: http://127.0.0.1:19838/api/v1/heartbeat session_id=do-junknet-home-1770578903329522493
+[?2004h[>7u[?1004h[6n[?u[c[do-ai] relay 输出上报成功: lines=0 raw=3 status=200 OK
+[do-ai] relay 远程指令: session=do-junknet-home-1770578903329522493 submit=true input="a"
+[do-ai] relay 输入写入: session=do-junknet-home-1770578903329522493 bytes=1 err=<nil>
+[do-ai] relay 提交写入: session=do-junknet-home-1770578903329522493 bytes=1 err=<nil> hex=0d mode=enter
+]10;?\[do-ai] relay 输出上报成功: lines=0 raw=1 status=200 OK
+[<1u[?2004l[?1004l[?25h[31mThe application panicked (crashed).[0m
+Message:  [36mbyte index 18446603640447923201 is out of bounds of `
+`[0m
+Location: [35mtui/src/wrapping.rs[0m:[35m20[0m
+
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ BACKTRACE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  <empty backtrace>
+
+Run with COLORBT_SHOW_HIDDEN=1 environment variable to disable frame filtering.
+Run with RUST_BACKTRACE=full to include source snippets.
+^[[1;1R[do-ai] relay 输出上报成功: lines=9 raw=5 status=200 OK

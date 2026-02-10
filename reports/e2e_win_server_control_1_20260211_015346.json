@@ -1,0 +1,11 @@
+{
+    "command": {
+        "id": "cmd-1770746028371684889",
+        "session_id": "win-chromium-build-1770746026410872300",
+        "input": "echo WIN_E2E_TOKEN_20260211_015346",
+        "submit": true,
+        "source": "e2e-win-1",
+        "created_at": 1770746028
+    },
+    "ok": true
+}

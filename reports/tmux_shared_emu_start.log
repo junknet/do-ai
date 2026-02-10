@@ -1,0 +1,60 @@
+INFO    | Android emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+INFO    | Graphics backend: gfxstream
+INFO    | Found systemPath /home/junknet/Android/Sdk/system-images/android-31/default/x86_64/
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+WARNING | Please update the emulator to one that supports the feature(s): Vulkan
+INFO    | Increasing RAM size to 2048MB
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_posture_requested(int) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_posture_selection_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_new_resizable_requested(PresetEmulatorSizeType) ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_dismiss_resizable_dialog() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_sleep_timer_done() ((null):0, (null))
+
+INFO    | Warning: QMetaObject::connectSlotsByName: No matching signal for on_unfold_timer_done() ((null):0, (null))
+
+INFO    | Storing crashdata in: /tmp/android-junknet/emu-crash-35.2.10.db, detection is enabled for process: 2733610
+library_mode host gpu mode host
+INFO    | emuglConfig_get_vulkan_hardware_gpu: Using gpu 'NVIDIA GeForce RTX 3060' for vulkan support
+
+INFO    | Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu infoI0209 00:34:00.823462 2733610 FrameBuffer.cpp:262] Not raising nofile soft limit from 524288.
+I0209 00:34:00.823512 2733610 HealthMonitor.cpp:279] HealthMonitor disabled.
+I0209 00:34:00.823802 2733610 VulkanDispatch.cpp:137] Added library: libvulkan.so
+W0209 00:34:02.323555 2733610 VkCommonOperations.cpp:1169] Selecting Vulkan device: NVIDIA GeForce RTX 3060, Version: 1.4.325
+initialize: Supports id properties, got a vulkan device UUID
+I0209 00:34:02.511183 2733610 VkCommonOperations.cpp:1531] Initializing VkEmulation features:
+I0209 00:34:02.511228 2733610 VkCommonOperations.cpp:1532]     glInteropSupported: false
+I0209 00:34:02.511235 2733610 VkCommonOperations.cpp:1533]     useDeferredCommands: true
+I0209 00:34:02.511239 2733610 VkCommonOperations.cpp:1535]     createResourceWithRequirements: true
+I0209 00:34:02.511243 2733610 VkCommonOperations.cpp:1536]     useVulkanComposition: false
+I0209 00:34:02.511247 2733610 VkCommonOperations.cpp:1537]     useVulkanNativeSwapchain: false
+I0209 00:34:02.511251 2733610 VkCommonOperations.cpp:1538]     enable guestRenderDoc: false
+I0209 00:34:02.511255 2733610 VkCommonOperations.cpp:1539]     ASTC LDR emulation mode: 2
+I0209 00:34:02.511259 2733610 VkCommonOperations.cpp:1540]     enable ETC2 emulation: true
+I0209 00:34:02.511263 2733610 VkCommonOperations.cpp:1541]     enable Ycbcr emulation: false
+I0209 00:34:02.511266 2733610 VkCommonOperations.cpp:1542]     guestVulkanOnly: false
+I0209 00:34:02.511270 2733610 VkCommonOperations.cpp:1543]     useDedicatedAllocations: false
+I0209 00:34:02.513178 2733610 FrameBuffer.cpp:522] Graphics Adapter Vendor Google (Intel)
+I0209 00:34:02.513194 2733610 FrameBuffer.cpp:523] Graphics Adapter Android Emulator OpenGL ES Translator (Mesa Intel(R) Graphics (RPL-S))
+I0209 00:34:02.513200 2733610 FrameBuffer.cpp:524] Graphics API Version OpenGL ES 3.0 (4.6 (Core Profile) Mesa 25.3.2-arch1.1)
+I0209 00:34:02.513205 2733610 FrameBuffer.cpp:525] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+I0209 00:34:02.513211 2733610 FrameBuffer.cpp:526] Graphics Device Extensions N/A
+INFO    | Sending adb public key [QAAAAOc6WTQpxzQmCZgNAce469TpYMGdAwNLuEkBr8rYilSpRdQ20E5rPrkEGbFDC546kz6IgLpdPVPdMlhioHwJ3G6XzqxowvVL6cp4wlgTxSb5RcRVpi3LSz/7zpsKEZvXF82ezZ2O0uIVmrVYIe1YX7vBUhNWXtev/ONmJu0pW32dqrVlIP2O2pDHpaXDc/p19ii2U2kbQ/L5qeVdK6xJEg8PBMPjNp/8GAlAkxRuxMH6AiXxaSdQOHvrUMPW0I62eyws35+Dvu53D2UU0amaj3rCteUTi+jw9DT5iRDZYF/HKVDHd3KxLfSUgHShONCGubDKw1Ct38yU2G6BiU3I5SWKXj6Y4Rd6zzs1a8Ga8Kygunlhp8YnqEJbDy4cxWqV0DQzXJQGd9BzoJHneNRJUbqTuYxbZtwRpHEoyodwb4QzmlqfFkfQNXIBCcxi/koLPWvVJEBf2SUR5qp2SWMJsjg5X2C7hNaw3bEUQAFv8OFnHf0tZq0S5vUJOFNCraWcOg6ZvPLfosX4jiOE8cUI6yUPESieJD4RCTsogPNSPhjDS1G+oJg+visAhiqK7EkalX9pisp6xxWT4EOihCGA0y15PFNZnwIN+9s/GYZlbOMQMpENoY7loyaeicV0mDtJUeEA2Id+HNSilkeGnXSZaCc1g0ngrEl+wu7oSFC3ZjgM/RBtBAEAAQA= junknet@unknown]
+INFO    | Monitoring duration of emulator setup.
+WARNING | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO    | Using security allow list from: /home/junknet/Android/Sdk/emulator/lib/emulator_access.json
+WARNING | *** Basic token auth should only be used by android-studio ***
+INFO    | The active JSON Web Key Sets can be found here: /run/user/1000/avd/running/2733610/jwks/c1b7eee7-785a-4764-bd4c-26d59eb03828/active.jwk
+INFO    | Scanning /run/user/1000/avd/running/2733610/jwks/c1b7eee7-785a-4764-bd4c-26d59eb03828 for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: /run/user/1000/avd/running/pid_2733610.ini
+INFO    | Qemu slirp is disabled.
+I0209 00:34:02.707993 2734805 FrameBuffer.cpp:2894] Setting display: 0 configuration to: 720x1280, dpi: 320x320 
+I0209 00:34:02.708017 2734805 FrameBuffer.cpp:2907] setDisplayActiveConfig 0
+INFO    | Activated packet streamer for bluetooth emulation
+INFO    | Boot completed in 14297 ms
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.

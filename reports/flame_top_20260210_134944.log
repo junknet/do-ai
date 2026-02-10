@@ -1,0 +1,4 @@
+2:  ACTIVITY com.android.settings/.Settings$WifiSettingsActivity 4bb0ec4 pid=2766
+331:  ACTIVITY com.google.android.apps.nexuslauncher/.NexusLauncherActivity 120b397 pid=2875
+922:TASK 10242:com.anonymous.androidrn id=817 userId=0
+923:  ACTIVITY com.google.android.permissioncontroller/com.android.permissioncontroller.permission.ui.GrantPermissionsActivity a9c334b pid=2526

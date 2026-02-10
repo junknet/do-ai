@@ -1,0 +1,54 @@
+INFO    | Android emulator version 35.2.10.0 (build_id 12414864) (CL:N/A)
+INFO    | Graphics backend: gfxstream
+INFO    | Found systemPath /home/junknet/Android/Sdk/system-images/android-31/default/x86_64/
+INFO    | Duplicate loglines will be removed, if you wish to see each individual line launch with the -log-nofilter flag.
+WARNING | Please update the emulator to one that supports the feature(s): Vulkan
+INFO    | Increasing RAM size to 2048MB
+INFO    | Storing crashdata in: /tmp/android-junknet/emu-crash-35.2.10.db, detection is enabled for process: 3184819
+library_mode swangle_indirect gpu mode swangle_indirect
+INFO    | emuglConfig_get_vulkan_hardware_gpu: Using gpu 'NVIDIA GeForce RTX 3060' for vulkan support
+
+INFO    | Initializing hardware OpenGLES emulation support
+android_startOpenglesRenderer: gpu infoI0209 00:55:01.832626 3184819 FrameBuffer.cpp:262] Not raising nofile soft limit from 524288.
+I0209 00:55:01.832675 3184819 HealthMonitor.cpp:279] HealthMonitor disabled.
+I0209 00:55:01.832706 3184819 VulkanDispatch.cpp:78] initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+I0209 00:55:01.832724 3184819 VulkanDispatch.cpp:47] Setting ICD filenames for the loader = /home/junknet/Android/Sdk/emulator/qemu/linux-x86_64/lib64/vulkan/vk_swiftshader_icd.json:/home/junknet/Android/Sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+I0209 00:55:01.832757 3184819 VulkanDispatch.cpp:137] Added library: /home/junknet/Android/Sdk/emulator/lib64/vulkan/libvulkan.so
+W0209 00:55:01.834563 3184819 VkCommonOperations.cpp:1169] Selecting Vulkan device: SwiftShader Device (Subzero), Version: 1.3.0
+initialize: Supports id properties, got a vulkan device UUID
+I0209 00:55:01.857184 3184819 VkCommonOperations.cpp:1531] Initializing VkEmulation features:
+I0209 00:55:01.857212 3184819 VkCommonOperations.cpp:1532]     glInteropSupported: false
+I0209 00:55:01.857213 3184819 VkCommonOperations.cpp:1533]     useDeferredCommands: true
+I0209 00:55:01.857214 3184819 VkCommonOperations.cpp:1535]     createResourceWithRequirements: true
+I0209 00:55:01.857215 3184819 VkCommonOperations.cpp:1536]     useVulkanComposition: false
+I0209 00:55:01.857217 3184819 VkCommonOperations.cpp:1537]     useVulkanNativeSwapchain: false
+I0209 00:55:01.857218 3184819 VkCommonOperations.cpp:1538]     enable guestRenderDoc: false
+I0209 00:55:01.857219 3184819 VkCommonOperations.cpp:1539]     ASTC LDR emulation mode: 2
+I0209 00:55:01.857220 3184819 VkCommonOperations.cpp:1540]     enable ETC2 emulation: true
+I0209 00:55:01.857221 3184819 VkCommonOperations.cpp:1541]     enable Ycbcr emulation: false
+I0209 00:55:01.857221 3184819 VkCommonOperations.cpp:1542]     guestVulkanOnly: false
+I0209 00:55:01.857222 3184819 VkCommonOperations.cpp:1543]     useDedicatedAllocations: false
+I0209 00:55:01.861386 3184819 FrameBuffer.cpp:522] Graphics Adapter Vendor Google (Google Inc.)
+I0209 00:55:01.861404 3184819 FrameBuffer.cpp:523] Graphics Adapter Android Emulator OpenGL ES Translator (Google SwiftShader)
+I0209 00:55:01.861405 3184819 FrameBuffer.cpp:524] Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.0 SwiftShader 4.0.0.1)
+I0209 00:55:01.861406 3184819 FrameBuffer.cpp:525] Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 
+I0209 00:55:01.861408 3184819 FrameBuffer.cpp:526] Graphics Device Extensions N/A
+INFO    | Sending adb public key [QAAAAOc6WTQpxzQmCZgNAce469TpYMGdAwNLuEkBr8rYilSpRdQ20E5rPrkEGbFDC546kz6IgLpdPVPdMlhioHwJ3G6XzqxowvVL6cp4wlgTxSb5RcRVpi3LSz/7zpsKEZvXF82ezZ2O0uIVmrVYIe1YX7vBUhNWXtev/ONmJu0pW32dqrVlIP2O2pDHpaXDc/p19ii2U2kbQ/L5qeVdK6xJEg8PBMPjNp/8GAlAkxRuxMH6AiXxaSdQOHvrUMPW0I62eyws35+Dvu53D2UU0amaj3rCteUTi+jw9DT5iRDZYF/HKVDHd3KxLfSUgHShONCGubDKw1Ct38yU2G6BiU3I5SWKXj6Y4Rd6zzs1a8Ga8Kygunlhp8YnqEJbDy4cxWqV0DQzXJQGd9BzoJHneNRJUbqTuYxbZtwRpHEoyodwb4QzmlqfFkfQNXIBCcxi/koLPWvVJEBf2SUR5qp2SWMJsjg5X2C7hNaw3bEUQAFv8OFnHf0tZq0S5vUJOFNCraWcOg6ZvPLfosX4jiOE8cUI6yUPESieJD4RCTsogPNSPhjDS1G+oJg+visAhiqK7EkalX9pisp6xxWT4EOihCGA0y15PFNZnwIN+9s/GYZlbOMQMpENoY7loyaeicV0mDtJUeEA2Id+HNSilkeGnXSZaCc1g0ngrEl+wu7oSFC3ZjgM/RBtBAEAAQA= junknet@unknown]
+INFO    | Monitoring duration of emulator setup.
+WARNING | The emulator now requires a signed jwt token for gRPC access! Use the -grpc flag if you really want an open unprotected grpc port
+INFO    | Using security allow list from: /home/junknet/Android/Sdk/emulator/lib/emulator_access.json
+WARNING | *** Basic token auth should only be used by android-studio ***
+INFO    | The active JSON Web Key Sets can be found here: /run/user/1000/avd/running/3184819/jwks/7b269816-7e43-4082-8853-8f42791453dc/active.jwk
+INFO    | Scanning /run/user/1000/avd/running/3184819/jwks/7b269816-7e43-4082-8853-8f42791453dc for jwk keys.
+INFO    | Started GRPC server at 127.0.0.1:8554, security: Local, auth: +token
+INFO    | Advertising in: /run/user/1000/avd/running/pid_3184819.ini
+INFO    | Qemu slirp is disabled.
+I0209 00:55:01.946924 3185231 FrameBuffer.cpp:2894] Setting display: 0 configuration to: 720x1280, dpi: 320x320 
+I0209 00:55:01.946960 3185231 FrameBuffer.cpp:2907] setDisplayActiveConfig 0
+INFO    | Emulator is performing a full startup. This may take upto two minutes, or more.
+INFO    | Activated packet streamer for bluetooth emulation
+INFO    | Boot completed in 16272 ms
+INFO    | Increasing screen off timeout, logcat buffer size to 2M.
+INFO    | Wait for emulator (pid 3184819) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+WARNING | Not saving state: RAM not mapped as shared

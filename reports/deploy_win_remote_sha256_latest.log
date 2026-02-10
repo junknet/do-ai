@@ -1,0 +1,6 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+SHA256 的 C:\\tools\\do-ai.exe 哈希:
+09f89ef86f389ef8823201ddca5109ed078eba27ec5d2e381f61769934400874
+CertUtil: -hashfile 命令成功完成。

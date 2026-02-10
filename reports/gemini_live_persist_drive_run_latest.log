@@ -1,0 +1,12 @@
+send stage_1: PERSIST_BOOT_TOKEN
+stage_1 ok
+send stage_2: PERSIST_STAGE_1
+curl: (28) Connection timed out after 4003 milliseconds
+stage_2 ok
+send stage_3: PERSIST_STAGE_2
+stage_3 ok
+send stage_4: PERSIST_STAGE_3
+stage_4 ok
+send stage_5: PERSIST_STAGE_4
+stage_5 ok
+PASS

@@ -1,0 +1,8 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+移动了         1 个文件。
+C:\tools\do-ai.exe
+鐢ㄦ硶: do-ai [idle] <command> [args...]
+绀轰緥: do-ai 5s codex | do-ai 5min 10s codex | do-ai 2m30s codex
+鏈嶅姟: do-ai relay --listen :8787

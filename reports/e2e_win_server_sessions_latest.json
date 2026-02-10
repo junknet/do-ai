@@ -1,0 +1,24 @@
+{
+    "count": 1,
+    "online_only": true,
+    "sessions": [
+        {
+            "session_id": "win-chromium-build-1770746026410872300",
+            "session_name": "e2e-win-server-20260211_015346",
+            "prefix": "win",
+            "host": "chromium-build",
+            "cwd": "C:\\Users\\administrator",
+            "command": "cmd",
+            "pid": 18104,
+            "state": "running",
+            "started_at": 1770746026,
+            "updated_at": 1770746027,
+            "last_output_at": 1770746026,
+            "last_text": "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "lock_file": "C:\\Users\\administrator\\.do-ai.lock",
+            "online": true,
+            "age_seconds": 1
+        }
+    ],
+    "ts": 1770746028
+}

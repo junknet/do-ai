@@ -1,0 +1,34 @@
+** WARNING: connection is not using a post-quantum key exchange algorithm.
+** This session may be vulnerable to "store now, decrypt later" attacks.
+** The server may need to be upgraded. See https://openssh.com/pq.html
+[2J[2J[m[31;1H
+[HWIN_DEPLOY_SMOKE_20260211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[2;1H]0;C:\Windows\system32\cmd.exe[?25hConnection to 47.98.158.221 closed.

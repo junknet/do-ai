@@ -1,0 +1,15 @@
+[STEP] adb devices
+List of devices attached
+99091FFA1G66MC         device usb:1-4 product:flame model:Pixel_4 device:flame transport_id:3
+
+[STEP] device props
+google
+Pixel 4
+flame
+13
+33
+[STEP] claude version
+2.1.38 (Claude Code)
+[STEP] relay health
+{"ok":true}[STEP] bin
+-rwxr-xr-x 1 junknet junknet 7.0M Feb 11 01:00 /home/junknet/Desktop/do-ai/tmp/do-ai-phone-gui-e2e

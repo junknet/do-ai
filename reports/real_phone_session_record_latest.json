@@ -1,0 +1,17 @@
+{
+  "session_id": "do-junknet-home-1770639063815151020",
+  "session_name": "real-phone-e2e-1770639063",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "codex --dangerously-bypass-approvals-and-sandbox resume --last",
+  "pid": 625338,
+  "state": "running",
+  "started_at": 1770639063,
+  "updated_at": 1770639064,
+  "last_output_at": 1770639063,
+  "last_text": "do_ai_cod 1:do-ai  do-ai B                                         do-ai  20:11 B",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": false,
+  "age_seconds": 36
+}

@@ -1,0 +1,10 @@
+[GEMINI-E2E] build do-ai
+[GEMINI-E2E] start relay @ http://127.0.0.1:19791
+[GEMINI-E2E] start do-ai + gemini interactive session
+[GEMINI-E2E] session_id=do-junknet-home-1770752353019951652
+[GEMINI-E2E] wait READY token from startup prompt
+[GEMINI-E2E] fallback: wait prompt + send READY prompt via relay
+[GEMINI-E2E] READY token observed
+[GEMINI-E2E] send second prompt via relay control
+[GEMINI-E2E] SECOND token observed
+[GEMINI-E2E] PASS

@@ -1,0 +1,120 @@
+TASK null id=100 userId=0 displayId=0(type=INTERNAL)
+  ACTIVITY com.sec.android.app.launcher/com.android.quickstep.RecentsActivity 5a66ffa pid=5336 userId=0 uid=10157 displayId=0(type=INTERNAL)
+    Local Activity db06b6a State:
+      mResumed=false mStopped=true mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 460mcc2mnc [zh_CN_#Hans] ldltr sw360dp w360dp h780dp 480dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=recents mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=off mOverlappingWithCutout=false} s.3 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=32 themeSeq=0}
+      mLoadersStarted=true
+      Active Fragments in f9dacd7:
+        #0: ReportFragment{61649c4 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{f9dacd7 in HostCallbacks{38f50ad}}
+          mHost=android.app.Activity$HostCallbacks@38f50ad
+          Child FragmentManager{1683fe2 in ReportFragment{61649c4}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@38f50ad
+              mContainer=android.app.Fragment$1@7a63f73
+              mParent=ReportFragment{61649c4 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{61649c4 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@38f50ad
+        mContainer=android.app.Activity$HostCallbacks@38f50ad
+        mCurState=3 mStateSaved=true mDestroyed=false
+    PhoneWindow:
+      mStatusBarColor=0x0 mForcedStatusBarColor=false
+      mNavigationBarColor=0x0 mForcedNavigationBarColor=false
+      mDeviceDefaultNavigationBarColor=0xFFF1F1F3
+      mDefaultNavigationBarColor=0xFFDFDCD8
+      mSettingsNavigationBarColor=0xFFF1F1F3
+      mThemeApplied=true
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=true
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mReportNextDraw=false
+      mLastPerformTraversalsFailedReason=view_not_visible
+      mLastReportedMergedConfiguration={mGlobalConfig={1.0 460mcc2mnc [zh_CN_#Hans] ldltr sw360dp w360dp h780dp 480dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=off mOverlappingWithCutout=false} s.69 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=32 themeSeq=0} mOverrideConfig={1.0 460mcc2mnc [zh_CN_#Hans] ldltr sw360dp w360dp h780dp 480dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=recents mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=off mOverlappingWithCutout=false} s.3 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=32 themeSeq=0}}
+      mLastConfigurationFromResources={1.0 460mcc2mnc [zh_CN_#Hans] ldltr sw360dp w360dp h780dp 480dpi nrml long hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=recents mAlwaysOnTop=undefined mRotation=ROTATION_0 mStageConfig=undefined mEmbedActivityMode=undefined mPopOver=off mOverlappingWithCutout=false} s.3 fontWeightAdjustment=0 ff=0 bf=-1 bts=0 cst=1.0 nightDim=32 themeSeq=0}
+      mLastReportedActivityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2340), taskFragmentBounds=Rect(0, 0 - 1080, 2340)}
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=8
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: 1ea5312 com.sec.android.app.launcher/com.android.quickstep.RecentsActivity
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = 1ea5312 com.sec.android.app.launcher/com.android.quickstep.RecentsActivity
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=312812679 (5419 ms ago)
+    InsetsController:
+        InsetsState
+          mDisplayFrame=Rect(0, 0 - 1080, 2340)
+          mDisplayCutout=DisplayCutout{insets=Rect(0, 91 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(511, 0 - 569, 91), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=1080 physicalDisplayHeight=2340 density={3.0} cutoutSpec={M 0,0 H -9.666666666666667 V 30.33333333333333 H 9.666666666666667 V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}
+          mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=102, center=Point(102, 102)}, RoundedCorner{position=TopRight, radius=102, center=Point(978, 102)}, RoundedCorner{position=BottomRight, radius=102, center=Point(978, 2238)}, RoundedCorner{position=BottomLeft, radius=102, center=Point(102, 2238)}]}
+          mRoundedCornerFrame=Rect(0, 0 - 1080, 2340)
+          mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(948, 0 - 1080, 91) rotation=0}
+          mDisplayShape=DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2340 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}
+            InsetsSource id=f9470001 type=navigationBars frame=[0,2196][1080,2340] visible=true flags= sideHint=BOTTOM boundingRects=null
+            InsetsSource id=f9470004 type=systemGestures frame=[0,0][0,0] visible=true flags= sideHint=NONE boundingRects=null
+            InsetsSource id=f9470005 type=mandatorySystemGestures frame=[0,2196][1080,2340] visible=true flags= sideHint=BOTTOM boundingRects=null
+            InsetsSource id=f9470006 type=tappableElement frame=[0,2196][1080,2340] visible=true flags= sideHint=BOTTOM boundingRects=null
+            InsetsSource id=f9470024 type=systemGestures frame=[0,0][0,0] visible=true flags= sideHint=NONE boundingRects=null
+            InsetsSource id=fcb20000 type=statusBars frame=[0,0][1080,91] visible=true flags= sideHint=TOP boundingRects=null
+            InsetsSource id=fcb20005 type=mandatorySystemGestures frame=[0,0][1080,127] visible=true flags= sideHint=TOP boundingRects=null
+            InsetsSource id=fcb20006 type=tappableElement frame=[0,0][1080,91] visible=true flags= sideHint=TOP boundingRects=null
+            InsetsSource id=3 type=ime frame=[0,0][0,0] visibleFrame=[0,1408][1080,2340] visible=false flags= sideHint=NONE boundingRects=null
+            InsetsSource id=27 type=displayCutout frame=[0,0][1080,91] visible=true flags= sideHint=TOP boundingRects=null
+        mIsPredictiveBackImeHideAnimInProgress=false
+    WindowOnBackDispatcher:
+        Top Callback: android.view.ViewRootImpl$$ExternalSyntheticLambda16@5725cc1
+        Callbacks: 
+          Callback: android.view.ViewRootImpl$$ExternalSyntheticLambda16@5725cc1 Priority=0
+    ImeBackAnimationController:
+        mLastProgress=0.0
+        mTriggerBack=false
+        mIsPreCommitAnimationInProgress=false
+        mStartRootScrollY=0
+        isBackAnimationAllowed=true
+        isAdjustPan=true
+        isHideAnimationInProgress=false
+    ViewRootSurfaceController:
+      mSkipScreenshot=false
+      mDisableSuperHdr=false
+      mMetaDataMaps= <empty>
+      mAllowList={ 32}
+    View Hierarchy:

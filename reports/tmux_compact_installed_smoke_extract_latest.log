@@ -1,0 +1,4 @@
+1:Script started on 2026-02-09 20:53:15+08:00 [COMMAND="DO_AI_RELAY_AUTO=0 DO_AI_TMUX_MODE=on DO_AI_TMUX_OUTPUT_MODE=compact DO_AI_DEBUG=1 do-ai 5s bash -lc 'echo TMUX_COMPACT_SMOKE_OK'" <not executed on terminal>]
+2:[do-ai] 启用 tmux 托管: session=do_ai_bash_1770641595250305611 target=bash
+47:[K[38;2;26;27;38m[48;2;122;162;247m[1m[H do_ai_bas[48;2;187;154;247m 1:do-ai [38;2;122;162;247m[48;2;26;27;38m do-ai (B[m[38;2;169;177;214m[48;2;26;27;38m                                         [38;2;125;207;255mdo-ai [38;2;169;177;214m 20:53 (B[m[?12l[?25h[2;1H[?1006l[?1000l[?1002l[?1003l[?1006h[?1000h[?1002hTMUX_COMPACT_SMOKE_OK
+48:[1;0r(B[m[?1l>[H[2J[?12l[?25h[?1000l[?1002l[?1003l[?1006l[?1005l[?2004l[?7727l[?1004l[?1049l[23;0;0t[?2031l[exited]

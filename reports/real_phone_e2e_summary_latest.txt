@@ -1,0 +1,4 @@
+session_name=real-phone-e2e-1770639063
+session_id=do-junknet-home-1770639063815151020
+dump_found=FOUND_IN_DUMP=1
+apk=df83fc044d6627f1a6a70468174abb3d8f74674347c382202061ce1c136d8602  dist/do-ai-android-release.apk

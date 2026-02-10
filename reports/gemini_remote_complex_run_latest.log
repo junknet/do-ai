@@ -1,0 +1,11 @@
+[GEMINI-REMOTE] start gemini session: gemini-remote-complex-20260211_034433
+[GEMINI-REMOTE] session_id=do-junknet-home-1770752673050047720
+curl: (28) Connection timed out after 4001 milliseconds
+[GEMINI-REMOTE] boot ok
+[GEMINI-REMOTE] stage 1 => REMOTE_COMPLEX_1
+[GEMINI-REMOTE] stage 1 ok
+[GEMINI-REMOTE] stage 2 => REMOTE_COMPLEX_2
+[GEMINI-REMOTE] stage 2 ok
+[GEMINI-REMOTE] stage 3 => REMOTE_COMPLEX_3
+[GEMINI-REMOTE] stage 3 ok
+[GEMINI-REMOTE] PASS

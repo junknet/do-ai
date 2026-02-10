@@ -1,0 +1,935 @@
+--------- beginning of main
+12-27 03:05:27.311  3090  7797 I TrafficStats: tagSocketFd(-1, 1031, -1) failed with errno-9
+12-27 03:05:27.311  3090  7797 D TrafficStats: tagSocket(123) with statsTag=0x407, statsUid=-1
+--------- beginning of system
+12-27 03:05:27.415  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333332, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 03:05:27.973  3090  7797 D TrafficStats: tagSocket(-1) with statsTag=0x407, statsUid=-1
+12-27 03:05:27.973  3090  7797 I TrafficStats: tagSocketFd(-1, 1031, -1) failed with errno-9
+12-27 03:05:27.973  3090  7797 D TrafficStats: tagSocket(123) with statsTag=0x407, statsUid=-1
+12-27 03:05:28.035  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 03:05:28.076  7706  7706 W ThreadPoolForeg: type=1400 audit(0.0:356): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=37398 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+12-27 03:05:28.904  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:28.905  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:30.293  1885  2288 D OomAdjuster: Not killing cached processes
+12-27 03:05:30.388  9877  9877 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+12-27 03:05:30.399   654   654 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+12-27 03:05:30.400  9877  9878 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-27 03:05:30.400  9877  9878 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-27 03:05:30.396  9877  9877 W binder:9877_1: type=1400 audit(0.0:357): avc: denied { read } for name="gpu_model" dev="sysfs" ino=64126 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_msm_subsys:s0 tclass=file permissive=0
+12-27 03:05:30.649  9880  9880 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-27 03:05:30.651  9880  9880 I AndroidRuntime: Using default boot image
+12-27 03:05:30.651  9880  9880 I AndroidRuntime: Leaving lock profiling enabled
+12-27 03:05:30.723  9880  9880 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+12-27 03:05:30.723  9880  9880 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt70l.dat
+12-27 03:05:30.729  9880  9880 W app_process: ClassLoaderContext classpath size mismatch. expected=0, found=1 (PCL[] | PCL[/system/framework/android.test.runner.jar*2256426886])
+12-27 03:05:30.743  9880  9880 D AndroidRuntime: Calling main entry com.android.commands.uiautomator.Launcher
+12-27 03:05:30.748  1885  2398 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+12-27 03:05:30.749  3242  3285 I AiAiEcho: (REDACTED) Settings changed for uri: %s
+12-27 03:05:30.749  1885  2398 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+12-27 03:05:30.757  3242  3285 I AiAiEcho: (REDACTED) Settings changed for uri: %s
+12-27 03:05:30.758  3616  3874 I amji    : NGA disabled since it's running Panthera and at least one a11y feature is on.
+12-27 03:05:30.758  3616  3874 I amji    : (REDACTED) Nga state changed to %s
+12-27 03:05:30.758  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.758  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.758  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.758  3616  3874 I amji    : (REDACTED) isTngActive=%s
+12-27 03:05:30.758  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.758  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.760  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.760  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.760  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.760  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.761  3253  4012 I var     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+12-27 03:05:30.761  3253  4012 I var     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.761  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:30.762  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:30.763  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.763  1885  1885 D BatterySaverPolicy: accessibility changed to true, updating policy.
+12-27 03:05:30.764  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.764  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.764  2875  2875 E BcSmartspaceCard: No tap action can be set up
+12-27 03:05:30.764  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.765  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.765  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:30.765  2875  2875 E BcSmartspaceCard: No tap action can be set up
+12-27 03:05:30.815  3090  9755 W Auth    : [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ]
+12-27 03:05:30.815  3090  9755 W Auth    : cpmc: Failed to process request
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.815  3090  9755 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.815  3090  9755 W Auth    : Caused by: cpoz: Connectivity error
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.815  3090  9755 W Auth    : 	... 20 more
+12-27 03:05:30.815  3090  9755 W Auth    : Caused by: java.io.IOException
+12-27 03:05:30.815  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.815  3090  9755 W Auth    : 	... 20 more
+12-27 03:05:30.815  3090  9755 E AuthPII : [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.googlequicksearchbox, Service: oauth2:https://www.googleapis.com/auth/googlenow
+12-27 03:05:30.815  3090  9755 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 12 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Message is Error when calling server using GmsNetworkStack.
+12-27 03:05:30.815  3090  9755 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 12 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.815  3090  9755 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:30.815  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.815  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.816  3090  9755 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with non recoverable status code: %s 
+12-27 03:05:30.816  3090  9755 W Auth    : [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googlenow [CONTEXT service_id=153 ]
+12-27 03:05:30.816  3090  9755 W Auth    : aejs: GetToken failed with status code: NetworkError
+12-27 03:05:30.816  3090  9755 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):349)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.816  3090  9755 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.816  3090  9755 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+12-27 03:05:30.818  3616  4474 W adsz    : (REDACTED) IO exception for scope: %s
+12-27 03:05:30.818  3616  4474 W adsz    : java.io.IOException: NetworkError
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.accounts.AccountManager.convertErrorToException(AccountManager.java:2628)
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.accounts.AccountManager.-$$Nest$mconvertErrorToException(Unknown Source:0)
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.accounts.AccountManager$AmsTask$Response.onError(AccountManager.java:2479)
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.accounts.IAccountManagerResponse$Stub.onTransact(IAccountManagerResponse.java:107)
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.818  3616  4474 W adsz    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.862   662   812 D libnos_transport: Calling App 2 with params 0x000a
+12-27 03:05:30.863   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:30.868   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:30.875   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:30.880   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:30.886   662   812 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:30.894   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:30.894   662   812 D libnos_transport: Send app 2 command data (1564 bytes)
+12-27 03:05:30.899  3090  9755 W Auth    : [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ]
+12-27 03:05:30.899  3090  9755 W Auth    : cpmc: Failed to process request
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.899  3090  9755 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.899  3090  9755 W Auth    : Caused by: cpoz: Connectivity error
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.899  3090  9755 W Auth    : 	... 20 more
+12-27 03:05:30.899  3090  9755 W Auth    : Caused by: java.io.IOException
+12-27 03:05:30.899  3090  9755 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.899  3090  9755 W Auth    : 	... 20 more
+12-27 03:05:30.905   662   812 D libnos_transport: Send app 2 go command 0x0002000a
+12-27 03:05:30.905   662   812 D libnos_transport: Polling app 2
+12-27 03:05:30.906  3090  9755 E AuthPII : [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.googlequicksearchbox, Service: oauth2:https://www.googleapis.com/auth/googlenow
+12-27 03:05:30.906  3090  9755 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.906  3090  9755 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	... 12 more
+12-27 03:05:30.906  3090  9755 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.906  3090  9755 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.906  3090  9755 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.906  3090  9755 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:30.906  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.906  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.907  3090  9755 E AuthPII : Message is Error when calling server using GmsNetworkStack.
+12-27 03:05:30.907  3090  9755 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.907  3090  9755 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	... 12 more
+12-27 03:05:30.907  3090  9755 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.907  3090  9755 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	... 13 more
+12-27 03:05:30.907  3090  9755 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.907  3090  9755 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:30.907  3090  9755 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:30.907  3090  9755 E AuthPII : 	... 20 more
+12-27 03:05:30.907  3090  9755 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with non recoverable status code: %s 
+12-27 03:05:30.908  3090  9755 W Auth    : [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googlenow [CONTEXT service_id=153 ]
+12-27 03:05:30.908  3090  9755 W Auth    : aejs: GetToken failed with status code: NetworkError
+12-27 03:05:30.908  3090  9755 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):349)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.908  3090  9755 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.908  3090  9755 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+12-27 03:05:30.912  3616  4474 W adsz    : (REDACTED) IO exception for scope: %s
+12-27 03:05:30.912  3616  4474 W adsz    : java.io.IOException: NetworkError
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.accounts.AccountManager.convertErrorToException(AccountManager.java:2628)
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.accounts.AccountManager.-$$Nest$mconvertErrorToException(Unknown Source:0)
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.accounts.AccountManager$AmsTask$Response.onError(AccountManager.java:2479)
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.accounts.IAccountManagerResponse$Stub.onTransact(IAccountManagerResponse.java:107)
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:30.912  3616  4474 W adsz    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:30.913  2517  9804 D TrafficStats: tagSocket(95) with statsTag=0xffffff81, statsUid=-1
+12-27 03:05:30.920  3090  3101 W .gms.persistent: Cleared Reference was only reachable from finalizer (only reported once)
+12-27 03:05:30.935   662   812 D libnos_transport: App 2 polled=13 status=0x80000000 reply_len=17 flags=0x0000
+12-27 03:05:30.935   662   812 D libnos_transport: Read app 2 reply data (17 bytes)
+12-27 03:05:30.935   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:30.936   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:30.940   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:30.940   662   811 D libnos_transport: Send app 2 command data (407 bytes)
+12-27 03:05:30.943   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:30.943   662   811 D libnos_transport: Polling app 2
+12-27 03:05:30.949   662   811 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:30.949   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:30.950   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:30.950   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:30.956   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:30.956   662   811 D libnos_transport: Send app 2 command data (407 bytes)
+12-27 03:05:30.959   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:30.959   662   811 D libnos_transport: Polling app 2
+12-27 03:05:30.965   662   811 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:30.965   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:30.966   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:30.966   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:30.968   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:30.968   662   811 D libnos_transport: Send app 2 command data (59 bytes)
+12-27 03:05:30.969   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:30.969   662   811 D libnos_transport: Polling app 2
+12-27 03:05:30.976   662   811 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=2 flags=0x0000
+12-27 03:05:30.976   662   811 D libnos_transport: Read app 2 reply data (2 bytes)
+12-27 03:05:30.977   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:30.977   662   812 D libnos_transport: Calling App 2 with params 0x000c
+12-27 03:05:30.979   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:30.979   662   812 D libnos_transport: Send app 2 command data (20 bytes)
+12-27 03:05:30.980   662   812 D libnos_transport: Send app 2 go command 0x0002000c
+12-27 03:05:30.980   662   812 D libnos_transport: Polling app 2
+12-27 03:05:31.009   662   812 D libnos_transport: App 2 polled=12 status=0x80000000 reply_len=73 flags=0x0000
+12-27 03:05:31.009   662   812 D libnos_transport: Read app 2 reply data (73 bytes)
+12-27 03:05:31.011   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.020   662   812 D libnos_transport: Calling App 2 with params 0x000a
+12-27 03:05:31.022   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.022   662   812 D libnos_transport: Send app 2 command data (1564 bytes)
+12-27 03:05:31.033   662   812 D libnos_transport: Send app 2 go command 0x0002000a
+12-27 03:05:31.034   662   812 D libnos_transport: Polling app 2
+12-27 03:05:31.044   662   812 D libnos_transport: App 2 polled=4 status=0x80000000 reply_len=18 flags=0x0000
+12-27 03:05:31.044   662   812 D libnos_transport: Read app 2 reply data (18 bytes)
+12-27 03:05:31.045  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 03:05:31.045   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.047   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:31.049   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.049   662   812 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 03:05:31.052   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:31.052   662   812 D libnos_transport: Polling app 2
+12-27 03:05:31.057   662   812 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:31.057   662   812 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:31.059   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.059   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:31.061   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.061   662   811 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 03:05:31.064   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:31.065   662   811 D libnos_transport: Polling app 2
+12-27 03:05:31.071   662   811 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:31.071   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:31.071   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.072   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:31.074   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.074   662   812 D libnos_transport: Send app 2 command data (60 bytes)
+12-27 03:05:31.075   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:31.075   662   812 D libnos_transport: Polling app 2
+12-27 03:05:31.080   662   812 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=2 flags=0x0000
+12-27 03:05:31.080   662   812 D libnos_transport: Read app 2 reply data (2 bytes)
+12-27 03:05:31.080   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.081   662   811 D libnos_transport: Calling App 2 with params 0x000c
+12-27 03:05:31.083   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.083   662   811 D libnos_transport: Send app 2 command data (21 bytes)
+12-27 03:05:31.084   662   811 D libnos_transport: Send app 2 go command 0x0002000c
+12-27 03:05:31.084   662   811 D libnos_transport: Polling app 2
+12-27 03:05:31.110   662   811 D libnos_transport: App 2 polled=12 status=0x80000000 reply_len=73 flags=0x0000
+12-27 03:05:31.110   662   811 D libnos_transport: Read app 2 reply data (73 bytes)
+12-27 03:05:31.111   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:31.384  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:31.384  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:31.611   662   677 D libnos_transport: Calling App 0 with params 0x0200
+12-27 03:05:31.614   662   677 D libnos_transport: App 0 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:31.614   662   677 D libnos_transport: Send app 0 command data (0 bytes)
+12-27 03:05:31.615   662   677 D libnos_transport: Send app 0 go command 0x00000200
+12-27 03:05:31.615   662   677 D libnos_transport: Polling app 0
+12-27 03:05:31.619   662   677 D libnos_transport: App 0 polled=2 status=0x80000000 reply_len=92 flags=0x0000
+12-27 03:05:31.619   662   677 D libnos_transport: Read app 0 reply data (92 bytes)
+12-27 03:05:31.621   662   677 D libnos_transport: App 0 returning 0x0
+12-27 03:05:31.849  3090  3090 W ThreadPoolForeg: type=1400 audit(0.0:358): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=37398 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+12-27 03:05:32.286  3090  3786 E WakeLock: GCM_CONN_ALARM ** IS FORCE-RELEASED ON TIMEOUT ** [CONTEXT service_id=259 ]
+12-27 03:05:32.513  9880  9880 W libc    : Access denied finding property "qemu.sf.lcd_density"
+12-27 03:05:32.513  9880  9880 W libc    : Access denied finding property "qemu.sf.lcd_density"
+12-27 03:05:32.509  9880  9880 W uiautomator: type=1400 audit(0.0:359): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=1325 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+12-27 03:05:32.509  9880  9880 W uiautomator: type=1400 audit(0.0:360): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=1325 scontext=u:r:shell:s0 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0
+12-27 03:05:32.520  3269  9854 W MediaProvider: isAppCloneUserPair failed. Users: 0 and 0
+12-27 03:05:32.521  3269  9854 W MediaProvider: isAppCloneUserPair for user 0: false
+12-27 03:05:32.545  3269  9854 V MediaProvider: Inserted id:1000001584 less than next row id backup:1000002000.
+12-27 03:05:32.597  9880  9880 W AccessibilityNodeInfoDumper: Fetch time: 82ms
+12-27 03:05:32.600  1885  4627 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+12-27 03:05:32.600  3242  3285 I AiAiEcho: (REDACTED) Settings changed for uri: %s
+12-27 03:05:32.602  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) Predicting[%d]: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) EchoTargets: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: Filtered by AiAi flag check: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: (REDACTED) Ranked targets strategy: %s, count: %d, ranking metadata: %s
+12-27 03:05:32.603  3242  3766 I AiAiEcho: #remoteViewsTwiddler: feature disabled.
+12-27 03:05:32.604  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:32.604  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:32.604  3242  3766 I AiAiEcho: (REDACTED) #postPredictionTargets: Sending updates to UISurface %s with targets# %s (types=[%s])
+12-27 03:05:32.612  1885  1885 D BatterySaverPolicy: accessibility changed to false, updating policy.
+12-27 03:05:32.612  2875  2875 E BcSmartspaceCard: No tap action can be set up
+12-27 03:05:32.616  3616  3967 I amji    : NGA enabled in interactor.
+12-27 03:05:32.616  3616  3967 I amji    : (REDACTED) Nga state changed to %s
+12-27 03:05:32.616  3616  3967 I amji    : (REDACTED) isTngActive=%s
+12-27 03:05:32.617  3616  4194 I fbvx    : Scheduling next refresh
+12-27 03:05:32.630  3253  4016 I vkd     : (REDACTED) on opa visibility changed %s
+12-27 03:05:32.632  3616  9855 W aiyd    : isAlwaysOnHotwordAvailable but still checking isVoiceEverywhereEnabled
+12-27 03:05:32.634  3253  4016 I vkd     : (REDACTED) on opa visibility changed %s
+12-27 03:05:32.636  3253  4592 I uni     : Initializing all components
+12-27 03:05:32.636  3253  4016 I ypz     : (REDACTED) onIsEnabledChanged, isEnabled: %s
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4009 I var     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.636  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.637  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.637  3253  4015 I var     : (REDACTED) Nga on-device enabled based on TNG:MA active state: %b
+12-27 03:05:32.637  3253  4009 I xdi     : (REDACTED) State changed: %s => %s by %s and %s with %s
+12-27 03:05:32.637  3253  4009 I xjc     : (REDACTED) Recognizer choice: (recognizer_type: %s, recognizer_mode: %s, choice_reason: %s)
+12-27 03:05:32.637  3253  4016 I zen     : (REDACTED) Setting session to type: %s
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  9880  9880 D AndroidRuntime: Shutting down VM
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 I zfz     : (REDACTED) setNavBarVisible: %s
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4016 W abbl    : Disposing empty manager. Did you forgot to subscribe observables?
+12-27 03:05:32.638  3253  4009 I zba     : (REDACTED) onActiveStateChangeEvent: %s => %s
+12-27 03:05:32.639  3253  4009 I wyo     : (REDACTED) #onActiveStateChangeEvent, newState: %s, previousState: %s.
+12-27 03:05:32.641  3253  4012 I etdy    : showGestureNav
+12-27 03:05:32.641  3253  4012 I etdw    : (REDACTED) setUiHints(hints = %s)
+12-27 03:05:32.643  3253  4013 I yja     : (REDACTED) stopListening(%s, %s)
+12-27 03:05:32.644  3253  4015 I uyb     : Initialize
+12-27 03:05:32.644  3253  4012 I aamy    : Ignoring as prefetch was recently called
+12-27 03:05:32.645  3253  4012 I etdw    : setUiHints: finished successfully
+12-27 03:05:32.647  3253  4009 I uni     : Successfully initialized all components
+12-27 03:05:32.685  3090  3295 W Auth    : [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ]
+12-27 03:05:32.685  3090  3295 W Auth    : cpmc: Failed to process request
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.685  3090  3295 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.685  3090  3295 W Auth    : Caused by: cpoz: Connectivity error
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.685  3090  3295 W Auth    : 	... 20 more
+12-27 03:05:32.685  3090  3295 W Auth    : Caused by: java.io.IOException
+12-27 03:05:32.685  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.685  3090  3295 W Auth    : 	... 20 more
+12-27 03:05:32.686  3090  3295 E AuthPII : [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.googlequicksearchbox, Service: oauth2:https://www.googleapis.com/auth/googlenow
+12-27 03:05:32.686  3090  3295 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.686  3090  3295 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	... 12 more
+12-27 03:05:32.686  3090  3295 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.686  3090  3295 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.686  3090  3295 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.686  3090  3295 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:32.686  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.686  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.687  3090  3295 E AuthPII : Message is Error when calling server using GmsNetworkStack.
+12-27 03:05:32.687  3090  3295 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.687  3090  3295 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	... 12 more
+12-27 03:05:32.687  3090  3295 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.687  3090  3295 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.687  3090  3295 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.687  3090  3295 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:32.687  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.687  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.687  3090  3295 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with non recoverable status code: %s 
+12-27 03:05:32.687  3090  3295 W Auth    : [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googlenow [CONTEXT service_id=153 ]
+12-27 03:05:32.687  3090  3295 W Auth    : aejs: GetToken failed with status code: NetworkError
+12-27 03:05:32.687  3090  3295 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):349)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.687  3090  3295 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.687  3090  3295 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+12-27 03:05:32.692  3616  4474 W adsz    : (REDACTED) IO exception for scope: %s
+12-27 03:05:32.692  3616  4474 W adsz    : java.io.IOException: NetworkError
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.accounts.AccountManager.convertErrorToException(AccountManager.java:2628)
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.accounts.AccountManager.-$$Nest$mconvertErrorToException(Unknown Source:0)
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.accounts.AccountManager$AmsTask$Response.onError(AccountManager.java:2479)
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.accounts.IAccountManagerResponse$Stub.onTransact(IAccountManagerResponse.java:107)
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.692  3616  4474 W adsz    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.732   662   811 D libnos_transport: Calling App 2 with params 0x000a
+12-27 03:05:32.733   662   811 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:32.739   662   811 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:32.744   662   811 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:32.749   662   811 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:32.755   662   811 E libnos_datagram: can't send spi message: Try again
+12-27 03:05:32.762   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.762   662   811 D libnos_transport: Send app 2 command data (1564 bytes)
+12-27 03:05:32.769  3090  3295 W Auth    : [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ]
+12-27 03:05:32.769  3090  3295 W Auth    : cpmc: Failed to process request
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.769  3090  3295 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.769  3090  3295 W Auth    : Caused by: cpoz: Connectivity error
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.769  3090  3295 W Auth    : 	... 20 more
+12-27 03:05:32.769  3090  3295 W Auth    : Caused by: java.io.IOException
+12-27 03:05:32.769  3090  3295 W Auth    : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.769  3090  3295 W Auth    : 	... 20 more
+12-27 03:05:32.770  3090  3295 E AuthPII : [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.googlequicksearchbox, Service: oauth2:https://www.googleapis.com/auth/googlenow
+12-27 03:05:32.770  3090  3295 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 12 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Message is Error when calling server using GmsNetworkStack.
+12-27 03:05:32.770  3090  3295 E AuthPII : bcbb: Error when calling server using GmsNetworkStack.
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):1595)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aejy.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):729)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):144)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: bcbb: Error requesting token.
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):212)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):48)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 12 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: java.util.concurrent.ExecutionException: cpmc: Failed to process request
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at gsiv.j(:com.google.android.gms@254730029@25.47.30 (190400-833691957):21)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at gsje.v(:com.google.android.gms@254730029@25.47.30 (190400-833691957):107)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):197)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: cpmc: Failed to process request
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpmi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):23)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cppw.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):15)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):82)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at kjj.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):19)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cppd.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):6)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at btyo.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):9)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at adpi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):13)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at adpi.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):141)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at alqi.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):34)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at aeka.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):170)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 13 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: cpoz: Connectivity error
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):76)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.770  3090  3295 E AuthPII : Caused by: java.io.IOException
+12-27 03:05:32.770  3090  3295 E AuthPII : 	at cpow.a(:com.google.android.gms@254730029@25.47.30 (190400-833691957):73)
+12-27 03:05:32.770  3090  3295 E AuthPII : 	... 20 more
+12-27 03:05:32.771  3090  3295 I Auth    : (REDACTED) [GetToken] GetToken failed for app=%s with non recoverable status code: %s 
+12-27 03:05:32.771  3090  3295 W Auth    : [ChimeraGetToken] exception while trying to fetch auth tokens for app=com.google.android.gms, scope=oauth2:https://www.googleapis.com/auth/googlenow [CONTEXT service_id=153 ]
+12-27 03:05:32.771  3090  3295 W Auth    : aejs: GetToken failed with status code: NetworkError
+12-27 03:05:32.771  3090  3295 W Auth    : 	at aejx.b(:com.google.android.gms@254730029@25.47.30 (190400-833691957):349)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at xys.d(:com.google.android.gms@254730029@25.47.30 (190400-833691957):662)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at aedj.getAuthToken(:com.google.android.gms@254730029@25.47.30 (190400-833691957):412)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:242)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at cfvi.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):10)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.os.Binder.transact(Binder.java:1164)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at bucj.onTransact(:com.google.android.gms@254730029@25.47.30 (190400-833691957):161)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.771  3090  3295 W Auth    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.771  3090  3295 W GLSActivity: [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+12-27 03:05:32.773   662   811 D libnos_transport: Send app 2 go command 0x0002000a
+12-27 03:05:32.773   662   811 D libnos_transport: Polling app 2
+12-27 03:05:32.776  3616  4474 W adsz    : (REDACTED) IO exception for scope: %s
+12-27 03:05:32.776  3616  4474 W adsz    : java.io.IOException: NetworkError
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.accounts.AccountManager.convertErrorToException(AccountManager.java:2628)
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.accounts.AccountManager.-$$Nest$mconvertErrorToException(Unknown Source:0)
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.accounts.AccountManager$AmsTask$Response.onError(AccountManager.java:2479)
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.accounts.IAccountManagerResponse$Stub.onTransact(IAccountManagerResponse.java:107)
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.os.Binder.execTransactInternal(Binder.java:1285)
+12-27 03:05:32.776  3616  4474 W adsz    : 	at android.os.Binder.execTransact(Binder.java:1244)
+12-27 03:05:32.804   662   811 D libnos_transport: App 2 polled=15 status=0x80000000 reply_len=17 flags=0x0000
+12-27 03:05:32.804   662   811 D libnos_transport: Read app 2 reply data (17 bytes)
+12-27 03:05:32.805   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.806   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.808   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.808   662   811 D libnos_transport: Send app 2 command data (407 bytes)
+12-27 03:05:32.811   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.812   662   811 D libnos_transport: Polling app 2
+12-27 03:05:32.818   662   811 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:32.818   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:32.819   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.819   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.821   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.821   662   811 D libnos_transport: Send app 2 command data (407 bytes)
+12-27 03:05:32.824   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.825   662   811 D libnos_transport: Polling app 2
+12-27 03:05:32.829   662   811 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:32.829   662   811 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:32.830   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.830   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.832   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.832   662   812 D libnos_transport: Send app 2 command data (59 bytes)
+12-27 03:05:32.833   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.833   662   812 D libnos_transport: Polling app 2
+12-27 03:05:32.837   662   812 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=2 flags=0x0000
+12-27 03:05:32.837   662   812 D libnos_transport: Read app 2 reply data (2 bytes)
+12-27 03:05:32.838   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.838   662   812 D libnos_transport: Calling App 2 with params 0x000c
+12-27 03:05:32.840   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.840   662   812 D libnos_transport: Send app 2 command data (20 bytes)
+12-27 03:05:32.841   662   812 D libnos_transport: Send app 2 go command 0x0002000c
+12-27 03:05:32.842   662   812 D libnos_transport: Polling app 2
+12-27 03:05:32.869   662   812 D libnos_transport: App 2 polled=13 status=0x80000000 reply_len=72 flags=0x0000
+12-27 03:05:32.869   662   812 D libnos_transport: Read app 2 reply data (72 bytes)
+12-27 03:05:32.871   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.882   662   812 D libnos_transport: Calling App 2 with params 0x000a
+12-27 03:05:32.884   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.884   662   812 D libnos_transport: Send app 2 command data (1564 bytes)
+12-27 03:05:32.895   662   812 D libnos_transport: Send app 2 go command 0x0002000a
+12-27 03:05:32.895   662   812 D libnos_transport: Polling app 2
+12-27 03:05:32.906   662   812 D libnos_transport: App 2 polled=5 status=0x80000000 reply_len=18 flags=0x0000
+12-27 03:05:32.906   662   812 D libnos_transport: Read app 2 reply data (18 bytes)
+12-27 03:05:32.907   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.909   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.911   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.911   662   812 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 03:05:32.914   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.915   662   812 D libnos_transport: Polling app 2
+12-27 03:05:32.921   662   812 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:32.921   662   812 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:32.922   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.922   662   812 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.925   662   812 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.925   662   812 D libnos_transport: Send app 2 command data (408 bytes)
+12-27 03:05:32.928   662   812 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.929   662   812 D libnos_transport: Polling app 2
+12-27 03:05:32.935   662   812 D libnos_transport: App 2 polled=3 status=0x80000000 reply_len=3 flags=0x0000
+12-27 03:05:32.935   662   812 D libnos_transport: Read app 2 reply data (3 bytes)
+12-27 03:05:32.937   662   812 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.937   662   811 D libnos_transport: Calling App 2 with params 0x000b
+12-27 03:05:32.940   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.940   662   811 D libnos_transport: Send app 2 command data (60 bytes)
+12-27 03:05:32.941   662   811 D libnos_transport: Send app 2 go command 0x0002000b
+12-27 03:05:32.942   662   811 D libnos_transport: Polling app 2
+12-27 03:05:32.946   662   811 D libnos_transport: App 2 polled=2 status=0x80000000 reply_len=2 flags=0x0000
+12-27 03:05:32.946   662   811 D libnos_transport: Read app 2 reply data (2 bytes)
+12-27 03:05:32.947   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:32.947   662   811 D libnos_transport: Calling App 2 with params 0x000c
+12-27 03:05:32.949   662   811 D libnos_transport: App 2 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:32.949   662   811 D libnos_transport: Send app 2 command data (21 bytes)
+12-27 03:05:32.950   662   811 D libnos_transport: Send app 2 go command 0x0002000c
+12-27 03:05:32.950   662   811 D libnos_transport: Polling app 2
+12-27 03:05:32.976   662   811 D libnos_transport: App 2 polled=12 status=0x80000000 reply_len=73 flags=0x0000
+12-27 03:05:32.976   662   811 D libnos_transport: Read app 2 reply data (73 bytes)
+12-27 03:05:32.977   662   811 D libnos_transport: App 2 returning 0x0
+12-27 03:05:33.470  3253  4058 I bctd    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+12-27 03:05:33.478   662   677 D libnos_transport: Calling App 0 with params 0x0200
+12-27 03:05:33.480   662   677 D libnos_transport: App 0 inspection status=0x00000000 reply_len=0 protocol=1 flags=0x0000
+12-27 03:05:33.480   662   677 D libnos_transport: Send app 0 command data (0 bytes)
+12-27 03:05:33.481   662   677 D libnos_transport: Send app 0 go command 0x00000200
+12-27 03:05:33.482   662   677 D libnos_transport: Polling app 0
+12-27 03:05:33.486   662   677 D libnos_transport: App 0 polled=2 status=0x80000000 reply_len=92 flags=0x0000
+12-27 03:05:33.486   662   677 D libnos_transport: Read app 0 reply data (92 bytes)
+12-27 03:05:33.487   662   677 D libnos_transport: App 0 returning 0x0
+12-27 03:05:33.545  2421  2421 V DeadZone: consuming errant click: (540.0,32.0)
+12-27 03:05:33.545  2421  2421 V DeadZone: consuming errant click: (540.0,32.0)
+12-27 03:05:33.585  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 2, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333333, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 03:05:33.618  3616  4021 I fbvx    : Running throttled refresh
+12-27 03:05:33.821  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:33.821  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:33.893  2517  9803 D TrafficStats: tagSocket(96) with statsTag=0xffffff81, statsUid=-1
+12-27 03:05:34.059  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 03:05:34.602  1885  4624 D InputDispatcher: Touch mode switch rejected, caller (pid=0, uid=10242) doesn't own the focused window nor none of the previously interacted window
+12-27 03:05:34.612  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2045 
+12-27 03:05:34.613  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-27 03:05:34.613  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1311 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.androidrn, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=25, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-27 03:05:34.614  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-27 03:05:35.083  1885  3317 W ActivityManager: Background start not allowed: service Intent { cmp=com.zhiliaoapp.musically/com.bytedance.common.wschannel.client.WsClientService } to com.zhiliaoapp.musically/com.bytedance.common.wschannel.client.WsClientService from pid=3956 uid=10237 pkg=com.zhiliaoapp.musically startFg?=false
+12-27 03:05:35.086  3956  9229 W jato    : UpdateProcessState:1
+12-27 03:05:35.087  3956  9229 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 03:05:35.092  3956  9229 W jato    : UpdateProcessState:1
+12-27 03:05:35.092  3956  9229 W jato    : PrePageFault RuntimeUpdateProcessState:0
+12-27 03:05:35.597  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333332, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 03:05:35.618  2526  2561 W ssioncontroller: Cleared Reference was only reachable from finalizer (only reported once)
+12-27 03:05:35.736  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 2, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333333, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 03:05:35.808  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:35.808  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:36.297  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:36.297  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:37.077  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 03:05:37.213  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333332, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 03:05:38.531  1885  4629 D OomAdjuster: Not killing cached processes
+12-27 03:05:38.823  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:38.823  9661  9728 W unknown:ReactNative: StatusBarModule: Ignored status bar change, current activity is edge-to-edge.
+12-27 03:05:38.852  9930  9930 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+12-27 03:05:38.868   654   654 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+12-27 03:05:38.869  9930  9931 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-27 03:05:38.869  9930  9931 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-27 03:05:38.866  9930  9930 W binder:9930_1: type=1400 audit(0.0:361): avc: denied { read } for name="gpu_model" dev="sysfs" ino=64126 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_msm_subsys:s0 tclass=file permissive=0
+12-27 03:05:38.949  2412  2412 D wpa_supplicant: wlan0: BSS: Remove id 1 BSSID 7a:39:89:e2:b8:8b SSID '' due to wpa_bss_flush_by_age
+12-27 03:05:38.949  2412  2412 D wpa_supplicant: CTRL-DEBUG: ctrl_sock-sendmsg: sock=14 sndbuf=229376 outq=0 send_len=42
+12-27 03:05:38.949  2412  2412 D wpa_supplicant: CTRL_IFACE monitor sent successfully to /data/vendor/wifi/wpa/sockets/wpa_ctrl_1410-2\x00

@@ -1,0 +1,17 @@
+SER=99091FFA1G66MC
+TS=20260210_180948
+NOW=reports/ui_now_20260210_180948.png
+HOME=reports/ui_home_20260210_180948.png
+TERM=reports/ui_terminal_20260210_180948.png
+--- HOME_HITS
+1:Terminals
+4:SSH SESSIONS
+13:claude-proof-1770662260
+19:claude-rawproof-1770662770
+22:等待 TUI 刷新…
+--- TERM_HITS
+3:claude-proof-1770662260
+4:claude-rawproof-1770662770
+16:⎿  ◻ do-ai 服务端去 tmux 依赖运行               ✔ B实现 xterm.dart 终端渲染引擎B  ✔ B集成 do-ai relay API（借鉴 FlClash）B
+20:────────────────────────────────────────────────────────B⏵⏵ bypass permissions onB (shift+tab to cycle) · esc to interrupt · ctrl+t to hB
+23:R37539 • 27

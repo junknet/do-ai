@@ -1,0 +1,4 @@
+1:Script started on 2026-02-09 20:35:53+08:00 [COMMAND="DO_AI_RELAY_URL=http://127.0.0.1:19791 DO_AI_RELAY_TOKEN=doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff DO_AI_SESSION_NAME=real-installed-fallback-proof-1770640600 DO_AI_DEBUG=1 do-ai 8s bash -lc 'echo INSTALLED_FALLBACK_PROOF'" <not executed on terminal>]
+2:[CRITICAL] [STATE_INVALID] DO_AI_RELAY_URL="http://127.0.0.1:19791" 本地不可达，已回退到默认 relay=http://47.110.255.240:18787/api/v1/heartbeat
+3:[do-ai] relay 上报已启用: http://47.110.255.240:18787/api/v1/heartbeat session_id=do-junknet-home-1770640553735905158
+4:INSTALLED_FALLBACK_PROOF

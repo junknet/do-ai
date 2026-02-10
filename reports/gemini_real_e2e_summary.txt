@@ -1,0 +1,3 @@
+session_id=do-junknet-home-1770752353019951652
+ready_token=TMUX_E2E_READY
+second_token=TMUX_E2E_SECOND

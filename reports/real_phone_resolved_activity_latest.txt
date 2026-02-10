@@ -1,0 +1,1 @@
+activity=com.anonymous.androidrn/.MainActivity

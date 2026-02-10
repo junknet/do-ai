@@ -7,3 +7,16 @@
 # Go tooling
 *.test
 *.out
+
+# 微信公众号敏感配置
+wx/.env
+wx/.token_cache.json
+wx/__pycache__/
+wx/.venv/
+
+# Android RN / E2E
+app/android-rn/node_modules/
+app/android-rn/.expo/
+tests/e2e/node_modules/
+tests/e2e/test-results/
+tests/e2e/playwright-report/

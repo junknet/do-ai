@@ -1,0 +1,7 @@
+{
+  "session_id": "do-junknet-home-1770639063815151020",
+  "state": "running",
+  "online": false,
+  "updated_at": 1770639064,
+  "age_seconds": 133
+}

@@ -1,0 +1,4 @@
+[do-ai] relay 上报已启用: http://127.0.0.1:19791/api/v1/heartbeat session_id=do-junknet-home-1770639389196966500
+bash: -c: line 2: syntax error near unexpected token `2'
+bash: -c: line 2: `2'
+[do-ai] relay 上报失败: Post "http://127.0.0.1:19791/api/v1/heartbeat": dial tcp 127.0.0.1:19791: connect: connection refused

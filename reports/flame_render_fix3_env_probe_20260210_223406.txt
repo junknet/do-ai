@@ -1,0 +1,3 @@
+[2;1HTERM=xterm-256color
+COLORTERM=truecolor
+NO_COLOR=

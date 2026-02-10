@@ -1,0 +1,52 @@
+[STEP] relay health
+{"ok":true}
+[STEP] adb devices
+List of devices attached
+99091FFA1G66MC         device usb:1-4 product:flame model:Pixel_4 device:flame transport_id:3
+
+[STEP] bin
+-rwxr-xr-x 1 junknet junknet 7.0M Feb 11 01:00 /home/junknet/Desktop/do-ai/tmp/do-ai-phone-gui-e2e
+[INFO] started host do-ai+claude pid=46393
+[INFO] session_id=do-junknet-home-1770745346479682585
+=== E2E Claude TUI Soak 真机证据 ===
+session_name=e2e-claude-tui-phone-soak-20260211_014226
+commands=/help | 请仅回复 CLAUDE_SOAK_TOKEN_20260211_014226 | /status
+-rw-r--r-- 1 junknet junknet  769 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_analysis_20260211_014226.txt
+-rw-r--r-- 1 junknet junknet  260 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_control_1_20260211_014226.json
+-rw-r--r-- 1 junknet junknet  313 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_control_2_20260211_014226.json
+-rw-r--r-- 1 junknet junknet  262 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_control_3_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 307K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_home_20260211_014226.png
+-rw-r--r-- 1 junknet junknet  73K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_list_3_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 224K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_output_20260211_014226.log
+-rw-r--r-- 1 junknet junknet  548 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_run_20260211_014226.log
+-rw-r--r-- 1 junknet junknet  318 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_screen_0_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 110K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_screen_1_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 110K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_screen_2_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 110K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_screen_3_20260211_014226.json
+-rw-r--r-- 1 junknet junknet  770 Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_sessions_20260211_014226.json
+-rw-r--r-- 1 junknet junknet 307K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_terminal_1_20260211_014226.png
+-rw-r--r-- 1 junknet junknet 312K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_terminal_2_20260211_014226.png
+-rw-r--r-- 1 junknet junknet 312K Feb 11 01:42 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_soak_terminal_3_20260211_014226.png
+
+=== E2E Claude TUI Soak 真机断言 ===
+session_command=claude --dangerously-skip-permissions --continue
+state=running
+revision_chain=492->496->496->496
+会话命令是 claude: PASS
+三次 control/send 均成功: PASS
+三次远程输入均记录: FAIL
+注入日志 bracketed=true: PASS
+screen revision 递增: PASS
+screen 含 TUI 结构文本: PASS
+无运行时崩溃关键字: PASS
+overall=FAIL
+
+=== screen3 前8行 ===
+L00:   名以触发 bracketed paste。
+L01: 
+L02: ● Bash(# 在真机上运行 E2E 测试
+L03:       # 使用 DO_AI_IDLE=8s，短周期测试…)
+L04:   ⎿  lrwxrwxrwx 1 shell shell 18 2025-12-27 13:50 /data/local/tmp/codex ->
+L05:      /system/bin/sh
+L06: 
+L07: ● Bash(# 在真机上运行 do-ai E2E，用 codex (symlink -> sh) 作为目标

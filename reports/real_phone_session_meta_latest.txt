@@ -1,0 +1,2 @@
+session_name=real-phone-e2e-1770639063
+session_id=do-junknet-home-1770639063815151020

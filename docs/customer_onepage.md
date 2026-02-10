@@ -56,11 +56,7 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 ./do-ai 2m30s codex
 ```
 
-**规则**：连续 3 分钟无可见输出 → 自动输入（可通过 YAML 配置覆盖）：
-
-```
-继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。
-```
+**规则**：连续 3 分钟无可见输出 → 自动输入内置提示词（可通过 YAML 配置覆盖，支持 `{LOCK_FILE}` 占位符）。
 
 并且每 5 次注入会插入一次“校准提示”：
 

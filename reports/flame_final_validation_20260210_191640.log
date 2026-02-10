@@ -1,0 +1,11 @@
+=== GO TEST ===
+ok  	do-ai/src	(cached)
+
+=== TSC ===
+
+=== RELAY HEALTH ===
+{"ok":true}
+=== ANDROID DEVICES ===
+List of devices attached
+99091FFA1G66MC         device usb:1-4 product:flame model:Pixel_4 device:flame transport_id:3
+

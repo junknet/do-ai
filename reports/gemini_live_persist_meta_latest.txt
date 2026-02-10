@@ -1,0 +1,3 @@
+session_name=gemini-live-persist-20260211_034936
+session_id=do-junknet-home-1770752976678328918
+pid=2831156

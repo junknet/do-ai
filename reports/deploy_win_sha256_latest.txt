@@ -1,0 +1,1 @@
+09f89ef86f389ef8823201ddca5109ed078eba27ec5d2e381f61769934400874  dist/do-ai-windows-amd64.exe

@@ -1,0 +1,18 @@
+{
+  "session_id": "do-junknet-home-1770639757179974107",
+  "session_name": "real-live-tty-1770639800",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "bash -lc echo LIVE_TTY_BEGIN; while true; do date +LIVE_TTY_TICK_%s; sleep 2; done",
+  "pid": 932414,
+  "state": "running",
+  "started_at": 1770639757,
+  "updated_at": 1770639787,
+  "last_output_at": 1770639785,
+  "idle_seconds": 1,
+  "last_text": "LIVE_TTY_TICK_1770639785",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": true,
+  "age_seconds": 0
+}

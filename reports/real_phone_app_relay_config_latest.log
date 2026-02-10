@@ -1,0 +1,13 @@
+74:const RELAY_URL = 'http://47.110.255.240:18787';
+75:const RELAY_TOKEN =
+76:  'doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff';
+189:  const traceId = nowTraceId('relay');
+192:  // logState('info', { trace_id: traceId, event: 'relay_req', path });
+194:  const response = await fetch(`${RELAY_URL}${path}`, {
+198:      'X-Relay-Token': RELAY_TOKEN,
+223:      const data = await fetchRelayJson<SessionsResponse>('/api/v1/sessions');
+245:  await fetchRelayJson('/api/v1/control/send', {
+277:      await fetchRelayJson('/api/v1/control/send', {
+293:    `/api/v1/output/list?session_id=${encodeURIComponent(sessionId)}&tail=1&limit=260`,
+299:    `/api/v1/output/screen?session_id=${encodeURIComponent(sessionId)}&limit=260`,
+305:    `/api/v1/output/list?session_id=${encodeURIComponent(sessionId)}&before=${beforeSeq}&limit=220`,

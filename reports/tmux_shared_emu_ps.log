@@ -1,0 +1,2 @@
+842:junknet  2749831 1976848  0 00:34 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && adb devices -l | tee -a reports/tmux_shared_adb_devices.log && ps -ef | rg "emulator.*Small_Phone|qemu-system" -n | tee reports/tmux_shared_emu_ps.log
+844:junknet  2749835 2749831  0 00:34 ?        00:00:00 rg emulator.*Small_Phone|qemu-system -n

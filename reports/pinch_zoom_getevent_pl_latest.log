@@ -1,0 +1,31 @@
+add device 1: /dev/input/event2
+  name:     "fts"
+  events:
+    KEY (0001): KEY_W                 KEY_E                 KEY_O                 KEY_LEFTBRACE        
+                KEY_RIGHTBRACE        KEY_S                 KEY_F                 KEY_L                
+                KEY_Z                 KEY_C                 KEY_V                 KEY_M                
+                KEY_F1                KEY_F2                KEY_F3                KEY_F4               
+                KEY_F5                KEY_UP                KEY_LEFT              KEY_RIGHT            
+                KEY_DOWN              KEY_WAKEUP            KEY_WWW               BTN_TOUCH            
+    ABS (0003): ABS_MT_SLOT           : value 1, min 0, max 9, fuzz 0, flat 0, resolution 0
+                ABS_MT_TOUCH_MAJOR    : value 0, min 0, max 127, fuzz 0, flat 0, resolution 0
+                ABS_MT_TOUCH_MINOR    : value 0, min 0, max 127, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_X     : value 0, min 0, max 1079, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_Y     : value 0, min 0, max 2279, fuzz 0, flat 0, resolution 0
+                ABS_MT_TRACKING_ID    : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+                ABS_MT_PRESSURE       : value 0, min 0, max 127, fuzz 0, flat 0, resolution 0
+                ABS_MT_DISTANCE       : value 0, min 0, max 127, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 2: /dev/input/event0
+  name:     "qpnp_pon"
+  events:
+    KEY (0001): KEY_VOLUMEDOWN        KEY_POWER            
+  input props:
+    <none>
+add device 3: /dev/input/event1
+  name:     "gpio-keys"
+  events:
+    KEY (0001): KEY_VOLUMEUP         
+  input props:
+    <none>

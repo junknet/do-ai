@@ -1,0 +1,18 @@
+2:  ACTIVITY com.android.settings/.Settings$WifiSettingsActivity 4bb0ec4 pid=2766
+4:      mResumed=false mStopped=true mFinished=false
+298:      mCreated=true mResumed=false mStopped=true    Active Fragments:
+330:TASK 10242:com.anonymous.androidrn id=845 userId=0
+331:  ACTIVITY com.anonymous.androidrn/.MainActivity 3d4e606 pid=16900
+333:      mResumed=false mStopped=true mFinished=false
+380:       mInputChannel: fb8d1f9 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity (client)
+385:          mChannel = fb8d1f9 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity (client)
+477:          context: com.anonymous.androidrn.MainActivity@65a89de
+499:      mCreated=true mResumed=false mStopped=true    Back Stack Index: 0
+506:  ACTIVITY com.google.android.apps.nexuslauncher/.NexusLauncherActivity 120b397 pid=2875
+508:      mResumed=true mStopped=false mFinished=false
+538:       mInputChannel: d063e32 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity (client)
+543:          mChannel = d063e32 com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity (client)
+576:      DecorView@1c9440b[NexusLauncherActivity]
+703:          context: com.google.android.apps.nexuslauncher.NexusLauncherActivity@fbf280a
+1090:    	mSurface=Surface(name=com.google.android.apps.nexuslauncher/com.google.android.apps.nexuslauncher.NexusLauncherActivity)/@0xd0cfce4
+1100:NexusLauncher

@@ -1,0 +1,2 @@
+    PID    PPID STAT     ELAPSED CMD
+ 803128  803118 SN         00:22 script -q -c DO_AI_RELAY_URL=http://47.110.255.240:18787/api/v1/heartbeat DO_AI_RELAY_TOKEN=doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff DO_AI_SESSION_NAME=real-online-force-1770639464 DO_AI_DEBUG=1 do-ai 300s bash -lc 'echo ONLINE_FORCE_BEGIN; while true; do date +ONLINE_FORCE_TICK_%s; sleep 2; done' reports/real_phone_doai_force_remote_session_latest.log

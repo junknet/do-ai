@@ -1,0 +1,13 @@
+(node:1241511) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:1241511) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+[WARN] [ImportProcessor] Could not find child token in parent raw content. Aborting parsing for this branch. Child raw: "版本：3.2.0 | 更新：2026-02-08
+适用：Claude / Codex / Gemini"
+[WARN] [ImportProcessor] Could not find child token in parent raw content. Aborting parsing for this branch. Child raw: "📅 **最后更新**：2026-01-04
+🎯 **核心定位**：高频量化交易研发、安卓底层安全逆向、自动化工程实战。"
+Session cleanup disabled: Either maxAge or maxCount must be specified
+Loaded cached credentials.
+Server 'context7' supports tool updates. Listening for changes...
+MCP server 'agent-mem-remote': HTTP connection failed, attempting SSE fallback...
+MCP server 'agent-mem-remote': SSE fallback also failed.
+DOAI_GEMINI_REAL_OK

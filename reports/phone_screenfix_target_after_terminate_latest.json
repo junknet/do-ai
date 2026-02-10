@@ -1,0 +1,18 @@
+{
+  "session_id": "do-junknet-home-1770642550990313646",
+  "session_name": "phone-screenfix-live-1770643200",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "bash -lc echo SCREENFIX_BEGIN; i=0; while true; do i=$((i+1)); echo SCREENFIX_LINE_$i; sleep 0.05; done",
+  "pid": 2168949,
+  "state": "exited",
+  "exit_code": 0,
+  "started_at": 1770642550,
+  "updated_at": 1770642821,
+  "last_output_at": 1770642821,
+  "last_text": "[exited]",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": false,
+  "age_seconds": 1
+}

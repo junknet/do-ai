@@ -1,0 +1,54 @@
+[INFO] started host do-ai+claude pid=3672897
+[STEP] wait session online...
+[INFO] session_id=do-junknet-home-1770743820262748558
+[STEP] wait interaction output...
+[INFO] tap session card @ 471,160
+=== E2E Claude TUI 真机证据 ===
+session_name=e2e-claude-tui-phone-20260211_011700
+prompt_token=CLAUDE_TUI_E2E_20260211_011700
+-rw-r--r-- 1 junknet junknet  965 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_analysis_20260211_011700.txt
+-rw-r--r-- 1 junknet junknet  320 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_control_send_20260211_011700.json
+-rw-r--r-- 1 junknet junknet  370 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_device_20260211_011700.log
+-rw-r--r-- 1 junknet junknet 304K Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_home_20260211_011700.png
+-rw-r--r-- 1 junknet junknet  73K Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_list_after_20260211_011700.json
+-rw-r--r-- 1 junknet junknet 222K Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_output_20260211_011700.log
+-rw-r--r-- 1 junknet junknet  327 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_run_20260211_011700.log
+-rw-r--r-- 1 junknet junknet 114K Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_screen_after_20260211_011700.json
+-rw-r--r-- 1 junknet junknet  318 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_screen_before_20260211_011700.json
+-rw-r--r-- 1 junknet junknet  767 Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_sessions_20260211_011700.json
+-rw-r--r-- 1 junknet junknet 304K Feb 11 01:17 /home/junknet/Desktop/do-ai/reports/e2e_claude_tui_phone_terminal_20260211_011700.png
+
+=== E2E Claude TUI 真机断言 ===
+session_command=claude --dangerously-skip-permissions --continue
+state=running
+kick_count=0
+control_send_ok=True
+bracketed=true in debug=True
+has ESC[200~ prefix=False
+has ESC[201~ suffix=False
+has_tui_shape=True
+has_prompt_token=False
+panic_or_crash_like=True
+line_count_before=1 revision_before=478
+line_count_after=260 revision_after=481
+output_event_count=320
+
+=== 屏幕后快照前10行 ===
+L00:       adb forward tcp:28787 tcp:18787 2>&1…)
+L01:   ⎿  28787
+L02:      {
+L03:        "count": 0,
+L04:      … +4 lines (ctrl+o to expand)
+L05: 
+L06: ● Relay 正常。现在在真机上运行 do-ai 包裹一个 shell 命令，用 codex 作为 target
+L07:   名以触发 bracketed paste。
+L08: 
+L09: ● Bash(# 在真机上运行 E2E 测试
+
+=== 结论 ===
+会话命令是 claude: PASS
+relay 控制发送成功: PASS
+存在 TUI 形态文本: PASS
+bracketed 开启并有前后缀: FAIL
+无 panic/crash: FAIL
+overall=FAIL

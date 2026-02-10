@@ -1,0 +1,5 @@
+home_has_1_active=False
+home_has_session_name=False
+term_has_screenfix_line=False
+home_package_ok=False
+term_package_ok=False

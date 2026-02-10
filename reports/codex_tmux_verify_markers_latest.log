@@ -1,0 +1,3 @@
+1:[do-ai] 启用 tmux 托管: session=do_ai_codex_verify target=codex
+66:[do-ai] relay tmux 输入: session=do_ai_codex_verify chars=1 err=<nil>
+67:[do-ai] relay tmux 提交: session=do_ai_codex_verify mode=enter err=<nil>

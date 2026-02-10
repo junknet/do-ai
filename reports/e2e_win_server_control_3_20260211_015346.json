@@ -1,0 +1,11 @@
+{
+    "command": {
+        "id": "cmd-1770746034569019741",
+        "session_id": "win-chromium-build-1770746026410872300",
+        "input": "dir C:\\tools\\do-ai.exe",
+        "submit": true,
+        "source": "e2e-win-3",
+        "created_at": 1770746034
+    },
+    "ok": true
+}

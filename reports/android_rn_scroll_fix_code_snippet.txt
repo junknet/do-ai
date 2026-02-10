@@ -1,0 +1,27 @@
+   944	                ))}
+   945	                <Animated.View
+   946	                  pointerEvents="none"
+   947	                  style={[
+   948	                    styles.termTabIndicator,
+   949	                    {
+   950	                      transform: [{ translateX: tabIndicatorX }],
+   951	                      width: tabIndicatorWidth,
+   952	                    },
+   953	                  ]}
+   954	                />
+   955	              </View>
+   956	            </ScrollView>
+   957	
+   958	            <View style={styles.termActionGroup}>
+   959	              <Pressable style={({ pressed }) => [styles.termActionBtn, pressed && styles.pressDown]} onPress={toggleSortMode}>
+   960	                <Text style={[styles.termActionText, sortMode && styles.textBlue]}>{sortMode ? '✓' : '⇅'}</Text>
+   961	              </Pressable>
+   962	              <Pressable style={({ pressed }) => [styles.termActionBtn, pressed && styles.pressDown]} onPress={refreshTerminal}>
+   963	                <Text style={styles.termActionText}>↻</Text>
+   964	              </Pressable>
+   965	            </View>
+   966	          </View>
+   967	          <View style={styles.termProgressTrack}>
+   968	            <Animated.View
+   969	              style={[
+   970	                styles.termProgressBar,

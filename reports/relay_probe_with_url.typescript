@@ -1,0 +1,4 @@
+Script started on 2026-02-08 23:21:52+08:00 [COMMAND="DO_AI_DEBUG=1 DO_AI_RELAY_URL=http://127.0.0.1:18787/api/v1/heartbeat timeout 4 ./do-ai 60s sh -lc 'sleep 3'" <not executed on terminal>]
+[do-ai] relay 上报已启用: http://127.0.0.1:18787/api/v1/heartbeat session_id=do-junknet-home-1770564112494945002
+
+Script done on 2026-02-08 23:21:55+08:00 [COMMAND_EXIT_CODE="0"]

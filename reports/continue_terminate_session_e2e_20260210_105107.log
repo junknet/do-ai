@@ -1,0 +1,6 @@
+[INFO] 2026-02-10T10:51:14+08:00 terminate_session_e2e
+[TERMINATE-E2E] build do-ai
+[TERMINATE-E2E] start relay @ http://127.0.0.1:19789
+[TERMINATE-E2E] start do-ai session (cat)
+[TERMINATE-E2E] session_id=do-junknet-home-1770691874561102398
+[TERMINATE-E2E] PASS

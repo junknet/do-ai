@@ -1,0 +1,7 @@
+junknet  1087188    1105  0 02:37 ?        00:00:44 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1140410    1105  0 02:40 ?        00:00:34 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1212875    1105  0 02:43 ?        00:00:34 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1271561    1105  0 02:46 ?        00:00:43 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1585793    1105  0 20:25 ?        00:00:00 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1585800 1585793  0 20:25 pts/36   00:00:00 tmux -2 new-session -A -s do_ai_claude_color_20260210_202513 env -u NO_COLOR TERM=xterm-256color COLORTERM=truecolor sh -lc 'claude' '--dangerously-skip-permissions' '--continue'
+junknet  3933904 2724575  0 19:06 pts/1    00:00:02 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue

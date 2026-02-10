@@ -1,0 +1,300 @@
+12-27 16:05:05.692  1885  1885 D CompatibilityChangeReporter: Compat change id reported: 171306433; UID 10242; state: ENABLED
+12-27 16:05:05.692  1885  1885 W AlarmManager: Package com.anonymous.androidrn, uid 10242 lost permission to set exact alarms!
+12-27 16:05:05.692  3616  3992 W aefq    : Abort, client detached.
+12-27 16:05:05.692  3616  3992 W aefq    : Abort, client detached.
+12-27 16:05:05.696 11306 11306 I EuiccGoogle: [2] EuiccServiceImpl.onCreate: onCreate Single-SIM mode: simCardState is 1
+12-27 16:05:05.698 11040 11040 I Finsky  : [2] ahej - Deduping intent android.intent.action.PACKAGE_ADDED
+12-27 16:05:05.698 11040 11061 I Finsky  : [59] RECEIVER_PACKAGE_MONITOR#logWorkEndAndFinishGoAsync: SUCCESS
+12-27 16:05:05.699  3308  3308 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-27 16:05:05.701 11040 11083 I Finsky  : [79] AIM: Got app ownership map. App counts: . Unique apps: 0
+12-27 16:05:05.701 11040 11083 E Finsky  : [79] [Counters] attempted to use a non-positive increment for: 4752
+12-27 16:05:05.705  9987  9987 I Finsky:background: [2] ahdz - Received: android.intent.action.PACKAGE_ADDED, [JxJlJVZUnUbrY8Ma3SOdctjE8yIi1f2_UVq0Z395Tvg]
+12-27 16:05:05.711  9987  9987 I Finsky:background: [2] ahdz - Deduping intent android.intent.action.PACKAGE_ADDED
+12-27 16:05:05.711  9987 10029 I Finsky:background: [79] RECEIVER_PACKAGE_MONITOR_BACKGROUND#logWorkEndAndFinishGoAsync: SUCCESS
+12-27 16:05:05.712  1885  2876 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package: flg=0x4000010 (has extras) } to com.google.android.apps.nbu.files/.documentbrowser.browselanding.rootcontainerlist.receiver.PackageChangeReceiver_Receiver
+12-27 16:05:05.714  9987 14308 I Finsky:background: [121] Wrote row to frosting DB: 2153
+12-27 16:05:05.715 11040 11083 E Finsky  : [79] [Counters] attempted to use a non-positive increment for: 4753
+12-27 16:05:05.718 14319 14319 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+12-27 16:05:05.720 14319 14319 I AndroidRuntime: Using default boot image
+12-27 16:05:05.720 14319 14319 I AndroidRuntime: Leaving lock profiling enabled
+12-27 16:05:05.729  1885  2063 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package: flg=0x4000010 (has extras) } to com.google.android.gms/.chimera.GmsIntentOperationService$PersistentTrustedReceiver
+12-27 16:05:05.729  1885  2063 W BroadcastQueue: Background execution not allowed: receiving Intent { act=android.intent.action.PACKAGE_REPLACED dat=package: flg=0x4000010 (has extras) } to com.google.android.gms/.gass.chimera.PackageChangeBroadcastReceiver
+12-27 16:05:05.734  1885  2620 W PackageManager: Cannot suspend package "com.android.vending": required for package verification
+12-27 16:05:05.734  1885  2620 W PackageManager: Cannot suspend package "com.google.android.apps.work.oobconfig": protected package
+12-27 16:05:05.734  1885  2620 W PackageManager: Cannot suspend the platform package: android
+12-27 16:05:05.734  1885  2620 W PackageManager: Cannot suspend package "com.google.android.permissioncontroller": required for permissions management
+12-27 16:05:05.734  1885  2620 W PackageManager: Cannot suspend package "com.google.android.dialer": is the default dialer
+12-27 16:05:05.735  1885  2620 W PackageManager: Cannot suspend package "com.google.android.packageinstaller": required for package installation
+12-27 16:05:05.735  1885  2620 W PackageManager: Cannot suspend package "com.google.android.apps.nexuslauncher": contains the active launcher
+12-27 16:05:05.736 11040 11077 I Finsky  : [74] AIM: AppInfoManager-Perf > ItemModel > CacheSize=63, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=3. Missed  in cache (limit 10) : []
+12-27 16:05:05.737 11040 11077 I Finsky  : [74] AIM: AppInfoManager-Perf > ItemModel > CacheSize=63, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=3. Missed  in cache (limit 10) : []
+12-27 16:05:05.744  3090 14324 I ProximityAuth: [RecentAppsMediator] Package added: (user=UserHandle{0}) com.anonymous.androidrn
+12-27 16:05:05.746  3308  3308 D RegisteredNfcFServicesCache: Service unchanged, not updating
+12-27 16:05:05.748  2731  2764 D SecureElementService: getReaders() for com.android.nfc
+12-27 16:05:05.748 11306 14328 I EuiccGoogle: [103] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-27 16:05:05.752 11306 14328 W EuiccGoogle: [103] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-27 16:05:05.753 11040 11077 I Finsky  : [74] AIM: AppInfoManager-Perf > ItemModel > CacheSize=63, cacheHitCount=0, cacheMissCount=0, total appsWithNoServerDataCount=3. Missed  in cache (limit 10) : []
+12-27 16:05:05.755 11306 14345 I EuiccGoogle: [104] EuiccServiceImpl.onGetEuiccProfileInfoList: onGetEuiccProfileInfoList: slotId = -1
+12-27 16:05:05.759  2731  2764 D SecureElementService: getReaders() for com.android.nfc
+12-27 16:05:05.760  3090 14326 I Fitness : (REDACTED) FitCleanupIntentOperation received Intent %s
+12-27 16:05:05.769 11278 11388 I PermissionControllerServiceImpl: Updating user sensitive for uid 10242
+12-27 16:05:05.770  1885  2126 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.apk
+12-27 16:05:05.774 11306 14345 W EuiccGoogle: [104] EuiccServiceImpl.onGetEuiccProfileInfoList: slotId=-1. No eUICC is active. Return null.
+12-27 16:05:05.774 19229 14348 I Auth    : (REDACTED) [SupervisedAccountIntentOperation] onHandleIntent: %s
+12-27 16:05:05.781 19229 19229 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-27 16:05:05.781 19229 19229 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+12-27 16:05:05.789  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.793 19229 14352 I NearbyDiscovery: (REDACTED) processGrantSlicePermission: %s
+12-27 16:05:05.799 14319 14319 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+12-27 16:05:05.799 14319 14319 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt70l.dat
+12-27 16:05:05.810 11040 11077 I Finsky  : [74] AIM: AppInfoManager-Perf > getApps > data collection finished
+12-27 16:05:05.811 11040 11077 I Finsky  : [74] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 1
+12-27 16:05:05.822 14319 14319 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+12-27 16:05:05.823 14319 14319 W Monkey  : args: [-p, com.anonymous.androidrn, -c, android.intent.category.LAUNCHER, 1]
+12-27 16:05:05.823 14319 14319 W Monkey  :  arg: "-p"
+12-27 16:05:05.823 14319 14319 W Monkey  :  arg: "com.anonymous.androidrn"
+12-27 16:05:05.823 14319 14319 W Monkey  :  arg: "-c"
+12-27 16:05:05.823 14319 14319 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+12-27 16:05:05.823 14319 14319 W Monkey  :  arg: "1"
+12-27 16:05:05.823 14319 14319 W Monkey  : data="com.anonymous.androidrn"
+12-27 16:05:05.823 14319 14319 W Monkey  : data="android.intent.category.LAUNCHER"
+12-27 16:05:05.827  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 16:05:05.829 11040 11080 I Finsky  : [77] AIM: AppInfoManager-Perf > getApps > data collection finished
+12-27 16:05:05.829  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.829 11040 11080 I Finsky  : [77] AIM: AppInfoManager-Perf > maybeDestroyAppInfoManager is called. actives = 0
+12-27 16:05:05.831  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.832  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.835  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.836  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.838  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.840  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.841  3242  4243 I AiAiTextClassifier: [VisualCortexAdapter]: provideRegistration: Registered Prominent Screen Entities for updates.
+12-27 16:05:05.842  1885  2063 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{8a4d119 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{838d5de 14319 (unknown name)/2000/u-1 remote:266463}: process gone or crashing
+12-27 16:05:05.852  1885  2062 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+12-27 16:05:05.854  2421  2432 I ndroid.systemui: Background concurrent copying GC freed 21658(1160KB) AllocSpace objects, 1(20KB) LOS objects, 75% free, 9987KB/39MB, paused 49us,30us total 281.535ms
+12-27 16:05:05.856  2421  2434 W System  : A resource failed to call release. 
+12-27 16:05:05.858  1885  3805 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.anonymous.androidrn/.MainActivity} from uid 2000
+12-27 16:05:05.861  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 194480991; UID 10242; state: ENABLED
+12-27 16:05:05.863 19229 14330 W SQLiteLog: (28) double-quoted string literal: "com.anonymous.androidrn"
+12-27 16:05:05.864  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 197654537; UID 10242; state: ENABLED
+12-27 16:05:05.865  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 205907456; UID 10242; state: ENABLED
+12-27 16:05:05.866  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 194833441; UID 10242; state: ENABLED
+12-27 16:05:05.867 14319 14319 I Monkey  : Events injected: 1
+12-27 16:05:05.873  1885  2062 W WindowMagnificationMgr: requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+12-27 16:05:05.873  1885  2049 D CompatibilityChangeReporter: Compat change id reported: 135634846; UID 10242; state: DISABLED
+12-27 16:05:05.873  1885  2049 D CompatibilityChangeReporter: Compat change id reported: 177438394; UID 10242; state: DISABLED
+12-27 16:05:05.873  1885  2049 D CompatibilityChangeReporter: Compat change id reported: 135772972; UID 10242; state: DISABLED
+12-27 16:05:05.873  1885  2049 D CompatibilityChangeReporter: Compat change id reported: 135754954; UID 10242; state: ENABLED
+12-27 16:05:05.873  1885  2064 D CompatibilityChangeReporter: Compat change id reported: 143937733; UID 10242; state: ENABLED
+12-27 16:05:05.874   718   718 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+12-27 16:05:05.878  1073  1073 D Zygote  : Forked child process 14376
+12-27 16:05:05.881  1885  2064 I ActivityManager: Start proc 14376:com.anonymous.androidrn/u0a242 for next-top-activity {com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+12-27 16:05:05.882 14319 14319 I Monkey  : ## Network stats: elapsed time=28ms (0ms mobile, 0ms wifi, 28ms not connected)
+12-27 16:05:05.882 14319 14319 I app_process: System.exit called, status: 0
+12-27 16:05:05.882 14319 14319 I AndroidRuntime: VM exiting with result code 0.
+12-27 16:05:05.892 14376 14376 I ymous.androidrn: Late-enabling -Xcheck:jni
+12-27 16:05:05.893  1885  4629 D CoreBackPreview: Window{ce6ec6 u0 Splash Screen com.anonymous.androidrn}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@bb5cb60, mPriority=0}
+12-27 16:05:05.897 19229 19237 I gle.android.gms: Background concurrent copying GC freed 10898(713KB) AllocSpace objects, 0(0B) LOS objects, 75% free, 11MB/44MB, paused 23us,39us total 355.417ms
+12-27 16:05:05.898  3616  3960 I alng    : (REDACTED) remove existing package for update: %s
+12-27 16:05:05.899  3616 14321 I dxbq    : (REDACTED) soft deleting data for %s
+12-27 16:05:05.900  2421  2472 W Parcel  : Expecting binder but got null!
+12-27 16:05:05.908  3616  3906 I dxbg    : Scheduling deletion propagation for Geller data.
+12-27 16:05:05.909  2510  2510 I WallpaperService: engine paused
+12-27 16:05:05.910  3616 14321 I dxbq    : (REDACTED) Writing data of size=%d bytes with N=%d keys to Geller corpus %s at ts=%d
+12-27 16:05:05.912  1124  1124 I sensors-hal: [hal]activate_physical_sensor:256, android.sensor.gyroscope/41 en=0
+12-27 16:05:05.913  3616  3906 I alng    : refreshDeviceAppInfoForAccount done.
+12-27 16:05:05.914  1124  1124 D Diag_Lib: diag: Diag_LSM_DeInit: invoked for pid: 1124
+12-27 16:05:05.914  1124  1124 D Diag_Lib: diag: Diag_LSM_DeInit: done for pid: 1124
+12-27 16:05:05.914  1124  1124 D Diag_Lib: diag: Diag_LSM_DeInit: invoked for pid: 1124
+12-27 16:05:05.914  1124  1124 D Diag_Lib: diag: Diag_LSM_DeInit: done for pid: 1124
+12-27 16:05:05.914  1124  1124 I sensors-hal: [hal]activate_physical_sensor:267, android.sensor.gyroscope/41 en=0 completed
+12-27 16:05:05.915  3616 14379 I dxbg    : Performing deletion propagation for Geller data.
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: log flick echo client com.breel.wallpapers19.view.controller.OsloController gesture 2 register false
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: Unregister, registered count 28 unregistered count 28 timestamp 47030312 elapsed duration 320
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: log reach echo client com.breel.wallpapers19.view.controller.OsloController gesture 5 register false
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: Unregister, registered count 28 unregistered count 28 timestamp 47030313 elapsed duration 320
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: log flick client com.breel.wallpapers19.view.controller.OsloController gesture 1 register false
+12-27 16:05:05.918  2641  2641 D Oslo.OsloMetrics: Unregister, registered count 28 unregistered count 28 timestamp 47030313 elapsed duration 319
+12-27 16:05:05.919  2641  2641 D Oslo.OsloMetrics: log reach client com.breel.wallpapers19.view.controller.OsloController gesture 4 register false
+12-27 16:05:05.919  2641  2641 D Oslo.OsloMetrics: Unregister, registered count 28 unregistered count 28 timestamp 47030313 elapsed duration 317
+12-27 16:05:05.920  3679  3679 I cuux    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+12-27 16:05:05.920  3679  3679 I cuux    : (REDACTED) onApplyWindowInsets: systemWindowInsets=%s
+12-27 16:05:05.933  1473  1626 I adbd    : jdwp connection from 14376
+12-27 16:05:05.934 19229 19939 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=AppsCorpus serviceId=36
+12-27 16:05:05.935  3616  4169 I alng    : refreshDeviceAppInfoForAccount done.
+12-27 16:05:05.945  3616  4169 W alng    : missing version info.
+12-27 16:05:05.948  3616  3992 W aefq    : Abort, client detached.
+12-27 16:05:05.948 14376 14376 D CompatibilityChangeReporter: Compat change id reported: 171979766; UID 10242; state: ENABLED
+12-27 16:05:05.951  3616  4169 W alng    : missing version info.
+12-27 16:05:05.954 14376 14376 W ziparchive: Unable to open '/data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.dm': No such file or directory
+12-27 16:05:05.954 14376 14376 W ziparchive: Unable to open '/data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.dm': No such file or directory
+12-27 16:05:05.959 19229 19229 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+12-27 16:05:05.959 19229 19229 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action:/... cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+12-27 16:05:05.959  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10132; state: DISABLED
+12-27 16:05:05.961  3090  3101 I .gms.persistent: Background concurrent copying GC freed 361479(14MB) AllocSpace objects, 43(1996KB) LOS objects, 75% free, 18MB/72MB, paused 29us,40us total 431.211ms
+12-27 16:05:05.964  1885  3317 D CompatibilityChangeReporter: Compat change id reported: 161252188; UID 10242; state: ENABLED
+12-27 16:05:05.967 19229 19939 I Icing   : IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+12-27 16:05:05.968  3679  3679 I cvbj    : onPause
+12-27 16:05:05.973 19229 21468 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+12-27 16:05:05.985  3242  3242 I AiAiEcho: (REDACTED) AppFetcherImpl onPackageChanged %s.
+12-27 16:05:05.987  3242 14399 I AiAiEcho: (REDACTED) AppIndexer Package:[%s] UserProfile:[%d] Enabled:[%s].
+12-27 16:05:05.987  3242 14399 I AiAiEcho: (REDACTED) AppFetcherImplV2 updateApps package:[%s], userId:[%d], reason:[%s].
+12-27 16:05:06.000 19229 21468 I Icing   : Usage reports ok 0, Failed Usage reports 0, indexed 0, rejected 0
+12-27 16:05:06.019 19229 21468 I Icing   : Indexing com.google.android.gms-apps from com.google.android.gms
+12-27 16:05:06.051 19229 21468 I Icing   : Indexing done com.google.android.gms-apps
+12-27 16:05:06.054  1885  1935 I system_server: Background concurrent copying GC freed 1170341(48MB) AllocSpace objects, 45(2404KB) LOS objects, 72% free, 36MB/132MB, paused 158us,79us total 494.016ms
+12-27 16:05:06.062  1885  1937 W System  : A resource failed to call release. 
+12-27 16:05:06.066  1885  1937 W System  : A resource failed to call close. 
+12-27 16:05:06.067  1885  1937 W System  : A resource failed to call close. 
+12-27 16:05:06.067  1885  1937 W System  : A resource failed to call close. 
+12-27 16:05:06.067  1885  1937 W System  : A resource failed to call close. 
+12-27 16:05:06.073  1885  2126 E VerityUtils: Failed to measure fs-verity, errno 1: /data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.apk
+12-27 16:05:06.134 14376 14376 V GraphicsEnvironment: ANGLE Developer option for 'com.anonymous.androidrn' set to: 'default'
+12-27 16:05:06.134 14376 14376 V GraphicsEnvironment: ANGLE GameManagerService for com.anonymous.androidrn: false
+12-27 16:05:06.135 14376 14376 V GraphicsEnvironment: Updatable production driver is not supported on the device.
+12-27 16:05:06.136 14376 14376 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-27 16:05:06.136 14376 14376 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+12-27 16:05:06.184 14376 14376 W FirebaseApp: Default FirebaseApp failed to initialize because no default options were found. This usually means that com.google.gms:google-services was not applied to your gradle project.
+12-27 16:05:06.184 14376 14376 I FirebaseInitProvider: FirebaseApp initialization unsuccessful
+12-27 16:05:06.194 14376 14376 W SoLoader: Initializing SoLoader: 0
+12-27 16:05:06.194 14376 14376 W SoLoader: Recording new base apk path: /data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.apk
+12-27 16:05:06.194 14376 14376 W SoLoader: Previously recorded 0 base apk paths.
+12-27 16:05:06.195 14376 14376 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+12-27 16:05:06.195 14376 14376 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+12-27 16:05:06.196 14376 14376 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.apk!/lib/arm64-v8a]]
+12-27 16:05:06.203 14376 14376 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/lib/arm64 flags = 0]]
+12-27 16:05:06.203 14376 14376 I SoLoader: init finish: 4 SO sources prepared
+12-27 16:05:06.203 14376 14376 W SoLoader: SoLoader initialized: 8
+12-27 16:05:06.229 14376 14376 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Entering merged library JNI_OnLoad.
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing 12 pre-merged libs (including stub)
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x76f124ace0
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x76f1444fc8
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x76f1453518
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x76f14bb6a8
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x76f16abcb4
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x76f16f96bc
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x76f170a044
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x76f1751764
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x76f1869f68
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x76f1882fb8
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x76f1892a3c
+12-27 16:05:06.266 14376 14376 D jni_lib_merge: About to register 11 actual methods.
+12-27 16:05:06.279 14376 14376 W SoLoader: SoLoader already initialized
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: Entering merged library JNI_OnLoad.
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x76ee5947e0
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x76ee5ca26c
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x76ee5cc2bc
+12-27 16:05:06.284 14376 14376 D jni_lib_merge: About to register 3 actual methods.
+12-27 16:05:06.285 14376 14376 W SoLoader: SoLoader already initialized
+12-27 16:05:06.311  1124  1124 I sensors-hal: [hal]batch_physical_sensor:319, android.sensor.accelerometer/11, period=66667000, max_latency=0
+12-27 16:05:06.311  1124  1124 I sensors-hal: [sensor]set_config:64, sample_period_ns is adjusted to 66667000 based on min/max delay_ns
+12-27 16:05:06.311  1124  1124 I sensors-hal: [hal]batch_physical_sensor:328, android.sensor.accelerometer/11, period=66667000, max_latency=0 request completed
+12-27 16:05:06.311  1124  1124 I sensors-hal: [hal]flush_physical_sensor:360, android.sensor.accelerometer/11
+12-27 16:05:06.311  1124  1124 I sensors-hal: [hal]flush_physical_sensor:366, android.sensor.accelerometer/11 completed
+12-27 16:05:06.312  1885  3805 D CompatibilityChangeReporter: Compat change id reported: 161145287; UID 10242; state: DISABLED
+12-27 16:05:06.312  1124  2393 I sensors-hal: [ssc_sensor]ssc_conn_resp_cb:685, resp_value = 0
+12-27 16:05:06.312  1124  2393 I sensors-hal: [ssc_sensor]ssc_conn_resp_cb:685, resp_value = 0
+12-27 16:05:06.334 14376 14413 D TrafficStats: tagSocket(79) with statsTag=0xffffffff, statsUid=-1
+12-27 16:05:06.334 14376 14414 D TrafficStats: tagSocket(80) with statsTag=0xffffffff, statsUid=-1
+12-27 16:05:06.334 14376 14412 D TrafficStats: tagSocket(82) with statsTag=0xffffffff, statsUid=-1
+12-27 16:05:06.335 14376 14376 W ymous.androidrn: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+12-27 16:05:06.336 14376 14414 W unknown:ReconnectingWebSocket: Couldn't connect to "ws://localhost:8081/message?device=Pixel%204%20-%2013%20-%20API%2033&app=com.anonymous.androidrn&clientid=BridgeDevSupportManager", will silently retry
+12-27 16:05:06.337 14376 14412 W unknown:ReactNative: The packager does not seem to be running as we got an IOException requesting its status: Failed to connect to localhost/127.0.0.1:8081
+12-27 16:05:06.349  1885  4151 D CoreBackPreview: Window{28ba9a u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e4543a8, mPriority=0}
+12-27 16:05:06.351 14376 14376 W unknown:ReactNative: Packager connection already open, nooping.
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: QUALCOMM build                   : 85da404, I46ff5fc46f
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Build Date                       : 11/30/20
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.31.04.01
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Local Branch                     : promo490_3_Google
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Remote Branch                    : 
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Remote Branch                    : 
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Reconstruct Branch               : 
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Build Config                     : S P 10.0.4 AArch64
+12-27 16:05:06.357 14376 14403 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+12-27 16:05:06.363 14376 14403 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+12-27 16:05:06.366 14376 14403 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-27 16:05:06.366 14376 14403 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-27 16:05:06.377   720   720 I SDM     : HWCDisplay::GetColorModeCount: Supported color mode count = 3
+12-27 16:05:06.382   654   654 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+12-27 16:05:06.392 14376 14403 W Parcel  : Expecting binder but got null!
+12-27 16:05:06.395  1885  2046 W ziparchive: Unable to open '/data/app/~~0PT9q5DpHzhhBLc7wWRgvA==/com.anonymous.androidrn-qnSGr_7MDOQBCFY6zgYLvQ==/base.dm': No such file or directory
+12-27 16:05:06.395  1885  2046 I ActivityTaskManager: Displayed com.anonymous.androidrn/.MainActivity: +537ms
+12-27 16:05:06.398  3679  3679 I cvbj    : onStop
+12-27 16:05:06.404  1885  3317 D CompatibilityChangeReporter: Compat change id reported: 214016041; UID 10242; state: ENABLED
+12-27 16:05:06.413  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2045 
+12-27 16:05:06.413  1885  3805 D CoreBackPreview: Window{ce6ec6 u0 Splash Screen com.anonymous.androidrn}: Setting back callback null
+12-27 16:05:06.413  1885  2876 W InputManager-JNI: Input channel object 'ce6ec6 Splash Screen com.anonymous.androidrn (client)' was disposed without first being removed with the input manager!
+12-27 16:05:06.414  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-27 16:05:06.414  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1311 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.androidrn, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-27 16:05:06.415  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-27 16:05:06.495  3190  3190 I APatchD : apd::supercall: [refresh_ap_package_list] Revoking 10236 root permission...
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 2000
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 W APatchD : apd::supercall: [refresh_ap_package_list] Skip revoking critical uid: 0
+12-27 16:05:06.495  3190  3190 I APatchD : apd::package: [synchronize_package_uid] Start synchronizing root list with system packages...
+12-27 16:05:06.497  3190  3190 I APatchD : apd::supercall: [refresh_ap_package_list] Loading com.miui.ai: result = 0
+12-27 16:05:06.505 14376 14425 I ExpoModulesCore: ✅ AppContext was initialized
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: Exception in native call
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: java.lang.RuntimeException: Unable to load script.
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: Make sure you're running Metro or that your bundle 'index.android.bundle' is packaged correctly for release.
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: The device must either be USB connected (with bundler set to "localhost:8081") or be on the same Wi-Fi network as your computer (with bundler set to your computer IP) to connect to Metro.
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: If you're using USB on a physical device, make sure you also run this command:
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative:   adb reverse tcp:8081 tcp:8081
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.jniLoadScriptFromAssets(Native Method)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.loadScriptFromAssets(CatalystInstanceImpl.java:245)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.bridge.JSBundleLoader$Companion$createAssetLoader$1.loadScript(JSBundleLoader.kt:33)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.bridge.CatalystInstanceImpl.runJSBundle(CatalystInstanceImpl.java:274)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.createReactContext(ReactInstanceManager.java:1525)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.lambda$runCreateReactContextOnNewThread$2(ReactInstanceManager.java:1222)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager.$r8$lambda$PrBhihCbbAFk4ZReAALGanVLCyc(Unknown Source:0)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at com.facebook.react.ReactInstanceManager$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+12-27 16:05:06.516 14376 14425 E unknown:ReactNative: 	at java.lang.Thread.run(Thread.java:1012)
+12-27 16:05:06.521 14376 14376 D CompatibilityChangeReporter: Compat change id reported: 171228096; UID 10242; state: ENABLED
+12-27 16:05:06.528 14376 14376 D CompatibilityChangeReporter: Compat change id reported: 210923482; UID 10242; state: ENABLED
+12-27 16:05:06.546  1885  2620 D CoreBackPreview: Window{eb10e69 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@577cfab, mPriority=0}
+12-27 16:05:06.628 14376 14403 W Parcel  : Expecting binder but got null!
+12-27 16:05:06.649  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():2045 
+12-27 16:05:06.650  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+12-27 16:05:06.651  3140  3140 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1311 onStartInput(EditorInfo{EditorInfo{packageName=com.anonymous.androidrn, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+12-27 16:05:06.652  3140  3140 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+12-27 16:05:06.855  3090  3106 I FontLog : (REDACTED) Received query %s, URI %s
+12-27 16:05:06.855  3090  3106 I FontLog : (REDACTED) Query [%s] resolved to %s
+12-27 16:05:06.856  3090  3106 I FontLog : (REDACTED) Fetch %s end status %s
+12-27 16:05:06.858  3090  3106 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-27 16:05:06.861  3090  3106 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+12-27 16:05:08.208  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333332, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 16:05:08.299  1885  2049 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947150978042497", 1080 x 2280, modeId 2, defaultModeId 1, supportedModes [{id=1, width=1080, height=2280, fps=60.000004, alternativeRefreshRates=[90.0]}, {id=2, width=1080, height=2280, fps=90.0, alternativeRefreshRates=[60.000004]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 440, 442.451 x 445.476 dpi, appVsyncOff 2333333, presDeadline 11500000, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de5e3a74a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.38188976, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=132, center=Point(132, 132)}, RoundedCorner{position=TopRight, radius=132, center=Point(948, 132)}, RoundedCorner{position=BottomRight, radius=132, center=Point(948, 2148)}, RoundedCorner{position=BottomLeft, radius=132, center=Point(132, 2148)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, installOrientation 0}
+12-27 16:05:08.354 14376 14414 D TrafficStats: tagSocket(106) with statsTag=0xffffffff, statsUid=-1
+12-27 16:05:08.409 14376 14413 D TrafficStats: tagSocket(104) with statsTag=0xffffffff, statsUid=-1
+12-27 16:05:08.414 14376 14376 I ReactNativeJNI: Error occurred, shutting down websocket connection: WebSocket exception Failed to connect to localhost/127.0.0.1:8081
+12-27 16:05:08.849  1885  2347 D ConnectivityService: NetReassign [no changes]
+12-27 16:05:09.987 14445 14445 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+12-27 16:05:10.010   654   654 I servicemanager: Could not find android.hardware.graphics.allocator.IAllocator/default in the VINTF manifest.
+12-27 16:05:10.012 14445 14446 W AdrenoUtils: <ReadGpuID_from_sysfs:197>: Failed to open /sys/class/kgsl/kgsl-3d0/gpu_model
+12-27 16:05:10.012 14445 14446 W AdrenoUtils: <ReadGpuID:221>: Failed to read chip ID from gpu_model. Fallback to use the GSL path
+12-27 16:05:10.010 14445 14445 W binder:14445_1: type=1400 audit(0.0:2655): avc: denied { read } for name="gpu_model" dev="sysfs" ino=64126 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs_msm_subsys:s0 tclass=file permissive=0
+12-27 16:05:10.362 14376 14414 D TrafficStats: tagSocket(86) with statsTag=0xffffffff, statsUid=-1

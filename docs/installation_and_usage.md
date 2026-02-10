@@ -72,7 +72,7 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 
 > 行为说明：只要连续 3 分钟没有“可见文本输出”，do-ai 自动注入（可通过 YAML 配置覆盖）：
 > 
-> **继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。**
+> **内置提示词（可通过 YAML 配置覆盖，支持 `{LOCK_FILE}` 占位符）。**
 
 也可直接在命令行第一个参数传入空闲时间（更简洁）：
 

@@ -1,0 +1,2 @@
+816:junknet  2886580 1976848  0 00:41 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && ps -ef | rg "./do-ai 600s cat|script -q -c DO_AI_DEBUG=1 DO_AI_IDLE=600s ./do-ai 600s cat|emulator.*Small_Phone|qemu-system" -n | tee reports/tmux_shared_processes_after_cleanup.log
+818:junknet  2886582 2886580  0 00:41 ?        00:00:00 rg ./do-ai 600s cat|script -q -c DO_AI_DEBUG=1 DO_AI_IDLE=600s ./do-ai 600s cat|emulator.*Small_Phone|qemu-system -n

@@ -1,0 +1,34 @@
+时间: 2026-02-11
+参考图: /home/junknet/Desktop/photo_2026-02-11_03-03-35.jpg
+
+已按参考风格完成 App 视觉改造（重点在 Terminal 模态）：
+1) 顶部 Header/Tab：
+- 改为深蓝调 header（#12163A）
+- 左侧返回按钮改为胶囊样式 + ‹ 图标
+- Tab 改为胶囊卡片，active 用绿色高亮（文本 + 边框）
+- 右侧动作按钮改为 + / ↻ 图标风格
+
+2) 终端主体：
+- 背景调成深蓝终端底色
+- 终端文本改为绿色系（更接近参考图终端感）
+- 状态浮层统一为蓝绿系对比
+
+3) 底部快捷键栏（Accessory）：
+- 改为浅色工具条
+- 快捷键改成图标化风格：☎ ✶ *** {} 📁 shift-tab ⌨
+- 与参考图“浅色底栏 + 图标键”一致
+
+4) 输入栏：
+- 改为浅色胶囊输入区
+- 输入文字与占位符改为深蓝文本系
+- 发送按钮改为高亮蓝
+
+验证：
+- TS 类型检查通过
+- Android assembleDebug 通过
+- adb 安装成功
+- 实机截图: reports/ui_style_ref_inapp_latest.png
+
+注意：
+- 当前截图仍是 Hosts 页（无 active session），所以看不到 terminal modal 内 tab 与底栏。
+- 一旦有 active session 打开 terminal，会显示本次重构的“参考图风格”头部与快捷栏。

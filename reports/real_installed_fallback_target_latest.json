@@ -1,0 +1,18 @@
+{
+  "session_id": "do-junknet-home-1770640447141699791",
+  "session_name": "real-installed-doai-fallback-1770640500",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "bash -lc echo INSTALLED_FALLBACK_OK",
+  "pid": 1237418,
+  "state": "exited",
+  "exit_code": 0,
+  "started_at": 1770640447,
+  "updated_at": 1770640447,
+  "last_output_at": 1770640447,
+  "last_text": "INSTALLED_FALLBACK_OK",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": false,
+  "age_seconds": 11
+}

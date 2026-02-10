@@ -1,10 +1,6 @@
 # do-ai
 
-一个“监工式”前缀工具：以 **透明 TUI 代理** 的方式启动 Claude/Codex/Gemini 等 CLI，当 **连续 3 分钟无输出** 时，自动输入：
-
-```
-继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。
-```
+一个“工程师式”前缀工具：以 **透明 TUI 代理** 的方式启动 Claude/Codex/Gemini 等 CLI，当 **连续 3 分钟无输出** 时，自动输入内置提示词（可通过 YAML 覆盖）。
 
 ## 设计目标
 
@@ -45,7 +41,8 @@ DO_AI_DEBUG=1 do-ai codex
 ## 行为说明
 
 - 仅在 **PTY 无输出 3 分钟** 时注入指令（忽略纯 ANSI 刷屏/空白输出）
-- 默认注入内容为：`继续按当前计划推进，高ROI优先；如计划缺失，先快速补计划再执行；不新增范围，不重复提问。`（可通过 YAML 配置覆盖）
+- 默认注入内容为：内置提示词（可通过 YAML 配置覆盖，支持 `{LOCK_FILE}` 占位符）
+- 运行时会在当前目录创建生命线文件：`.do-ai.lock`；删除后将停止自动注入
 - 每 5 次注入会插入一次“校准提示”（`先输出当前计划(3-7条)和已完成清单，再继续执行下一条。`），可用 `DO_AI_CALIB_EVERY=0` 关闭或调整频率
 - 默认自动提交：Linux/macOS 为 Enter/CR；Windows 为 Enter+Ctrl-Enter，并补偿 CR 5 次（更稳）。可用 `DO_AI_SUBMIT=0` 关闭；可选 `DO_AI_SUBMIT_MODE=enter|enter-lf|ctrl-enter|alt-enter|enter+ctrl|enter+alt|all` 调整。
 - **清理残留输入**：Windows 默认在每次注入前执行 `ctrl-u` 5 次清理输入行；Linux/macOS 默认关闭。
@@ -68,12 +65,54 @@ DO_AI_DEBUG=1 do-ai codex
 
 示例：`do-ai.yaml.example`
 
+## Relay 远程看板（MVP）
+
+支持把多台机器的 `do-ai` 会话状态汇总到公网 Relay，手机可直接打开网页查看，并按关键词/空闲阈值推送通知。
+
+### 1) 启动 Relay 服务端
+
+```bash
+# 启动 HTTP 服务（含 Web 看板 + API）
+do-ai relay --listen 0.0.0.0:8787
+```
+
+访问：
+- `http://relay.junknets.com:18787/`（网页看板）
+- `http://relay.junknets.com:18787/healthz`（健康检查）
+
+### 2) 客户端上报（每台机器）
+
+```bash
+DO_AI_RELAY_URL=http://relay.junknets.com:18787 \
+DO_AI_RELAY_TOKEN=doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff \
+DO_AI_SESSION_PREFIX=do \
+DO_AI_SESSION_NAME=codex-main \
+do-ai codex
+```
+
+### 3) 通知（可选）
+
+Relay 支持以下环境变量：
+- `DO_AI_NOTIFY_WEBHOOK`：Webhook 地址（可逗号分隔）
+- `DO_AI_TELEGRAM_BOT_TOKEN` + `DO_AI_TELEGRAM_CHAT_ID`：Telegram 推送
+- `DO_AI_ALERT_IDLE_SECS` / `DO_AI_ALERT_KEYWORDS` / `DO_AI_ALERT_COOLDOWN`：告警规则
+
 ## 构建
 
 ```bash
 go mod init do-ai
 go get github.com/creack/pty golang.org/x/term
 go build -trimpath -ldflags "-s -w" -o do-ai ./src
+```
+
+跨平台产物示例：
+
+```bash
+# Linux amd64
+GOOS=linux GOARCH=amd64 go build -trimpath -ldflags "-s -w" -o dist/do-ai-linux-amd64 ./src
+
+# Windows amd64
+GOOS=windows GOARCH=amd64 go build -trimpath -ldflags "-s -w" -o dist/do-ai-windows-amd64.exe ./src
 ```
 
 ## 一键安装（推荐）
@@ -91,6 +130,8 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/install.sh 
 ```
 
 > 说明：通过 `curl | bash` 安装会自动下载源码归档并本地编译。
+
+> 说明：当前一键安装/卸载脚本面向 Linux/macOS；Windows 建议直接使用 `dist/do-ai-windows-amd64.exe` 并加入 PATH（例如 `C:\tools`）。
 
 ## 卸载
 
@@ -112,4 +153,5 @@ curl -fsSL https://github.com/junknet/do-ai/releases/latest/download/uninstall.s
 
 ## 平台支持
 
-- ✅ Linux（目前只提供 Linux 版本）
+- ✅ Linux
+- ✅ Windows（ConPTY）

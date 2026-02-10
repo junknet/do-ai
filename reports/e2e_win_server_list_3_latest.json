@@ -1,0 +1,110 @@
+{
+    "events": [
+        {
+            "seq": 4037,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]",
+            "ts": 1770746026
+        },
+        {
+            "seq": 4038,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "(c) Microsoft Corporation\u3002\u4fdd\u7559\u6240\u6709\u6743\u5229\u3002administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746026
+        },
+        {
+            "seq": 4039,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "echo WIN_E2E_TOKEN_20260211_015346",
+            "ts": 1770746029
+        },
+        {
+            "seq": 4040,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "WIN_E2E_TOKEN_20260211_015346administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746029
+        },
+        {
+            "seq": 4041,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746029
+        },
+        {
+            "seq": 4042,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746029
+        },
+        {
+            "seq": 4043,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "ver",
+            "ts": 1770746033
+        },
+        {
+            "seq": 4044,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "Microsoft Windows [\u7248\u672c 10.0.20348.4529]administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746033
+        },
+        {
+            "seq": 4045,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746033
+        },
+        {
+            "seq": 4046,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746033
+        },
+        {
+            "seq": 4047,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "dir C:\\tools\\do-ai.exe",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4048,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "\u9a71\u52a8\u5668 C \u4e2d\u7684\u5377\u6ca1\u6709\u6807\u7b7e\u3002",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4049,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "\u5377\u7684\u5e8f\u5217\u53f7\u662f 5803-AA14 C:\\tools \u7684\u76ee\u5f552026/02/09  03:38         7,374,336 do-ai.exe",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4050,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "1 \u4e2a\u6587\u4ef6      7,374,336 \u5b57\u8282",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4051,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "0 \u4e2a\u76ee\u5f55 12,659,105,792 \u53ef\u7528\u5b57\u8282administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4052,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746035
+        },
+        {
+            "seq": 4053,
+            "session_id": "win-chromium-build-1770746026410872300",
+            "text": "administrator@CHROMIUM-BUILD C:\\Users\\administrator>",
+            "ts": 1770746035
+        }
+    ],
+    "count": 17,
+    "cursor": 4053,
+    "has_more_before": false,
+    "ts": 1770746038
+}

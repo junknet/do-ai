@@ -1,0 +1,2 @@
+Starting: Intent { cmp=com.anonymous.androidrn/.MainActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.

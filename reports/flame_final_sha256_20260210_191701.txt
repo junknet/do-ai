@@ -1,0 +1,2 @@
+5703347eca5703c04b583cb7d580cbd04437d0c6b3932ee8105c58e65964e403  /home/junknet/.local/bin/do-ai
+825c4ad7c9b56acc58a38a9c7f34ce1b756dfdb8d5f8051ce807262dd2833dee  app/android-rn/android/app/build/outputs/apk/release/app-release.apk

@@ -1,0 +1,6 @@
+[INFO] 2026-02-10T10:51:11+08:00 screen_snapshot_e2e
+[SCREEN-E2E] build do-ai
+[SCREEN-E2E] start relay @ http://127.0.0.1:19788
+[SCREEN-E2E] start do-ai session (cat)
+[SCREEN-E2E] session_id=do-junknet-home-1770691872063173126
+[SCREEN-E2E] PASS

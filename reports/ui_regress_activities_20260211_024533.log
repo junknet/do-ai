@@ -1,0 +1,41 @@
+3:  * Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+5:    topResumedActivity=ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+6:    * Hist  #0: ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+7:      packageName=com.anonymous.androidrn processName=com.anonymous.androidrn
+9:      app=ProcessRecord{3504457 13815:com.anonymous.androidrn/u0a242}
+10:      Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.anonymous.androidrn/.MainActivity }
+11:      rootOfTask=true task=Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+12:      taskAffinity=10242:com.anonymous.androidrn
+13:      mActivityComponent=com.anonymous.androidrn/.MainActivity
+14:      baseDir=/data/app/~~C2zso0dPsn9N6ImIqeHlGw==/com.anonymous.androidrn-wttkY5UOCLnv5rYZq4aNzQ==/base.apk
+15:      dataDir=/data/user/0/com.anonymous.androidrn
+33:      windows=[Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}]
+53:      mLastPausedActivity: ActivityRecord{120b397 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity} t815}
+55:      * Hist  #0: ActivityRecord{120b397 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity} t815}
+103:    mLastPausedActivity: ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+105:    * Hist  #0: ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+165:    Resumed: ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+167:  ResumedActivity: ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+170:  topDisplayFocusedRootTask=Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+172:  deepestLastOrientationSource=ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+179:  mCurrentFocus=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+180:  mFocusedApp=ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+230:      mPreferredTopFocusableRootTask=Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+231:      mLastFocusedRootTask=Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+233:      * Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+235:        * ActivityRecord{530fe7f u0 com.anonymous.androidrn/.MainActivity} t842}
+240:          * ActivityRecord{120b397 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity} t815}
+243:        * ActivityRecord{4bb0ec4 u0 com.android.settings/.Settings$WifiSettingsActivity} t816}
+281:    mFocusedWindow=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+282:    mTopFullscreenOpaqueWindowState=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+283:    mNavBarColorWindowCandidate=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+284:    mNavBarBackgroundWindow=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+288:      Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+346:      ITYPE_IME -> Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+347:      ITYPE_NAVIGATION_BAR -> Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+348:      ITYPE_STATUS_BAR -> Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+356:        mControlTarget=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+388:        mControlTarget=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+395:        mControlTarget=Window{fae85f9 u0 com.anonymous.androidrn/com.anonymous.androidrn.MainActivity}
+424:        (fullscreen) Task{996ba37 #842 type=standard A=10242:com.anonymous.androidrn U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+426:  VisibleActivityProcess:[ ProcessRecord{3504457 13815:com.anonymous.androidrn/u0a242}]

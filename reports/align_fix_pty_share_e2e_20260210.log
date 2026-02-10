@@ -1,0 +1,6 @@
+[E2E] build do-ai
+[E2E] start relay @ http://127.0.0.1:19787
+[E2E] start do-ai session (cat)
+[E2E] session_id=do-junknet-home-1770660651653700324
+[E2E] send control command
+[E2E] PASS

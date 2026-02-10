@@ -1,0 +1,18 @@
+{
+  "session_id": "do-junknet-home-1770642005756031248",
+  "session_name": "phone-tmux-compact-stress-1770642200",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "bash -lc echo STRESS_BEGIN; for i in $(seq 1 1200); do echo STRESS_LINE_$i; sleep 0.02; done; echo STRESS_END",
+  "pid": 1924641,
+  "state": "exited",
+  "exit_code": 0,
+  "started_at": 1770642005,
+  "updated_at": 1770642031,
+  "last_output_at": 1770642031,
+  "last_text": "[exited]",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": false,
+  "age_seconds": 24
+}

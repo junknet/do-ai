@@ -1,0 +1,11 @@
+{
+    "command": {
+        "id": "cmd-1770745369928222680",
+        "session_id": "do-junknet-home-1770745346479682585",
+        "input": "/status",
+        "submit": true,
+        "source": "e2e-soak-3",
+        "created_at": 1770745369
+    },
+    "ok": true
+}

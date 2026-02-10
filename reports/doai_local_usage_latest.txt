@@ -1,0 +1,3 @@
+用法: do-ai [idle] <command> [args...]
+示例: do-ai 5s codex | do-ai 5min 10s codex | do-ai 2m30s codex
+服务: do-ai relay --listen :8787

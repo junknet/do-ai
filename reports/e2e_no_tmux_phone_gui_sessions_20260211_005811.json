@@ -1,0 +1,27 @@
+{
+    "count": 1,
+    "online_only": true,
+    "sessions": [
+        {
+            "session_id": "do-junknet-home-1770742691869410581",
+            "session_name": "e2e-no-tmux-phone-gui-20260211_005811",
+            "prefix": "do",
+            "host": "junknet-home",
+            "cwd": "/home/junknet/Desktop/do-ai",
+            "command": "cat",
+            "pid": 3266292,
+            "state": "running",
+            "started_at": 1770742691,
+            "updated_at": 1770742702,
+            "last_output_at": 1770742699,
+            "last_kick_at": 1770742698,
+            "idle_seconds": 3,
+            "kick_count": 3,
+            "last_text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junk",
+            "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+            "online": true,
+            "age_seconds": 0
+        }
+    ],
+    "ts": 1770742702
+}

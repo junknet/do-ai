@@ -1,0 +1,4 @@
+home_has_1_active=True
+home_has_session_name=True
+term_has_live_line=True
+term_has_session_name=True

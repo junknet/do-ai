@@ -1,0 +1,22 @@
+=== E2E Claude TUI Soak 真机断言 ===
+session_command=claude --dangerously-skip-permissions --continue
+state=running
+revision_chain=492->496->496->496
+会话命令是 claude: PASS
+三次 control/send 均成功: PASS
+三次远程输入均记录: PASS
+注入日志 bracketed=true: PASS
+screen revision 递增: PASS
+screen 含 TUI 结构文本: PASS
+无运行时崩溃关键字: PASS
+overall=PASS
+
+=== screen3 前8行 ===
+L00:   名以触发 bracketed paste。
+L01: 
+L02: ● Bash(# 在真机上运行 E2E 测试
+L03:       # 使用 DO_AI_IDLE=8s，短周期测试…)
+L04:   ⎿  lrwxrwxrwx 1 shell shell 18 2025-12-27 13:50 /data/local/tmp/codex ->
+L05:      /system/bin/sh
+L06: 
+L07: ● Bash(# 在真机上运行 do-ai E2E，用 codex (symlink -> sh) 作为目标

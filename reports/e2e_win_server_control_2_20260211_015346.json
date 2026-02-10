@@ -1,0 +1,11 @@
+{
+    "command": {
+        "id": "cmd-1770746031462742062",
+        "session_id": "win-chromium-build-1770746026410872300",
+        "input": "ver",
+        "submit": true,
+        "source": "e2e-win-2",
+        "created_at": 1770746031
+    },
+    "ok": true
+}

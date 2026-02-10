@@ -1,0 +1,4 @@
+contains_1_active=False
+contains_0_active=False
+contains_no_active=False
+contains_session_name=False

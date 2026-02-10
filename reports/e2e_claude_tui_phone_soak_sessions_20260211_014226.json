@@ -1,0 +1,24 @@
+{
+    "count": 1,
+    "online_only": true,
+    "sessions": [
+        {
+            "session_id": "do-junknet-home-1770745346479682585",
+            "session_name": "e2e-claude-tui-phone-soak-20260211_014226",
+            "prefix": "do",
+            "host": "junknet-home",
+            "cwd": "/home/junknet/Desktop/do-ai",
+            "command": "claude --dangerously-skip-permissions --continue",
+            "pid": 46398,
+            "state": "running",
+            "started_at": 1770745346,
+            "updated_at": 1770745347,
+            "last_output_at": 1770745346,
+            "idle_seconds": 1,
+            "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+            "online": true,
+            "age_seconds": 0
+        }
+    ],
+    "ts": 1770745347
+}

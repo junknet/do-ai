@@ -1,0 +1,5 @@
+Script started on 2026-02-08 22:59:50+08:00 [COMMAND="DO_AI_IDLE=100h DO_AI_SUBMIT=0 DO_AI_DEBUG=1 ./do-ai sh -lc 'stty raw -echo; printf READY\n; od -An -tx1 -N2'" <not executed on terminal>]
+READYn[do-ai] stdin Enter 归一化: converted=1 bytes=2
+ 41 0d
+
+Script done on 2026-02-08 22:59:51+08:00 [COMMAND_EXIT_CODE="0"]

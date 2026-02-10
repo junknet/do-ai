@@ -1,0 +1,7 @@
+Script started on 2026-02-09 20:16:29+08:00 [COMMAND="DO_AI_SESSION_NAME=real-online-tty-1770639389 DO_AI_DEBUG=1 do-ai 120s bash -lc 'echo ONLINE_TTY_BEGIN; for i in \1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45; do echo ONLINE_TTY_TICK_\; sleep 1; done; echo ONLINE_TTY_END'" <not executed on terminal>]
+[do-ai] relay 上报已启用: http://127.0.0.1:19791/api/v1/heartbeat session_id=do-junknet-home-1770639389196966500
+bash: -c: line 2: syntax error near unexpected token `2'
+bash: -c: line 2: `2'
+[do-ai] relay 上报失败: Post "http://127.0.0.1:19791/api/v1/heartbeat": dial tcp 127.0.0.1:19791: connect: connection refused
+
+Script done on 2026-02-09 20:16:29+08:00 [COMMAND_EXIT_CODE="2"]

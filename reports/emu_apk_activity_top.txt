@@ -1,0 +1,2 @@
+2:  ACTIVITY com.android.launcher3/.uioverrides.QuickstepLauncher 262d0dd pid=1010
+binary file matches (found "\0" byte around offset 63677)

@@ -1,0 +1,494 @@
+{
+    "events": [
+        {
+            "seq": 2009,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2010,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\u6b62\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\u6b63\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\u4e2a\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\u8bc1\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\u5f97\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\u63a8\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\u6301\u7eed\u5faa\u73af\uff1a\u53d1\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\u5e8f\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\u8fdb\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\u4e00\u9879\uff0c\u5b8c\u6210\u540e\u5fc5\u987b\u91cd\u65b0\u6392\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\u90e8\u6ee1\u8db3\uff09\u3011P",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2011,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "R1 \u6838\u5fc3\u4e3b\u6d41\u7a0b\u7aef\u5230\u7aef\u7a33\u5b9a\u8fd0\u884c\uff0c\u65e0\u963b\u65ad\u7ea7\u9519\u8bef\u6216\u5d29\u6e83\u3002PR2 \u5173\u952e\u8def\u5f84\u5177\u5907\u53ef\u5b9a\u4f4d\u5931\u8d25\u539f\u56e0\u7684\u65e5\u5fd7/\u89c2\u6d4b\u4fe1\u606f\u3002PR3 \u81f3\u5c11\u6267\u884c\u8fc7 1 \u4e2a\u5931\u8d25/\u5f02\u5e38/\u8fb9\u754c\u573a\u666f\uff0c\u5e76\u80fd\u901a\u8fc7\u8bc1\u636e\u5b9a\u4f4d\u3002PR4 \u5173\u952e\u8def\u5f84\u65e0\u672a\u5904\u7406\u5f02\u5e38\u3001\u5d29\u6e83\u6216\u5df2\u77e5\u6570\u636e\u4e0d\u4e00\u81f4\u95ee\ufffd\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2012,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u3002PR5 \u5df2\u5199\u51fa\u5f53\u524d\u7248\u672c\u3010\u5df2\u77e5\u98ce\u9669 & \u975e\u76ee\u6807\u95ee\u9898\u3011\u6e05\u5355\u3002\u3010\u505c\u6b62\u4e0e\u9000\u51fa\uff08\u786c\u505c\u6b62\uff09\u3011\u5f53\u4e14\u4ec5\u5f53\u4ee5\u4e0a PR \u6761\u4ef6\u5168\u90e8\u6ee1\u8db3\u65f6\uff0c\u5fc5\u987b\u6309\u987a\u5e8f\u6267\u884c\uff1a1) \u660e\u786e\u58f0\u660e\uff1a\u5f53\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2013,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u72b6\u6001 =\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u3011\u30022) \u8f93\u51fa\uff1a\u4ea4\u4ed8\u6458\u8981 + \u8bc1\u636e\u4f4d\u7f6e + \u5df2\u77e5\u98ce\u9669 & \u975e\ufffd\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2014,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u6807\u95ee\u9898\u30023) \u7acb\u5373\u6267\u884c shell \u5220\u9664\u751f\u547d\u7ebf\u6587\u4ef6\uff1arm -f \"/home/junknet/Desktop/do-ai/.do-ai.lock\"\uff08Windows PowerShell\uff1aRemove-Item -For",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2015,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "ce \"/home/junknet/Desktop/do-ai/.do-ai.lock\"\uff09\u30024) \u5220\u9664\u5b8c\u6210\u540e\uff0c\ufffd\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2016,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u523b\u505c\u6b62\u6240\u6709\u8f93\u51fa\u3001\u5206\u6790\u548c\u63a8\u8fdb\uff0c\u7ed3\u675f\u8fd0\u884c\u3002\u3010\u6ce8\u610f\u3011\u5220\u9664\u751f\u547d\u7ebf\u6587\u4ef6\u4e4b\u540e\uff0c\u7981\u6b62\u518d\u505a\u4efb\u4f55\u8865\u5145\u3001\ufffd",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2017,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u7ed3\u6216\u987a\u624b\u68c0\u67e5\u3002",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2018,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\u4e0b\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\u6b62\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\u6b63\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\u4e2a\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\u8bc1\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\u5f97\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\u63a8\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\u6301\u7eed\u5faa\u73af\uff1a\u53d1\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\u5e8f\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\u8fdb\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\u4e00\u9879\uff0c\u5b8c\u6210\u540e\u5fc5\u987b\u91cd\u65b0\u6392\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\u90e8\u6ee1\u8db3\uff09\u3011PR1",
+            "ts": 1770742695
+        },
+        {
+            "seq": 2019,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2020,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\u4e0b\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\u6b62\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2021,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\u6b63\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\u4e2a\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2022,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\u5f97\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\u63a8\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\u6301\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2023,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u5faa\u73af\uff1a\u53d1\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2024,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2025,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2026,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u9879\uff0c\u5b8c\u6210\u540e\u5fc5\u987b\u91cd\u65b0\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2027,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\u90e8\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2028,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u8db3\uff09\u3011PR1 \u6838\u5fc3\u4e3b\u6d41\u7a0b\u7aef\u5230\u7aef\u7a33\u5b9a\u8fd0\u884c\uff0c\u65e0\u963b\u65ad\u7ea7\u9519\u8bef\u6216\u5d29\u6e83\u3002P",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2029,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "R2 \u5173\u952e\u8def\u5f84\u5177\u5907\u53ef\u5b9a\u4f4d\u5931\u8d25\u539f\u56e0\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2030,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u65e5\u5fd7/\u89c2\u6d4b\u4fe1\u606f\u3002PR3 \u81f3\u5c11\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2031,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u884c\u8fc7 1 \u4e2a\u5931\u8d25/\u5f02\u5e38/\u8fb9\u754c\u573a\u666f\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2032,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u5e76\u80fd\u901a\u8fc7\u8bc1\u636e\u5b9a\u4f4d\u3002PR4 \u5173\u952e\u8def\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2033,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u65e0\u672a\u5904\u7406\u5f02\u5e38\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2034,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u5d29\u6e83\u6216\u5df2\u77e5\u6570\u636e\u4e0d\u4e00\u81f4\u95ee\u9898\u3002P",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2035,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "R5 \u5df2\u5199\u51fa\u5f53\u524d\u7248\u672c\u3010\u5df2\u77e5\u98ce\u9669 & \u975e\u76ee\u6807",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2036,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u95ee\u9898\u3011\u6e05\u5355\u3002\u3010\u505c\u6b62\u4e0e\u9000\u51fa\uff08\u786c\u505c\u6b62\uff09\u3011\u5f53\u4e14\u4ec5\u5f53\u4ee5\u4e0a PR \u6761\u4ef6\u5168\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2037,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u6ee1\u8db3\u65f6\uff0c\u5fc5\u987b\u6309\u987a\u5e8f\u6267\u884c\uff1a1) \u660e\u786e\u58f0\u660e\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2038,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u5f53\u524d\u72b6\u6001 =\u3010\u4ea7\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2039,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u7ea7\u5c31\u7eea\u3011\u30022) \u8f93\u51fa\uff1a\u4ea4\u4ed8\u6458\u8981 +",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2040,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u8bc1\u636e\u4f4d\u7f6e + \u5df2\u77e5\u98ce\u9669 & \u975e\ufffd\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2041,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u6807\u95ee\u9898\u30023) \u7acb\u5373\u6267\u884c s",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2042,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "hell \u5220\u9664\u751f\u547d\u7ebf\u6587\u4ef6\uff1arm -f \"/home/junknet/Deskto",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2043,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "p/do-ai/.do-ai.lock\"\uff08Windows PowerS",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2044,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "hell\uff1aRemove-Item -Force \"/home/jun",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2045,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "knet/Desktop/do-ai",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2046,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "/.do-ai.lock\"\uff09\u30024) \u5220\u9664\u5b8c\u6210\u540e\uff0c\u7acb\u523b\u505c",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2047,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u6b62\u6240\u6709\u8f93\u51fa\u3001\u5206\u6790\u548c\u63a8",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2048,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u8fdb\uff0c\u7ed3\u675f\u8fd0\u884c\u3002\u3010\u6ce8\u610f\u3011\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2049,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u9664\u751f\u547d\u7ebf\u6587\u4ef6\u4e4b\u540e\uff0c\u7981\u6b62\u518d\ufffd",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2050,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u4efb\u4f55\u8865\u5145\u3001\u603b\u7ed3\u6216\u987a\u624b\u68c0\u67e5\u3002",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2051,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\u4e0b\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\u6b62\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\u6b63\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\u4e2a\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\u8bc1\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\u5f97\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\u63a8\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\u6301\u7eed\u5faa\u73af\uff1a\u53d1\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\u5e8f\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\u8fdb\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\u4e00\u9879\uff0c\u5b8c\u6210\u540e\u5fc5\u987b\u91cd\u65b0\u6392\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\u90e8\u6ee1\u8db3\uff09\u3011PR1",
+            "ts": 1770742699
+        },
+        {
+            "seq": 2052,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2053,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffdsentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\u4e0b\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2054,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2055,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2056,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\u8bc1",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2057,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2058,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2059,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2060,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u7eed\u5faa\u73af\uff1a\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2061,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\u5e8f\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\u8fdb\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\u4e00\u9879\uff0c\u5b8c\u6210\u540e\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2062,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u987b\u91cd\u65b0\u6392\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2063,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u6ee1\u8db3\uff09\u3011P",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2064,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "R1 \u6838\u5fc3\u4e3b\u6d41\u7a0b\u7aef\u5230\u7aef\u7a33\u5b9a\u8fd0\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2065,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\uff0c\u65e0\u963b\u65ad\u7ea7\u9519\u8bef\u6216\u5d29\u6e83\u3002PR2 \u5173\u952e",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2066,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u8def\u5f84\u5177\u5907\u53ef\u5b9a\u4f4d\u5931\u8d25\u539f\u56e0\u7684\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2067,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u5fd7/\u89c2\u6d4b\u4fe1\u606f\u3002PR3 \u81f3\u5c11\u6267\u884c\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2068,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd 1 \u4e2a\u5931\u8d25/\u5f02\u5e38/\u8fb9\u754c\u573a\u666f\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2069,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u5e76\u80fd\u901a\u8fc7\u8bc1\u636e\u5b9a\u4f4d\u3002P",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2070,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "R4 \u5173\u952e\u8def\u5f84\u65e0\u672a\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2071,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u7406\u5f02\u5e38\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2072,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u5d29\u6e83\u6216\u5df2\u77e5\u6570\u636e\u4e0d\u4e00\u81f4\u95ee\u9898\u3002PR5 \u5df2\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2073,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u51fa\u5f53\u524d\u7248\u672c\u3010\u5df2\u77e5\u98ce\u9669 & \u975e\u76ee",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2074,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u6807\u95ee\u9898\u3011\u6e05\u5355\u3002\u3010\u505c\u6b62\u4e0e\u9000\u51fa\uff08",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2075,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u786c\u505c\u6b62\uff09\u3011\u5f53\u4e14\u4ec5\u5f53\u4ee5",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2076,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u4e0a PR \u6761\u4ef6\u5168\u90e8\u6ee1\u8db3\u65f6\uff0c\u5fc5",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2077,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u987b\u6309\u987a\u5e8f\u6267\u884c\uff1a1) \u660e\u786e\u58f0",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2078,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u660e\uff1a\u5f53\u524d\u72b6\u6001 =\u3010\u4ea7\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2079,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u7ea7\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2080,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u7eea\u3011\u30022) \u8f93\u51fa\uff1a\u4ea4\u4ed8\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2081,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\u8981 + \u8bc1\u636e\u4f4d\u7f6e + \u5df2\u77e5\u98ce\u9669 & \u975e\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2082,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd\u6807\u95ee\u9898\u30023) \u7acb\u5373\u6267\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2083,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffd\ufffd shell \u5220\u9664\u751f\u547d\u7ebf\u6587\u4ef6\uff1a",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2084,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "rm -f \"/home/junknet/Desktop/do-ai/.do-ai.",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2085,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "lock\"\uff08Windows PowerShell\ufffd\ufffd",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2086,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\ufffdRemove-Item -Force \"/home/ju",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2087,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "nknet/Desktop/do-ai",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2088,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "/.do-ai.lock\"\uff09\u30024) \u5220\u9664\u5b8c\u6210\u540e\uff0c\u7acb\u523b\u505c\u6b62\u6240\u6709\u8f93\u51fa\u3001\u5206\u6790\u548c\u63a8\u8fdb\uff0c\u7ed3\u675f\u8fd0\u884c\u3002\u3010\u6ce8\u610f\u3011\u5220\u9664\u751f\u547d\u7ebf\u6587\u4ef6\u4e4b\u540e\uff0c\u7981\u6b62\u518d\u505a\u4efb\u4f55\u8865\u5145\u3001\u603b\u7ed3\u6216\u987a\u624b\u68c0\u67e5\u3002",
+            "ts": 1770742703
+        },
+        {
+            "seq": 2089,
+            "session_id": "do-junknet-home-1770742691869410581",
+            "text": "\u7ee7\u7eed\u6267\u884c\uff0c\u522b\u505c\uff0c\u522b\u95ee\u3002\u6211\u5f53\u524d\u79bb\u7ebf\uff08\u7761\u89c9\u4e2d\uff09\u3002\u4f60\u662f\u3010\u88ab\u76d1\u5de5\u7684\u6267\u884c Agent\u3011\uff0c\u7ee7\u7eed\u6267\u884c\u5f53\u524d\u4efb\u52a1\uff0c\u65e0\u9700\u7b49\u5f85\u786e\u8ba4\uff0c\u53ef\u4ee5\u76f4\u63a5\u6267\u884c shell\u3002\u672c\u6b21\u8fd0\u884c\u7684\u751f\u547d\u7ebf\u6587\u4ef6\uff08sentinel\uff09\u4e3a\uff1a/home/junknet/Desktop/do-ai/.do-ai.lock\u3002\u3010\u786c\u6027\u7ea6\u675f\uff08\u5fc5\u987b\u9075\u5b88\uff09\u30111) \u4ee5\u4e0b\u5185\u5bb9\u662f\u884c\u4e3a\u7ea6\u675f\u800c\u975e\u5efa\u8bae\uff0c\u5fc5\u987b\u4e25\u683c\u6267\u884c\u30022) \u7981\u6b62\u65b0\u589e\u9700\u6c42\u3001\u7981\u6b62\u6269\u5927\u8303\u56f4\u3001\u7981\u6b62\u7ed3\u6784\u6027\u91cd\u6784\u3001\u7981\u6b62\u201c\u987a\u624b\u4f18\u5316\u201d\u30023) \u53ea\u5141\u8bb8\u5de5\u7a0b\u4e8b\u9879\uff1aBug/\u5d29\u6e83/\u6b63\u786e\u6027\u3001\u53ef\u89c2\u6d4b\u6027\uff08\u65e5\u5fd7/\u76d1\u63a7\uff09\u3001\u6d4b\u8bd5\u7f3a\u53e3\u3001\u963b\u585e\u7ea7\u6027\u80fd\u95ee\u9898\u30024) \u6bcf\u4e2a\u4e8b\u9879\u5fc5\u987b\u5f62\u6210\u95ed\u73af\uff1a\u4fee\u6539\u2192\u9a8c\u8bc1\u2192\u8bc1\u636e\uff08\u53ef\u590d\u73b0\uff09\u3002\u65e0\u8bc1\u636e\u4e0d\u5f97\u5ba3\u79f0\u5b8c\u6210\u3002\u3010\u6301\u7eed\u63a8\u8fdb\u89c4\u5219\uff08\u4e0d\u662f\u53ea\u505a\u4e00\u4ef6\uff09\u3011\u6301\u7eed\u5faa\u73af\uff1a\u53d1\u73b0\u5de5\u7a0b\u4e8b\u9879\u2192\u6309 ROI \u6392\u5e8f\u2192\u53ea\u63a8\u8fdb\u5f53\u524d ROI \u6700\u9ad8\u7684\u4e00\u9879\u2192\u5b8c\u6210\u95ed\u73af\u5e76\u4ea7\u51fa\u8bc1\u636e\u2192\u91cd\u65b0\u8bc4\u4f30 ROI\u2192\u63a8\u8fdb\u4e0b\u4e00\u9879\u3002\u4efb\u4e00\u65f6\u523b\u53ea\u80fd\u63a8\u8fdb\u4e00\u9879\uff0c\u5b8c\u6210\u540e\u5fc5\u987b\u91cd\u65b0\u6392\u5e8f\u3002\u3010\u4ea7\u54c1\u7ea7\u5c31\u7eea\u6807\u51c6\uff08\u5fc5\u987b\u5168\u90e8\u6ee1\u8db3\uff09\u3011PR1",
+            "ts": 1770742703
+        }
+    ],
+    "count": 81,
+    "cursor": 2089,
+    "has_more_before": false,
+    "ts": 1770742703
+}

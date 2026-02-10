@@ -1,0 +1,5 @@
+[SCREEN-E2E] build do-ai
+[SCREEN-E2E] start relay @ http://127.0.0.1:19788
+[SCREEN-E2E] start do-ai session (cat)
+[SCREEN-E2E] session_id=do-junknet-home-1770568332098109376
+[SCREEN-E2E] PASS

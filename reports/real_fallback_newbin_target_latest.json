@@ -1,0 +1,17 @@
+{
+  "session_id": "do-junknet-home-1770640383138269400",
+  "session_name": "real-fallback-newbin-1770640400",
+  "prefix": "do",
+  "host": "junknet-home",
+  "cwd": "/home/junknet/Desktop/do-ai",
+  "command": "bash -lc echo FALLBACK_NEW_BEGIN; while true; do date +FALLBACK_NEW_%s; sleep 2; done",
+  "pid": 1209232,
+  "state": "running",
+  "started_at": 1770640383,
+  "updated_at": 1770640406,
+  "last_output_at": 1770640405,
+  "last_text": "FALLBACK_NEW_1770640405",
+  "lock_file": "/home/junknet/Desktop/do-ai/.do-ai.lock",
+  "online": true,
+  "age_seconds": 2
+}

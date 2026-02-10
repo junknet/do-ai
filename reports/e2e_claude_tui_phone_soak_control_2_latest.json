@@ -1,0 +1,11 @@
+{
+    "command": {
+        "id": "cmd-1770745363763233205",
+        "session_id": "do-junknet-home-1770745346479682585",
+        "input": "\u8bf7\u4ec5\u56de\u590d CLAUDE_SOAK_TOKEN_20260211_014226",
+        "submit": true,
+        "source": "e2e-soak-2",
+        "created_at": 1770745363
+    },
+    "ok": true
+}

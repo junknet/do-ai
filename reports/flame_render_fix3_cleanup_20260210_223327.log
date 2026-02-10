@@ -1,0 +1,11 @@
+pid not running: 3145190 (/tmp/doai_fix2_20260210_213838.pid)
+pid not running: 4124422 (/tmp/doai_fix3_20260210_222443.pid)
+pid not running: 1585783 (/tmp/doai_claude_live_20260210_202513.pid)
+tmux killed: do_ai_fix2_20260210_213838
+tmux killed: do_ai_fix3_20260210_222443
+tmux killed: do_ai_claude_color_20260210_202513
+junknet  1087188    1105  0 02:37 ?        00:00:48 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1140410    1105  0 02:40 ?        00:00:36 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1212875    1105  0 02:43 ?        00:00:36 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  1271561    1105  0 02:46 ?        00:00:47 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue
+junknet  3933904 2724575  0 19:06 pts/1    00:00:06 /home/junknet/.local/bin/do-ai claude --dangerously-skip-permissions --continue

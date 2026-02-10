@@ -1,0 +1,13 @@
+[1/5] 本地构建 do-ai...
+[2/5] 生成 supervisor 配置...
+[3/5] 上传到 ECS...
+[4/5] 远端安装 + supervisor 重载...
+No config updates to processes
+do_ai_relay: stopped
+do_ai_relay: started
+do_ai_relay                      RUNNING   pid 3652235, uptime 0:00:04
+{"ok":true}[5/5] 完成
+Relay URL: http://47.110.255.240:18787
+Relay Token: doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff
+客户端示例:
+DO_AI_RELAY_URL=http://47.110.255.240:18787 DO_AI_RELAY_TOKEN=doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff do-ai codex

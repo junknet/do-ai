@@ -1,0 +1,15 @@
+  bash arg: -p
+  bash arg: com.anonymous.androidrn
+  bash arg: -c
+  bash arg: android.intent.category.LAUNCHER
+  bash arg: 1
+args: [-p, com.anonymous.androidrn, -c, android.intent.category.LAUNCHER, 1]
+ arg: "-p"
+ arg: "com.anonymous.androidrn"
+ arg: "-c"
+ arg: "android.intent.category.LAUNCHER"
+ arg: "1"
+data="com.anonymous.androidrn"
+data="android.intent.category.LAUNCHER"
+Events injected: 1
+## Network stats: elapsed time=77ms (0ms mobile, 0ms wifi, 77ms not connected)

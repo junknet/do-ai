@@ -1,0 +1,151 @@
+17134:02-09 19:35:24.520  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.tencent.mm
+38645:02-09 19:58:28.371  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.tencent.wetype:hld
+45681:02-09 20:01:21.890 31897  1737 D AidlBufferPool: bufferpool2 0x7548a90f48 : 0(0 size) total buffers - 0(0 size) used buffers - 1/11 (recycle/alloc) - 28/283 (fetch/transfer)
+45682:02-09 20:01:21.890 31897  3285 D AidlBufferPool: bufferpool2 0x7548b416d8 : 0(0 size) total buffers - 0(0 size) used buffers - 1/11 (recycle/alloc) - 25/404 (fetch/transfer)
+45683:02-09 20:01:21.890 31897  1737 D AidlBufferPool: Destruction - bufferpool2 0x7548a90f48 cached: 0/0M, 0/0% in use; allocs: 11, 9% recycled; transfers: 283, 90% unfetched
+45684:02-09 20:01:21.890 31897 31917 D AidlBufferPool: Destruction - bufferpool2 0x7548b416d8 cached: 0/0M, 0/0% in use; allocs: 11, 9% recycled; transfers: 404, 94% unfetched
+45685:02-09 20:01:21.890 31897  1737 D AidlBufferPool: bufferpool2 0x7548a9b818 : 0(0 size) total buffers - 0(0 size) used buffers - 1/11 (recycle/alloc) - 8/9 (fetch/transfer)
+45687:02-09 20:01:21.890 31897  3285 D AidlBufferPool: Destruction - bufferpool2 0x7548a9b818 cached: 0/0M, 0/0% in use; allocs: 11, 9% recycled; transfers: 9, 11% unfetched
+47655:02-09 20:01:22.919  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d8e18 cached: 0/0M, 0/0% in use; allocs: 2, 0% recycled; transfers: 0, 0% unfetched
+47656:02-09 20:01:22.919  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d48b8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+47831:02-09 20:01:22.957 32079 32118 D AidlBufferPool: bufferpool2 0x7548791348 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+47832:02-09 20:01:22.957 32079 32118 D AidlBufferPool: Destruction - bufferpool2 0x7548791348 cached: 0/0M, 0/0% in use; allocs: 5, 0% recycled; transfers: 4, 50% unfetched
+47833:02-09 20:01:22.957 32079 32523 D AidlBufferPool: bufferpool2 0x754879fa88 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+47834:02-09 20:01:22.957 32079 32523 D AidlBufferPool: Destruction - bufferpool2 0x754879fa88 cached: 0/0M, 0/0% in use; allocs: 5, 0% recycled; transfers: 4, 50% unfetched
+47993:02-09 20:01:23.128  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636bb658 cached: 0/0M, 0/0% in use; allocs: 38, 0% recycled; transfers: 0, 0% unfetched
+49922:02-09 20:01:27.865  5336 23406 I HoneySpace.SuggestedAppsRepositoryImpl: fetchSuggestedApps()
+50289:02-09 20:01:27.896  5336 27580 I HoneySpace.SuggestedAppsRepositoryImpl: fetchSuggestedApps() end: 4, isDPSAvailable: false
+50843:02-09 20:01:28.893 31897  9760 D AidlBufferPool: bufferpool2 0x7548a91198 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+50844:02-09 20:01:28.893 31897  9760 D AidlBufferPool: bufferpool2 0x75489fe418 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 11/26 (fetch/transfer)
+50845:02-09 20:01:28.893 31897  9760 D AidlBufferPool: bufferpool2 0x75488edab8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/6 (recycle/alloc) - 2/2 (fetch/transfer)
+51768:02-09 20:01:29.532  5336  5336 I HoneySpace.TaskListRepository: fetchTaskList duration : 269.219us
+52033:02-09 20:01:29.555  5336 27579 I HoneySpace.SuggestedAppsRepositoryImpl: fetchSuggestedApps()
+52108:02-09 20:01:29.561  5336 28446 I HoneySpace.SuggestedAppsRepositoryImpl: fetchSuggestedApps() end: 4, isDPSAvailable: false
+63222:02-09 20:01:46.538  6845  6933 I Iris    : fetchCard: No eligible accounts found
+66477:02-09 20:02:07.557  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636cc4e8 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+67281:02-09 20:02:14.015  1888  6748 D AidlBufferPool: bufferpool2 0xb4000074636cc4e8 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+67290:02-09 20:02:14.016  4924  7948 D AidlBufferPool: bufferpool2 0x75487e8ca8 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/22 (fetch/transfer)
+68058:02-09 20:02:15.334  1888  2695 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636cc4e8 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+68407:02-09 20:02:20.070 31897 31972 D AidlBufferPool: bufferpool2 0x75489fe418 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 11/26 (fetch/transfer)
+68411:02-09 20:02:20.073 31897 31972 D AidlBufferPool: Destruction - bufferpool2 0x75489fe418 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 26, 58% unfetched
+68412:02-09 20:02:20.073 31897 32550 D AidlBufferPool: bufferpool2 0x75488edab8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/6 (recycle/alloc) - 2/2 (fetch/transfer)
+68413:02-09 20:02:20.073 31897 32550 D AidlBufferPool: Destruction - bufferpool2 0x75488edab8 cached: 0/0M, 0/0% in use; allocs: 6, 0% recycled; transfers: 2, 0% unfetched
+68458:02-09 20:02:21.017  4924  7963 D AidlBufferPool: bufferpool2 0x75487e8ca8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/73 (fetch/transfer)
+70157:02-09 20:02:36.521  4924  7364 D AidlBufferPool: bufferpool2 0x75487e8ca8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/73 (fetch/transfer)
+70158:02-09 20:02:36.521  4924  7126 D AidlBufferPool: Destruction - bufferpool2 0x75487e8ca8 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 73, 71% unfetched
+71005:02-09 20:02:41.522  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636e2908 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+71050:02-09 20:02:42.522  4924  7963 D AidlBufferPool: bufferpool2 0x75487fe788 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/21 (fetch/transfer)
+76220:02-09 20:02:58.761  1888  1888 D AidlBufferPool: bufferpool2 0xb4000074636e2908 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+76222:02-09 20:02:58.762  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/21 (fetch/transfer)
+77294:02-09 20:03:03.763  4924  7963 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/300 (fetch/transfer)
+77298:02-09 20:03:03.904  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636cc988 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+77327:02-09 20:03:04.763  4924  7963 D AidlBufferPool: bufferpool2 0x75487f0bd8 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/22 (fetch/transfer)
+77553:02-09 20:03:08.875  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/608 (fetch/transfer)
+77795:02-09 20:03:13.975  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/914 (fetch/transfer)
+78042:02-09 20:03:19.091  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/1221 (fetch/transfer)
+78328:02-09 20:03:24.192  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/1527 (fetch/transfer)
+78571:02-09 20:03:29.294  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/1833 (fetch/transfer)
+78876:02-09 20:03:34.394  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/2139 (fetch/transfer)
+79408:02-09 20:03:39.509  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/2446 (fetch/transfer)
+79963:02-09 20:03:44.628  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/2753 (fetch/transfer)
+80256:02-09 20:03:49.741  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/3060 (fetch/transfer)
+80557:02-09 20:03:54.843  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/3366 (fetch/transfer)
+80849:02-09 20:03:59.926  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/3671 (fetch/transfer)
+81091:02-09 20:04:05.042  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/3978 (fetch/transfer)
+81350:02-09 20:04:10.142  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/4284 (fetch/transfer)
+81552:02-09 20:04:15.259  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/4591 (fetch/transfer)
+81817:02-09 20:04:20.358  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/4897 (fetch/transfer)
+82094:02-09 20:04:25.476  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/5204 (fetch/transfer)
+82378:02-09 20:04:30.594  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/5511 (fetch/transfer)
+82558:02-09 20:04:35.694  4924  8464 D AidlBufferPool: bufferpool2 0x75487fe788 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 28/5817 (fetch/transfer)
+82829:02-09 20:04:37.827  1888  1888 D AidlBufferPool: bufferpool2 0xb4000074636e2908 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+82830:02-09 20:04:37.827  1888  1888 D AidlBufferPool: bufferpool2 0xb4000074636cc988 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+82835:02-09 20:04:37.828  4924  9418 D AidlBufferPool: bufferpool2 0x75487f0bd8 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/22 (fetch/transfer)
+83071:02-09 20:04:37.974  1888  2805 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636e2908 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+83727:02-09 20:04:39.127  1888  2805 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636cc988 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+83996:02-09 20:04:42.828  4924  7963 D AidlBufferPool: bufferpool2 0x75487fe788 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 28/5916 (fetch/transfer)
+84101:02-09 20:04:44.829  4924  7963 D AidlBufferPool: bufferpool2 0x75487f0bd8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/50 (fetch/transfer)
+86615:02-09 20:05:07.510  4924  7126 D AidlBufferPool: bufferpool2 0x75487f0bd8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/50 (fetch/transfer)
+86616:02-09 20:05:07.510  4924  6836 D AidlBufferPool: bufferpool2 0x75487fe788 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 28/5916 (fetch/transfer)
+86617:02-09 20:05:07.510  4924  6836 D AidlBufferPool: Destruction - bufferpool2 0x75487fe788 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 5916, 100% unfetched
+86618:02-09 20:05:07.510  4924  6374 D AidlBufferPool: Destruction - bufferpool2 0x75487f0bd8 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 50, 58% unfetched
+87902:02-09 20:05:12.321  1888  2695 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d4b08 cached: 0/0M, 0/0% in use; allocs: 28, 0% recycled; transfers: 0, 0% unfetched
+88500:02-09 20:05:14.903  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636ddcb8 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+88786:02-09 20:05:17.512  4924  7963 D AidlBufferPool: bufferpool2 0x754878e2b8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 18/54 (fetch/transfer)
+88998:02-09 20:05:20.514  4924  7963 D AidlBufferPool: bufferpool2 0x754882d278 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 11/89 (fetch/transfer)
+89902:02-09 20:05:32.282  4924  7364 D AidlBufferPool: bufferpool2 0x754878e2b8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 18/54 (fetch/transfer)
+89903:02-09 20:05:32.282  4924  7364 D AidlBufferPool: Destruction - bufferpool2 0x754878e2b8 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 54, 67% unfetched
+89904:02-09 20:05:32.282  4924  6836 D AidlBufferPool: bufferpool2 0x754882d278 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 11/89 (fetch/transfer)
+89905:02-09 20:05:32.282  4924  6836 D AidlBufferPool: Destruction - bufferpool2 0x754882d278 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 89, 88% unfetched
+90348:02-09 20:05:37.282  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636cc4e8 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+90424:02-09 20:05:38.283  4924  7963 D AidlBufferPool: bufferpool2 0x754888eb68 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/35 (fetch/transfer)
+91322:02-09 20:05:43.295  1888  1888 D AidlBufferPool: bufferpool2 0xb4000074636cc4e8 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+91323:02-09 20:05:43.295  4924 10851 D AidlBufferPool: bufferpool2 0x754888eb68 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/35 (fetch/transfer)
+91509:02-09 20:05:43.340  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636cc4e8 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+92947:02-09 20:05:48.296  4924  7963 D AidlBufferPool: bufferpool2 0x754888eb68 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 12/36 (fetch/transfer)
+93236:02-09 20:05:52.296  4924  7963 D AidlBufferPool: bufferpool2 0x75487c02d8 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/23 (fetch/transfer)
+93239:02-09 20:05:52.342  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636d4b08 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+94616:02-09 20:06:03.566  1888  2805 D AidlBufferPool: bufferpool2 0xb4000074636d4b08 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+94617:02-09 20:06:03.566  4924  6836 D AidlBufferPool: bufferpool2 0x754888eb68 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 12/36 (fetch/transfer)
+94627:02-09 20:06:03.567  4924  7126 D AidlBufferPool: Destruction - bufferpool2 0x754888eb68 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 36, 67% unfetched
+94638:02-09 20:06:03.567  4924 11559 D AidlBufferPool: bufferpool2 0x75487c02d8 : 10(83886080 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/23 (fetch/transfer)
+95474:02-09 20:06:06.190  1888  1888 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d4b08 cached: 0/0M, 0/0% in use; allocs: 34, 0% recycled; transfers: 0, 0% unfetched
+95889:02-09 20:06:11.567  4924  7963 D AidlBufferPool: bufferpool2 0x75487c02d8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/90 (fetch/transfer)
+96851:02-09 20:06:18.775  4924  7364 D AidlBufferPool: bufferpool2 0x75487c02d8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/11 (recycle/alloc) - 21/90 (fetch/transfer)
+96852:02-09 20:06:18.775  4924 11566 D AidlBufferPool: Destruction - bufferpool2 0x75487c02d8 cached: 0/0M, 0/0% in use; allocs: 11, 0% recycled; transfers: 90, 77% unfetched
+102625:02-09 20:06:23.775  1888  2696 D AidlBufferPool: bufferpool2 0xb4000074636dbc58 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+102661:02-09 20:06:24.776  4924  7963 D AidlBufferPool: bufferpool2 0x7548820008 : 11(92274688 size) total buffers - 10(83886080 size) used buffers - 0/11 (recycle/alloc) - 11/67 (fetch/transfer)
+113915:02-09 20:07:04.086 31346 31599 I NTKernel: [I] group_info_fetch_codec.cc(1502)::DecodeGroupPermissions pb_permissions: 0a0b08924e1206080210011a00
+113916:02-09 20:07:04.086 31346 31599 I NTKernel: [I] group_info_fetch_codec.cc(1548)::DecodeGroupGameListByFilter [group_info_fetch_codec]->pb_game_list:0a6e080112680a0a31313034343636383230120ce78e8be88085e88da3e880801a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130343436363832302f7468756d496d672e706e6718000a6e080212680a0a31313132313938303732120ce58583e6a2a6e4b98be6989f1a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313131323139383037322f7468756d496d672e706e6718000a710803126b0a0a31313036393030383237120fe58589e4b88ee5a49ce4b98be6818b1a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130363930303832372f7468756d496d672e706e6718000a7d080412770a0a31313034323934303535121be59cb0e4b88be59f8ee4b88ee58b87e5a3abefbc9ae8b5b7e6ba901a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130343239343035352f7468756d496d672e706e6718000a710805126b0a0a31313039383131343336120fe98791e993b2e993b2e4b98be688981a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130393831313433362f7468756d496d672e706e6718000a720806126c0a093130323135303635391212e6b0b8e58aabe697a0e997b4e6898be6b8b81a4b68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f3130323135303635392f7468756d496d672e706e6718000a6e080712680a0a31313034333037303038120ce781abe5bdb1e5bf8de880851a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130343330373030382f7468756d496d672e706e6718000a6e080812680a0a31313036343637303730120ce5928ce5b9b3e7b2bee88bb11a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130363436373037302f7468756d496d672e706e6718000a740809126e0a0a313130363034303830341212e88bb1e99b84e88194e79b9fe6898be6b8b81a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130363034303830342f7468756d496d672e706e6718000a7d080a12770a0a31313034353132373036121be7a9bfe8b68ae781abe7babfefbc9ae69eaae68898e78e8be880851a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130343531323730362f7468756d496d672e706e6718000a77080b12710a0a313130383136393038391215e69e81e59381e9a39ee8bda6efbc9ae99b86e7bb931a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130383136393038392f7468756d496d672e706e6718000a6e080c12680a0a31313130313936383338120ce69a97e58cbae7aa81e59bb41a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313131303139363833382f7468756d496d672e706e6718000a70080d126a0a0a31313034393232313835120e5151e9a39ee8bda6e6898be6b8b81a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130343932323138352f7468756d496d672e706e6718000a74080e126e0a0a313130363833383533361212e4bdbfe591bde58face594a4e6898be6b8b81a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313130363833383533362f7468756d496d672e706e6718000a71080f126b0a0a31313130353433303835120fe4b889e8a792e6b4b2e8a18ce58aa81a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313131303534333038352f7468756d496d672e706e6718000a740810126e0a0a313131303035303032361212e5ae9de58fafe6a2a6e5a4a7e99b86e7bb931a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313131303035303032362f7468756d496d672e706e6718000a7a081112740a0a313131303636363735341218e888aae6b5b7e78e8befbc9ae5a3aee5bf97e99b84e5bf831a4c68747470733a2f2f696d672e67616d6563656e7465722e71712e636f6d2f67635f696d672f67632f666f726d616c2f636f6d6d6f6e2f313131303636363735342f746
+114085:02-09 20:07:06.046  2827  2827 I RemoteProvisionSysSvc: Successfully fetched key for client 106150844
+134402:02-09 20:08:52.843 31897  1737 D AidlBufferPool: bufferpool2 0x7548a91198 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+134403:02-09 20:08:52.843 31897  1737 D AidlBufferPool: Destruction - bufferpool2 0x7548a91198 cached: 0/0M, 0/0% in use; allocs: 5, 0% recycled; transfers: 4, 50% unfetched
+134478:02-09 20:08:52.849  2421   568 D AidlBufferPool: bufferpool2 0xb400007a946e2ce8 : 0(0 size) total buffers - 0(0 size) used buffers - 88/92 (recycle/alloc) - 4/91 (fetch/transfer)
+134479:02-09 20:08:52.849  2421   568 D AidlBufferPool: Destruction - bufferpool2 0xb400007a946e2ce8 cached: 0/0M, 0/0% in use; allocs: 92, 96% recycled; transfers: 91, 96% unfetched
+135641:02-09 20:08:54.121  2421   568 D AidlBufferPool: Destruction - bufferpool2 0xb400007a946d91f8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+147725:02-09 20:08:59.844  2421  2780 D AidlBufferPool: bufferpool2 0xb400007a946dc728 : 0(0 size) total buffers - 0(0 size) used buffers - 65/68 (recycle/alloc) - 3/67 (fetch/transfer)
+147728:02-09 20:08:59.849  2387 16772 D AidlBufferPool: bufferpool2 0xb400007bd2100728 : 0(0 size) total buffers - 0(0 size) used buffers - 65/73 (recycle/alloc) - 8/140 (fetch/transfer)
+163009:02-09 20:09:09.430  4827  6463 I WPI     : fetch profile : Profile(countryCode=CN, salesCode=CHC, oneUiVersion=80000, firstApi=35)
+163013:02-09 20:09:09.439  4827  6463 D WPI     : fetch weather setting ucl : 1 scale :CELSIUS
+163017:02-09 20:09:09.442 27992 28012 I WPI     : fetch profile : Profile(countryCode=CN, salesCode=CHC, oneUiVersion=80000, firstApi=35)
+163023:02-09 20:09:09.457 28015 28039 I WPI     : fetch profile : Profile(countryCode=CN, salesCode=CHC, oneUiVersion=80000, firstApi=35)
+163138:02-09 20:09:09.497  4827  6463 D WPI     : fetch weathers : size = 7  favorite]  internalCode : 2  expansionCode : 2  icon : 4  temp : 7 
+174015:02-09 20:11:41.216 16698 16729 I ReactNativeJS: Running "main"
+174031:02-09 20:11:41.220 16698 16729 W ReactNativeJS: The app is running using the Legacy Architecture. The Legacy Architecture is deprecated and will be removed in a future version of React Native. Please consider migrating to the New Architecture. For more information, please see https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here
+175162:02-09 20:11:46.324 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchInternal values : maxSyncId: 23327 indexCount: 11489 sourceCount: 11489
+175165:02-09 20:11:46.348 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetch: fetching took  50 ms
+175166:02-09 20:11:46.348 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchChanges: applied 0 items
+177508:02-09 20:12:27.950 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchInternal values : maxSyncId: 23327 indexCount: 11489 sourceCount: 11489
+177510:02-09 20:12:27.962 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetch: fetching took  26 ms
+177511:02-09 20:12:27.962 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchChanges: applied 0 items
+180550:02-09 20:13:04.162 23176 23209 I TemplateViewHolderDataBroker: fetchTemplateData | 10005 | com.samsung.android.app.sreminder
+180662:02-09 20:13:04.180  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.samsung.android.app.sreminder:reminderservice
+180903:02-09 20:13:04.286 14211 14353 I PkgLog  : pkg_assistantrequest to fetch cj logistics from server
+181529:02-09 20:13:04.461 23176 23209 I TemplateViewHolderDataBroker: fetchTemplateData | 10005 | com.samsung.android.app.sreminder
+181729:02-09 20:13:04.489 23176 23195 I TemplateViewHolderDataBroker: fetchTemplateData | 10005 | com.samsung.android.app.sreminder
+184602:02-09 20:13:06.351  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.sec.spp.push
+186669:02-09 20:13:07.800  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.samsung.android.scpm
+190651:02-09 20:13:17.578 11545 18634 I SCS@AiSearch user 0: (BaseCollector::CONTACTS) fetchInternal values : maxSyncId: 3 indexCount: 3 sourceCount: 3
+190655:02-09 20:13:17.582 11545 18634 I SCS@AiSearch user 0: (BaseCollector::CONTACTS) fetch: fetching took  5 ms
+190656:02-09 20:13:17.582 11545 18634 I SCS@AiSearch user 0: (BaseCollector::CONTACTS) fetchChanges: applied 0 items
+194555:02-09 20:13:21.683  1888 19111 D AidlBufferPool: bufferpool2 0xb4000074636dbc58 : 34(557056 size) total buffers - 34(557056 size) used buffers - 0/34 (recycle/alloc) - 0/0 (fetch/transfer)
+195318:02-09 20:13:22.711  1888  6756 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d9bf8 cached: 0/0M, 0/0% in use; allocs: 2, 0% recycled; transfers: 0, 0% unfetched
+195320:02-09 20:13:22.711  1888  6756 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636c81d8 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+195366:02-09 20:13:22.714  1888  6748 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636c6d08 cached: 0/0M, 0/0% in use; allocs: 2, 0% recycled; transfers: 0, 0% unfetched
+195368:02-09 20:13:22.714  1888  6748 D AidlBufferPool: Destruction - bufferpool2 0xb4000074636d1388 cached: 0/0M, 0/0% in use; allocs: 0, 0% recycled; transfers: 0, 0% unfetched
+195721:02-09 20:13:22.750  2387  2387 D AidlBufferPool: bufferpool2 0xb400007bd2100728 : 0(0 size) total buffers - 0(0 size) used buffers - 65/73 (recycle/alloc) - 8/140 (fetch/transfer)
+195722:02-09 20:13:22.750  2387  2387 D AidlBufferPool: Destruction - bufferpool2 0xb400007bd2100728 cached: 0/0M, 0/0% in use; allocs: 73, 89% recycled; transfers: 140, 94% unfetched
+196940:02-09 20:13:25.810  5185  5185 I ImeCloudInspirationMgr: [:5185, ]:fetchTextExpansion
+197337:02-09 20:13:27.604  2827 20959 I PerProcessNandswap$NandswapMsgHandler: madvise_prefetch for com.sec.spp.push
+197846:02-09 20:13:28.688 17881 19088 D AidlBufferPool: bufferpool2 0x75487de3d8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+197847:02-09 20:13:28.688 17881 19088 D AidlBufferPool: bufferpool2 0x75487bbd78 : 0(0 size) total buffers - 0(0 size) used buffers - 0/6 (recycle/alloc) - 2/2 (fetch/transfer)
+197848:02-09 20:13:28.688 17881 19088 D AidlBufferPool: bufferpool2 0x75487bb688 : 0(0 size) total buffers - 0(0 size) used buffers - 0/5 (recycle/alloc) - 2/4 (fetch/transfer)
+197849:02-09 20:13:28.688 17881 19088 D AidlBufferPool: bufferpool2 0x75487e3bb8 : 0(0 size) total buffers - 0(0 size) used buffers - 0/6 (recycle/alloc) - 2/2 (fetch/transfer)
+210250:02-09 20:13:44.181 19401 19445 I Iris    : fetchCard: No eligible accounts found
+210802:02-09 20:13:46.273  2827  2827 I RemoteProvisionSysSvc: Successfully fetched key for client 233600247
+230802:02-09 20:18:41.438 31346 31599 I NTKernel: [I] rich_media_ntv2_url_fetch_codec.cc(564)::EncodeCommonHead [rich_media_ntv2_url_fetch_codec]->EncodeCommonHead --- request_id_=4 cmd_=202
+234898:02-09 20:19:24.307   633   677 I ReactNativeJS: Running "main"
+234941:02-09 20:19:24.316   633   677 W ReactNativeJS: The app is running using the Legacy Architecture. The Legacy Architecture is deprecated and will be removed in a future version of React Native. Please consider migrating to the New Architecture. For more information, please see https://reactnative.dev/blog/2024/10/23/the-new-architecture-is-here
+236356:02-09 20:19:31.608 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchInternal values : maxSyncId: 23327 indexCount: 11489 sourceCount: 11489
+236358:02-09 20:19:31.626 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetch: fetching took  39 ms
+236359:02-09 20:19:31.626 11545 16945 I SCS@AiSearch user 0: (BaseCollector::AOSP_MP) fetchChanges: applied 0 items

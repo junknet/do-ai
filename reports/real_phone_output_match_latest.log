@@ -1,0 +1,28 @@
+11:• B最后再跑一轮 shared session 相关 E2E，确认 tmux-like 共享链路没虚标。
+16:- 证明 do-ai 在 Linux 下的 Enter 提交、gemini 真实交互、tmux-like 会话共享链路
+34:- tmux-like 共享链路 PASS：reports/pty_share_e2e_latest.log:1、
+129:- 证据：codex 在收到远程 input+submit 后直接 panic（
+132:reports/codex_crash_recheck_session_latest.log:1
+134:codex_crash_submitonly_summary_latest.txt:1
+140:- 真正共享会话：用 Btmux 做会话内核（最稳）
+144:tmux session
+146:tmux send-keys
+148:tmux capture-pane -p
+149:4. 关闭会话走 tmux kill-session
+150:这样就是你要的 “tmux shared session 感觉”，而且稳定性会明显比现在高。
+153:tmux 路径。
+155:tmux
+157:• Btmux 托管实测有效（同样注入不崩）。我现在把它做成 do-ai 的默认稳定策略（仅针对
+159:• B代码已改为 codex/claude/gemini 默认走 tmux 托管；我现在跑真实复现用例，验证不
+162:我已经按你要的方向，直接切到 tmux 共享内核B
+167:- 默认对 codex/claude/gemini 启用 tmux 托管（auto 模式）：src/main.go:104、
+170:- 自动注入与 relay 控制改为 tmux 转发（不再直写 PTY）：src/main.go:264、src/
+172:- terminate 时增加 tmux 会话清理：
+174:- 补了 tmux 相关单测：src/main_test.go:444、src/main_test.go:478、src/
+179:codex_tmux_verify_summary_latest.txt:1（crashed=0）
+180:- codex 3轮稳定压测：reports/codex_tmux_soak_summary_latest.txt:1（
+184:reports/gemini_real_e2e_after_tmux_latest.log:1
+185:- 回归测试通过：reports/go_test_src_after_tmux_latest.log:1、reports/
+186:go_test_all_after_tmux_latest.log:1
+210:›BREAL_PHONE_E2E_177063906625% context leftB
+218:›BREAL_PHONE_E2E_1770639066

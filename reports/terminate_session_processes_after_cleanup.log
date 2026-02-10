@@ -1,0 +1,2 @@
+839:junknet  3282929 1976848 99 00:59 ?        00:00:00 /bin/zsh -c . "/home/junknet/.codex/shell_snapshots/019c38a2-fb1f-7a12-9ad0-440b51c33113.sh" && cd /home/junknet/Desktop/do-ai && ps -ef | rg "do-ai 600s cat|emulator.*Small_Phone|qemu-system" -n | tee reports/terminate_session_processes_after_cleanup.log
+841:junknet  3282935 3282929  0 00:59 ?        00:00:00 rg do-ai 600s cat|emulator.*Small_Phone|qemu-system -n

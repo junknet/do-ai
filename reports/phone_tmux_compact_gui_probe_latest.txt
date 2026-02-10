@@ -1,0 +1,4 @@
+home_has_1_active=False
+home_has_session_name=False
+term_has_stress_line=False
+term_has_prompt=False

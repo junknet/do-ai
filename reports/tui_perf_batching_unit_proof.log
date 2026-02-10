@@ -1,0 +1,4 @@
+=== RUN   TestRelayReporterReportOutputBatching
+--- PASS: TestRelayReporterReportOutputBatching (0.08s)
+PASS
+ok  	do-ai/src	0.079s

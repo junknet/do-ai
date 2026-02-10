@@ -1,0 +1,19 @@
+Usage of relay:
+  -alert-cooldown duration
+    	告警冷却时间 (default 3m0s)
+  -idle-alert int
+    	空闲告警阈值（秒） (default 180)
+  -keywords string
+    	关键词告警 (default "panic,error,exception,confirm,请选择,是否继续")
+  -listen string
+    	监听地址 (default ":8787")
+  -notify-webhook string
+    	Webhook 地址，逗号分隔
+  -stale-seconds int
+    	离线判定秒数 (default 20)
+  -telegram-chat-id string
+    	Telegram chat id
+  -telegram-token string
+    	Telegram bot token
+  -token string
+    	上报鉴权 token (default "doai-relay-v1-9f8e7d6c5b4a3928171605ffeeddccbbaa99887766554433221100aabbccddeeff")

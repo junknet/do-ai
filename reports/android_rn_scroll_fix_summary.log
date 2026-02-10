@@ -1,0 +1,11 @@
+141:function areSessionListsEquivalent(previous: Session[], next: Session[]): boolean {
+152:function areOutputEventsEqual(previous: OutputEvent[], next: OutputEvent[]): boolean {
+209:      setSessions((previous) => (areSessionListsEquivalent(previous, incoming) ? previous : incoming));
+221:    const timer = setInterval(() => void fetchSessions(), SESSION_REFRESH_MS);
+522:  const reloadTerminalTail = useCallback(async (options?: { showProgress?: boolean }) => {
+528:    const showProgress = options?.showProgress === true;
+529:    if (showProgress) {
+543:      setTerminalLines((previous) => (areOutputEventsEqual(previous, nextEvents) ? previous : nextEvents));
+550:      if (!showProgress) {
+585:      void reloadTerminalTail({ showProgress: true });
+586:      const t = setInterval(() => {
