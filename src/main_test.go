@@ -881,3 +881,79 @@ func TestResolveExecutionArgsDirect(t *testing.T) {
 		t.Fatalf("空 slice 应返回错误")
 	}
 }
+
+// PR3: 边界/异常场景测试 —— updateTail 边界条件
+func TestUpdateTailBoundary(t *testing.T) {
+	// max=0 应返回 nil
+	if got := updateTail(nil, []byte("abc"), 0); got != nil {
+		t.Fatalf("max=0 应返回 nil: got=%q", got)
+	}
+
+	// chunk 长度恰好等于 max
+	got := updateTail(nil, []byte("abcd"), 4)
+	if string(got) != "abcd" {
+		t.Fatalf("chunk == max 应返回完整 chunk: got=%q", got)
+	}
+
+	// chunk 长度超过 max，只保留尾部
+	got = updateTail([]byte("xx"), []byte("abcde"), 3)
+	if string(got) != "cde" {
+		t.Fatalf("chunk > max 应截取尾部: got=%q", got)
+	}
+
+	// tail + chunk 恰好等于 max
+	got = updateTail([]byte("ab"), []byte("cd"), 4)
+	if string(got) != "abcd" {
+		t.Fatalf("tail+chunk == max 应合并: got=%q", got)
+	}
+
+	// tail + chunk 超过 max，截取尾部
+	got = updateTail([]byte("abc"), []byte("de"), 4)
+	if string(got) != "bcde" {
+		t.Fatalf("tail+chunk > max 应截取: got=%q", got)
+	}
+
+	// 空 chunk
+	got = updateTail([]byte("ab"), []byte{}, 4)
+	if string(got) != "ab" {
+		t.Fatalf("空 chunk 应保留 tail: got=%q", got)
+	}
+
+	// nil tail + nil chunk
+	got = updateTail(nil, nil, 4)
+	if len(got) != 0 {
+		t.Fatalf("nil+nil 应返回空: got=%q", got)
+	}
+}
+
+// PR3: DSR 控制器并发安全测试
+func TestDSRControllerConcurrency(t *testing.T) {
+	var buf bytes.Buffer
+	dsr := newDSRController(&buf)
+
+	// 并发调用 Request 和 Cancel 不应 panic
+	done := make(chan struct{})
+	go func() {
+		for i := 0; i < 100; i++ {
+			dsr.Request()
+		}
+		close(done)
+	}()
+	for i := 0; i < 100; i++ {
+		dsr.Cancel()
+	}
+	<-done
+
+	// 等待所有 AfterFunc 完成
+	time.Sleep(100 * time.Millisecond)
+}
+
+// PR3: shouldKick 边界条件 — idle=0 永不触发
+func TestShouldKickZeroIdle(t *testing.T) {
+	if shouldKick(10*time.Minute, 10*time.Minute, 0) {
+		t.Fatalf("idle=0 不应触发注入")
+	}
+	if shouldKick(10*time.Minute, 10*time.Minute, -1*time.Second) {
+		t.Fatalf("idle<0 不应触发注入")
+	}
+}

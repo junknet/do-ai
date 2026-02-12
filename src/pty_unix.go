@@ -6,6 +6,8 @@ import (
 	"io"
 	"os"
 	"os/exec"
+	"syscall"
+	"time"
 
 	"github.com/creack/pty"
 )
@@ -38,7 +40,17 @@ func (p *unixPTY) Resize(rows, cols uint16) error {
 }
 
 func (p *unixPTY) Close() error {
-	return p.ptmx.Close()
+	err := p.ptmx.Close()
+	// 关闭 ptmx 会向子进程发送 SIGHUP，但如果子进程忽略了 HUP 则需要强制终止。
+	// 注意：不在此处调用 cmd.Wait()，避免与外部 Wait() 调用产生竞态。
+	if p.cmd.Process != nil {
+		_ = syscall.Kill(-p.cmd.Process.Pid, syscall.SIGTERM)
+		time.AfterFunc(500*time.Millisecond, func() {
+			// 延迟 SIGKILL 兜底：若进程已退出，Kill 返回 ESRCH（静默忽略）
+			_ = syscall.Kill(-p.cmd.Process.Pid, syscall.SIGKILL)
+		})
+	}
+	return err
 }
 
 // Fd returns the file descriptor for the PTY master

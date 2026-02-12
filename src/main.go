@@ -1088,9 +1088,6 @@ func preInputPayload() []byte {
 			return nil
 		}
 	}
-	if val == "" {
-		return nil
-	}
 	lower := strings.ToLower(val)
 	switch lower {
 	case "ctrl-u":
