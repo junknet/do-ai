@@ -871,6 +871,26 @@ func TestRelayStoreScreenSnapshotSupportsVerticalAbsoluteCSID(t *testing.T) {
 	}
 }
 
+func TestRelayStoreScreenSnapshotDropsNULRunes(t *testing.T) {
+	store := newRelayStore()
+	raw := []byte{'A', 0x00, 'Z', 0x00, 'C', '\n'}
+	store.appendOutputWithRaw("s-nul-clean", nil, [][]byte{raw}, time.Now().Unix())
+
+	screen := store.getOutputScreen("s-nul-clean", 20)
+	if len(screen.Lines) < 1 {
+		t.Fatalf("screen 快照应有内容: %#v", screen)
+	}
+	if screen.Lines[0] != "AZC" {
+		t.Fatalf("NUL 清洗失败: got=%q lines=%#v", screen.Lines[0], screen.Lines)
+	}
+	if len(screen.StyledLines) == 0 || len(screen.StyledLines[0].Segments) == 0 {
+		t.Fatalf("styled_lines 为空: %#v", screen.StyledLines)
+	}
+	if screen.StyledLines[0].Segments[0].Text != "AZC" {
+		t.Fatalf("styled segment 文本异常: %#v", screen.StyledLines[0].Segments)
+	}
+}
+
 func TestRelayStoreScreenSnapshotLineFeedKeepsColumn(t *testing.T) {
 	store := newRelayStore()
 	raw := []byte("\x1b[21GX\n\nY\n")

@@ -45,6 +45,7 @@ type relayHeartbeat struct {
 	IdleSeconds  int64  `json:"idle_seconds,omitempty"`
 	KickCount    uint64 `json:"kick_count,omitempty"`
 	LastText     string `json:"last_text,omitempty"`
+	LastBellAt   int64  `json:"last_bell_at,omitempty"`
 	LockFile     string `json:"lock_file,omitempty"`
 }
 
@@ -187,6 +188,11 @@ func newRelayStore() *relayStore {
 func (s *relayStore) upsert(hb relayHeartbeat) {
 	s.mu.Lock()
 	defer s.mu.Unlock()
+	if prev, ok := s.sessions[hb.SessionID]; ok {
+		if hb.LastBellAt < prev.LastBellAt {
+			hb.LastBellAt = prev.LastBellAt
+		}
+	}
 	s.sessions[hb.SessionID] = hb
 }
 
@@ -307,6 +313,13 @@ func (s *relayStore) appendOutput(sessionID string, lines []string, rawChunks []
 	if ts <= 0 {
 		ts = time.Now().Unix()
 	}
+	hasBell := false
+	for _, chunk := range rawChunks {
+		if bytes.IndexByte(chunk, '\a') >= 0 {
+			hasBell = true
+			break
+		}
+	}
 	cleanLines := normalizeOutputLines(lines)
 	if len(cleanLines) == 0 && len(rawChunks) == 0 {
 		return nil
@@ -350,6 +363,14 @@ func (s *relayStore) appendOutput(sessionID string, lines []string, rawChunks []
 		s.screenSeq++
 		state.revision = s.screenSeq
 		state.updatedAt = ts
+	}
+	if hasBell {
+		if hb, ok := s.sessions[sessionID]; ok {
+			if ts > hb.LastBellAt {
+				hb.LastBellAt = ts
+				s.sessions[sessionID] = hb
+			}
+		}
 	}
 	return created
 }
@@ -621,30 +642,48 @@ func (s *relayScreenState) normalizeCursor(maxRows, maxCols int) {
 	s.trimRows(maxRows)
 }
 
+func runeWidth(r rune) int {
+	if r >= 0x1100 && (r <= 0x115f || r == 0x2329 || r == 0x232a ||
+		(r >= 0x2e80 && r <= 0xa4cf && r != 0x303f) ||
+		(r >= 0xac00 && r <= 0xd7a3) ||
+		(r >= 0xf900 && r <= 0xfaff) ||
+		(r >= 0xfe10 && r <= 0xfe19) ||
+		(r >= 0xfe30 && r <= 0xfe6f) ||
+		(r >= 0xff00 && r <= 0xff60) ||
+		(r >= 0xffe0 && r <= 0xffe6)) {
+		return 2
+	}
+	return 1
+}
+
 func (s *relayScreenState) putRune(r rune, maxRows, maxCols int) {
+	w := runeWidth(r)
 	if maxCols <= 0 {
 		maxCols = relayScreenMaxCols
 	}
-	if s.cursorCol >= maxCols {
+	if s.cursorCol+w > maxCols {
 		s.cursorCol = 0
 		s.lineFeed(maxRows, maxCols)
 	}
 	s.normalizeCursor(maxRows, maxCols)
 	row := s.rows[s.cursorRow]
 	styleRow := s.styles[s.cursorRow]
-	for len(row) < s.cursorCol {
+
+	// Ensure capacity
+	needed := s.cursorCol + w
+	for len(row) < needed {
 		row = append(row, ' ')
 		styleRow = append(styleRow, relayCellStyle{})
 	}
-	if s.cursorCol < len(row) {
-		row[s.cursorCol] = r
-		if s.cursorCol < len(styleRow) {
-			styleRow[s.cursorCol] = s.styleState
-		}
-	} else {
-		row = append(row, r)
-		styleRow = append(styleRow, s.styleState)
+
+	row[s.cursorCol] = r
+	styleRow[s.cursorCol] = s.styleState
+
+	if w == 2 && s.cursorCol+1 < len(row) {
+		row[s.cursorCol+1] = 0 // Sentinel for wide char padding
+		styleRow[s.cursorCol+1] = s.styleState
 	}
+
 	if len(row) > maxCols {
 		row = row[:maxCols]
 	}
@@ -653,7 +692,7 @@ func (s *relayScreenState) putRune(r rune, maxRows, maxCols int) {
 	}
 	s.rows[s.cursorRow] = row
 	s.styles[s.cursorRow] = styleRow
-	s.cursorCol++
+	s.cursorCol += w
 }
 
 func (s *relayScreenState) lineFeed(maxRows, maxCols int) {
@@ -788,8 +827,8 @@ func ansi256ToHex(idx int) string {
 		idx = 255
 	}
 	palette16 := []string{
-		"#000000", "#800000", "#008000", "#808000", "#000080", "#800080", "#008080", "#c0c0c0",
-		"#808080", "#ff0000", "#00ff00", "#ffff00", "#0000ff", "#ff00ff", "#00ffff", "#ffffff",
+		"#000000", "#cd0000", "#00cd00", "#cdcd00", "#0000ee", "#cd00cd", "#00cdcd", "#e5e5e5",
+		"#7f7f7f", "#ff0000", "#00ff00", "#ffff00", "#5c5cff", "#ff00ff", "#00ffff", "#ffffff",
 	}
 	if idx < 16 {
 		return palette16[idx]
@@ -1184,7 +1223,7 @@ func buildStyledLineSegments(runes []rune, styles []relayCellStyle) relayScreenS
 		}
 		if i == len(runes) || !styleEqual(current, nextStyle) {
 			seg := relayScreenSegment{
-				Text:      string(runes[start:i]),
+				Text:      strings.ReplaceAll(string(runes[start:i]), "\x00", ""),
 				FG:        current.FG,
 				BG:        current.BG,
 				Bold:      current.Bold,
@@ -1232,15 +1271,22 @@ func (s *relayScreenState) snapshot(limit int) ([]string, []relayScreenStyledLin
 		for trimmedLen > 0 && row[trimmedLen-1] == ' ' {
 			trimmedLen--
 		}
-		trimmedRunes := append([]rune(nil), row[:trimmedLen]...)
-		trimmedStyles := make([]relayCellStyle, trimmedLen)
+		filteredRunes := make([]rune, 0, trimmedLen)
+		filteredStyles := make([]relayCellStyle, 0, trimmedLen)
 		for idx := 0; idx < trimmedLen; idx++ {
+			r := row[idx]
+			if r == 0 {
+				continue
+			}
+			filteredRunes = append(filteredRunes, r)
 			if idx < len(styleRow) {
-				trimmedStyles[idx] = styleRow[idx]
+				filteredStyles = append(filteredStyles, styleRow[idx])
+			} else {
+				filteredStyles = append(filteredStyles, relayCellStyle{})
 			}
 		}
-		all = append(all, string(trimmedRunes))
-		allStyled = append(allStyled, buildStyledLineSegments(trimmedRunes, trimmedStyles))
+		all = append(all, string(filteredRunes))
+		allStyled = append(allStyled, buildStyledLineSegments(filteredRunes, filteredStyles))
 	}
 
 	start := 0
