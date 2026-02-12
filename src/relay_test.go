@@ -690,6 +690,39 @@ func TestRelayStoreMarkSessionStopping(t *testing.T) {
 	}
 }
 
+func TestRelayStoreTracksBellTimestampFromRawChunks(t *testing.T) {
+	store := newRelayStore()
+	store.upsert(relayHeartbeat{
+		SessionID: "s-bell",
+		State:     "running",
+		UpdatedAt: 100,
+	})
+
+	store.appendOutputWithRaw("s-bell", nil, [][]byte{[]byte("ready\a\n")}, 123)
+
+	sessions := store.list(9999, false)
+	if len(sessions) != 1 {
+		t.Fatalf("session 数量异常: %d", len(sessions))
+	}
+	if sessions[0].LastBellAt != 123 {
+		t.Fatalf("last_bell_at 应为 123, got=%d", sessions[0].LastBellAt)
+	}
+
+	// 心跳不带 last_bell_at 时，应保留历史 bell 时间戳。
+	store.upsert(relayHeartbeat{
+		SessionID: "s-bell",
+		State:     "running",
+		UpdatedAt: 124,
+	})
+	sessions = store.list(9999, false)
+	if len(sessions) != 1 {
+		t.Fatalf("session 数量异常: %d", len(sessions))
+	}
+	if sessions[0].LastBellAt != 123 {
+		t.Fatalf("心跳覆盖后应保留 last_bell_at=123, got=%d", sessions[0].LastBellAt)
+	}
+}
+
 func TestDecodeTmuxPassthrough(t *testing.T) {
 	payload := []byte("tmux;\x1b\x1b[2Jhello")
 	decoded, ok := decodeTmuxPassthrough(payload)
@@ -733,7 +766,7 @@ func TestRelayStoreScreenSnapshotStyledLinesSupportsANSIColors(t *testing.T) {
 		t.Fatalf("styled 段数量不匹配: got=%d segments=%#v", len(segments), segments)
 	}
 
-	if segments[0].Text != "RED" || segments[0].FG != "#800000" {
+	if segments[0].Text != "RED" || segments[0].FG != ansi256ToHex(1) {
 		t.Fatalf("基础色段错误: %#v", segments[0])
 	}
 	if segments[1].Text != " plain " || segments[1].FG != "" || segments[1].BG != "" {
@@ -767,7 +800,7 @@ func TestRelayStoreScreenSnapshotStyledLinesSupportsStyleReset(t *testing.T) {
 	if segments[0].Text != "AB" || !segments[0].Bold || !segments[0].Italic || !segments[0].Underline {
 		t.Fatalf("样式段属性错误: %#v", segments[0])
 	}
-	if segments[0].FG != "#008000" {
+	if segments[0].FG != ansi256ToHex(2) {
 		t.Fatalf("前景色错误: %#v", segments[0])
 	}
 	if segments[0].BG != "#005faf" {

@@ -1,16 +1,21 @@
 {
   "expo": {
-    "name": "android-rn",
-    "slug": "android-rn",
+    "name": "DoAI",
+    "slug": "do-ai",
     "version": "1.0.0",
+    "extra": {
+      "relayUrlPrimary": "",
+      "relayUrlLocal": "http://127.0.0.1:18787",
+      "relayToken": ""
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#20232a"
     },
     "ios": {
       "supportsTablet": true
@@ -18,11 +23,15 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#20232a"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.anonymous.androidrn"
+      "package": "com.doai.app",
+      "notification": {
+        "icon": "./assets/notification-icon.png",
+        "color": "#61dafb"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
