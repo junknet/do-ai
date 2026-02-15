@@ -257,6 +257,36 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
     });
   }
 
+  String _offlineInputMessage() {
+    final relayBase = ref.read(apiServiceProvider).baseUrl;
+    return '连接未就绪，请先重连 Relay($relayBase)';
+  }
+
+  void _markOfflineInputBlocked({
+    required String action,
+    required int payloadLen,
+    required bool submit,
+  }) {
+    final message = _offlineInputMessage();
+    if (mounted) {
+      setState(() {
+        _terminalError = message;
+      });
+    }
+    StructuredLog.info(
+      traceId: _traceId,
+      event: 'terminal.control.blocked_offline',
+      anchor: 'control_send_guard',
+      status: 'blocked',
+      context: {
+        'session_id': _activeSessionId,
+        'submit': submit,
+        'ui_action': action,
+        'payload_len': payloadLen,
+      },
+    );
+  }
+
   Future<void> _sendControl({
     required String input,
     bool submit = false,
@@ -266,6 +296,14 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
     final hasEffectivePayload =
         input.isNotEmpty || submit || relayAction.isNotEmpty;
     if (_activeSessionId.isEmpty || _sendingInput || !hasEffectivePayload) {
+      return;
+    }
+    if (!_wsLive) {
+      _markOfflineInputBlocked(
+        action: action,
+        payloadLen: input.length,
+        submit: submit,
+      );
       return;
     }
     setState(() {
@@ -350,11 +388,39 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
     if (text.isEmpty) {
       return;
     }
+    if (!_wsLive) {
+      _markOfflineInputBlocked(
+        action: 'submit',
+        payloadLen: text.length,
+        submit: true,
+      );
+      return;
+    }
     _commandController.clear();
     await _sendControl(
       input: text,
       submit: true,
     );
+  }
+
+  Future<void> _reconnectTerminal() async {
+    StructuredLog.info(
+      traceId: _traceId,
+      event: 'terminal.reconnect.requested',
+      anchor: 'reconnect_button',
+      status: 'pending',
+      context: {
+        'session_id': _activeSessionId,
+      },
+    );
+    if (mounted) {
+      setState(() {
+        _terminalError = '';
+        _sessionError = '';
+        _terminalEpoch += 1;
+      });
+    }
+    await _refreshSessions(silent: false);
   }
 
   Future<void> _terminateSessionFromTab(SessionInfo session) async {
@@ -500,6 +566,9 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
               onDecreaseFont: () => _changeFont(-1),
               onIncreaseFont: () => _changeFont(1),
               onSwitchRenderMode: _setRenderMode,
+              onReconnect: () {
+                unawaited(_reconnectTerminal());
+              },
               onToggleImmersive: () {
                 setState(() {
                   _immersive = !_immersive;
@@ -528,6 +597,9 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
                         }
                         setState(() {
                           _wsLive = live;
+                          if (live && _terminalError.startsWith('连接未就绪，请先重连')) {
+                            _terminalError = '';
+                          }
                         });
                       },
                       onErrorChanged: (message) {
@@ -554,11 +626,13 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
               _CommandComposer(
                 controller: _commandController,
                 focusNode: _commandFocusNode,
+                enabled: _wsLive,
                 sending: _sendingInput,
                 onSubmit: _submitCommand,
               ),
             if (!_immersive)
               _QuickKeyBar(
+                enabled: _wsLive,
                 sending: _sendingInput,
                 onTapQuickKey: (spec) {
                   if (spec.focusComposer) {
@@ -597,6 +671,7 @@ class _TerminalHeader extends StatelessWidget {
   final VoidCallback onDecreaseFont;
   final VoidCallback onIncreaseFont;
   final ValueChanged<MobileRenderMode> onSwitchRenderMode;
+  final VoidCallback onReconnect;
   final VoidCallback onToggleImmersive;
   final bool immersive;
   final bool wsLive;
@@ -613,6 +688,7 @@ class _TerminalHeader extends StatelessWidget {
     required this.onDecreaseFont,
     required this.onIncreaseFont,
     required this.onSwitchRenderMode,
+    required this.onReconnect,
     required this.onToggleImmersive,
     required this.immersive,
     required this.wsLive,
@@ -658,6 +734,11 @@ class _TerminalHeader extends StatelessWidget {
               _RenderModeButton(
                 mode: renderMode,
                 onSelected: onSwitchRenderMode,
+              ),
+              const SizedBox(width: 4),
+              _HeaderActionButton(
+                label: '重连',
+                onTap: onReconnect,
               ),
               const SizedBox(width: 4),
               _HeaderIconButton(
@@ -933,12 +1014,14 @@ class _TransportChip extends StatelessWidget {
 class _CommandComposer extends StatelessWidget {
   final TextEditingController controller;
   final FocusNode focusNode;
+  final bool enabled;
   final bool sending;
   final Future<void> Function() onSubmit;
 
   const _CommandComposer({
     required this.controller,
     required this.focusNode,
+    required this.enabled,
     required this.sending,
     required this.onSubmit,
   });
@@ -967,7 +1050,12 @@ class _CommandComposer extends StatelessWidget {
                 color: Color(0xFF1D2740),
                 fontSize: 14,
               ),
-              onSubmitted: (_) => unawaited(onSubmit()),
+              onSubmitted: (_) {
+                if (!enabled || sending) {
+                  return;
+                }
+                unawaited(onSubmit());
+              },
               decoration: const InputDecoration(
                 isDense: true,
                 hintText: '输入命令后回车发送',
@@ -979,11 +1067,13 @@ class _CommandComposer extends StatelessWidget {
             width: 38,
             height: 38,
             child: Material(
-              color: const Color(0xFF2F5DFF),
+              color:
+                  enabled ? const Color(0xFF2F5DFF) : const Color(0xFF95A2BF),
               borderRadius: BorderRadius.circular(19),
               child: InkWell(
                 borderRadius: BorderRadius.circular(19),
-                onTap: sending ? null : () => unawaited(onSubmit()),
+                onTap:
+                    (!enabled || sending) ? null : () => unawaited(onSubmit()),
                 child: Center(
                   child: sending
                       ? const SizedBox(
@@ -1010,10 +1100,12 @@ class _CommandComposer extends StatelessWidget {
 }
 
 class _QuickKeyBar extends StatelessWidget {
+  final bool enabled;
   final bool sending;
   final ValueChanged<_QuickKeySpec> onTapQuickKey;
 
   const _QuickKeyBar({
+    required this.enabled,
     required this.sending,
     required this.onTapQuickKey,
   });
@@ -1052,28 +1144,36 @@ class _QuickKeyBar extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 6),
         itemBuilder: (context, index) {
           final spec = _keys[index];
+          final interactive = !sending &&
+              (enabled || spec.forceSyncTerminal || spec.focusComposer);
+          final fillColor =
+              interactive ? Colors.white : const Color(0xFFE9EDF4);
+          final borderColor =
+              interactive ? const Color(0xFFD8DFEA) : const Color(0xFFDCE3EE);
+          final textColor =
+              interactive ? const Color(0xFF2F3A55) : const Color(0xFF98A2BA);
           return SizedBox(
             height: 34,
             child: Semantics(
               label: 'quick-key-${spec.action}',
               button: true,
               child: Material(
-                color: Colors.white,
+                color: fillColor,
                 borderRadius: BorderRadius.circular(7),
                 child: InkWell(
                   borderRadius: BorderRadius.circular(7),
-                  onTap: sending ? null : () => onTapQuickKey(spec),
+                  onTap: interactive ? () => onTapQuickKey(spec) : null,
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 10),
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(7),
-                      border: Border.all(color: const Color(0xFFD8DFEA)),
+                      border: Border.all(color: borderColor),
                     ),
                     child: Center(
                       child: Text(
                         spec.label,
-                        style: const TextStyle(
-                          color: Color(0xFF2F3A55),
+                        style: TextStyle(
+                          color: textColor,
                           fontSize: 11,
                           fontWeight: FontWeight.w700,
                         ),
