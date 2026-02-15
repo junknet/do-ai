@@ -97,6 +97,23 @@ Relay 支持以下环境变量：
 - `DO_AI_TELEGRAM_BOT_TOKEN` + `DO_AI_TELEGRAM_CHAT_ID`：Telegram 推送
 - `DO_AI_ALERT_IDLE_SECS` / `DO_AI_ALERT_KEYWORDS` / `DO_AI_ALERT_COOLDOWN`：告警规则
 
+## Android Shared View（Flutter）
+
+移动端共享终端位于 `do_ai_terminal/`，支持 `Clean/Raw/Auto` 渲染模式：
+
+- `DO_AI_MOBILE_RENDER_MODE=clean|raw|auto`（默认 `clean`）
+- `DO_AI_MOBILE_NOISE_PROFILE=gemini|default`（默认 `gemini`）
+
+真机验收命令：
+
+```bash
+# 单轮回归
+tests/e2e/gemini_appsync_realgui_e2e.sh
+
+# 严格 SLA（默认 20 轮）
+DO_AI_E2E_ROUNDS=20 tests/e2e/gemini_appsync_sla_realgui.sh
+```
+
 ## 构建
 
 ```bash

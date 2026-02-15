@@ -1,29 +1,47 @@
 # do-ai Flutter Terminal
 
-do-ai 终端客户端的 Flutter Android 实现 - 透明 TUI 监控包装器的现代化移动前端。
+do-ai Android 终端客户端（Flutter 版），用于共享查看 `do-ai` 会话并进行实时交互。
 
-## 📱 特性
+## 关键能力
 
-- ✅ **完整 TUI 支持** - 基于 xterm.dart 4.0.0，完美渲染 vim/htop/tmux 等 TUI 应用
-- ✅ **Termius 风格 UI** - Material 3 设计，参考 FlClash 的卡片交互
-- ✅ **实时终端会话** - 连接 do-ai relay API，实时获取屏幕输出
-- ✅ **多会话管理** - 列表展示所有活动会话，快速切换
-- ✅ **深色/浅色主题** - 跟随系统自动切换
+- 实时会话：`/api/v1/output/ws` 增量流 + 快照兜底
+- 终端模式：`Clean / Raw / Auto` 显式切换（默认 `Clean`）
+- 多会话切换：会话标签页 + 长按关闭
+- 工程化观测：结构化日志（含 `trace_id`、`render_mode`、`noise_drop_count`）
 
-## 🚀 快速开始
+## 构建与安装
 
 ```bash
-# 构建 Debug APK
-flutter build apk --debug
+cd do_ai_terminal
 
-# 安装到设备
+# 使用本地 relay 构建 debug APK（推荐真机调试）
+flutter build apk --debug \
+  --dart-define=DO_AI_RELAY_URL=http://127.0.0.1:19797 \
+  --dart-define=DO_AI_RELAY_TOKEN=doai-relay-v1-xxx \
+  --dart-define=DO_AI_MOBILE_RENDER_MODE=clean \
+  --dart-define=DO_AI_MOBILE_NOISE_PROFILE=gemini
+
 adb install -r build/app/outputs/flutter-apk/app-debug.apk
 ```
 
-## 🔌 API 配置
+## 渲染模式
 
-默认连接 `http://localhost:18787`，修改 `lib/services/api_service.dart` 中的 baseUrl。
+- `DO_AI_MOBILE_RENDER_MODE=clean|raw|auto`
+- `DO_AI_MOBILE_NOISE_PROFILE=gemini|default`
 
-## 📄 详细文档
+说明：
+- `clean`：移动端默认，优先可读性
+- `raw`：完整字节流回放，保留全部终端细节
+- `auto`：先 raw，检测到噪声后自动切 clean
 
-完整架构、依赖、问题解决请查看项目源码注释。
+App 内可在终端页 Header 直接切换模式，且会持久化到本地。
+
+## 真机 E2E
+
+```bash
+# 单轮真机回归
+tests/e2e/gemini_appsync_realgui_e2e.sh
+
+# 20 轮严格 SLA（默认 20，可改 DO_AI_E2E_ROUNDS）
+DO_AI_E2E_ROUNDS=20 tests/e2e/gemini_appsync_sla_realgui.sh
+```
