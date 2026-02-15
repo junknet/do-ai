@@ -299,9 +299,12 @@ class _TerminalScreenState extends ConsumerState<TerminalScreen> {
         },
       );
     } catch (e, stackTrace) {
+      final relayBase = ref.read(apiServiceProvider).baseUrl;
       if (mounted) {
         setState(() {
-          _terminalError = '输入发送失败，请重试';
+          _terminalError = _wsLive
+              ? '输入发送失败，请检查 Relay($relayBase) 与会话状态'
+              : '连接已断开，请检查 Relay($relayBase) 并重试';
         });
       }
       unawaited(

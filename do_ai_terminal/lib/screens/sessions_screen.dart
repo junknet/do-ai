@@ -2,18 +2,68 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 import '../core/structured_log.dart';
 import '../services/api_service.dart';
 import '../widgets/session_card.dart';
 
 /// 会话列表页面
-class SessionsScreen extends ConsumerWidget {
+class SessionsScreen extends ConsumerStatefulWidget {
   const SessionsScreen({super.key});
 
+  @override
+  ConsumerState<SessionsScreen> createState() => _SessionsScreenState();
+}
+
+class _SessionsScreenState extends ConsumerState<SessionsScreen> {
   static final String _traceId = StructuredLog.newTraceId('sessions_screen');
+  static const Duration _refreshInterval = Duration(seconds: 3);
+
+  late Future<List<SessionInfo>> _sessionsFuture;
+  Timer? _refreshTimer;
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  void initState() {
+    super.initState();
+    _sessionsFuture = _loadSessions();
+    _refreshTimer = Timer.periodic(_refreshInterval, (_) {
+      if (!mounted) {
+        return;
+      }
+      setState(() {
+        _sessionsFuture = _loadSessions();
+      });
+    });
+  }
+
+  Future<List<SessionInfo>> _loadSessions() async {
+    StructuredLog.info(
+      traceId: _traceId,
+      event: 'sessions_screen.fetch',
+      anchor: 'sessions_fetch',
+    );
+    return ref.read(apiServiceProvider).getSessions();
+  }
+
+  Future<void> _refreshNow() async {
+    final future = _loadSessions();
+    if (mounted) {
+      setState(() {
+        _sessionsFuture = future;
+      });
+    }
+    await future;
+  }
+
+  @override
+  void dispose() {
+    _refreshTimer?.cancel();
+    _refreshTimer = null;
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
     StructuredLog.info(
       traceId: _traceId,
       event: 'sessions_screen.build',
@@ -27,7 +77,7 @@ class SessionsScreen extends ConsumerWidget {
         ),
         Expanded(
           child: FutureBuilder<List<SessionInfo>>(
-            future: ref.read(apiServiceProvider).getSessions(),
+            future: _sessionsFuture,
             builder: (context, snapshot) {
               StructuredLog.info(
                 traceId: _traceId,
@@ -59,14 +109,15 @@ class SessionsScreen extends ConsumerWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(Icons.error_outline, size: 64, color: Colors.red),
+                      const Icon(Icons.error_outline,
+                          size: 64, color: Colors.red),
                       const SizedBox(height: 16),
-                      Text('连接失败: ${snapshot.error}'),
+                      Text(
+                        '连接失败 (${ApiRuntimeConfigStore.baseUrl}): ${snapshot.error}',
+                      ),
                       const SizedBox(height: 16),
                       ElevatedButton(
-                        onPressed: () {
-                          (context as Element).markNeedsBuild();
-                        },
+                        onPressed: () => unawaited(_refreshNow()),
                         child: const Text('重试'),
                       ),
                     ],
@@ -77,24 +128,31 @@ class SessionsScreen extends ConsumerWidget {
               final sessions = snapshot.data ?? [];
 
               if (sessions.isEmpty) {
-                return const Center(
-                  child: Column(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
+                return RefreshIndicator(
+                  onRefresh: _refreshNow,
+                  child: ListView(
+                    children: const [
+                      SizedBox(height: 140),
                       Icon(Icons.inbox_outlined, size: 64),
                       SizedBox(height: 16),
-                      Text('暂无活动会话'),
+                      Center(child: Text('暂无活动会话')),
                     ],
                   ),
                 );
               }
 
-              return ListView.builder(
-                padding: const EdgeInsets.all(16),
-                itemCount: sessions.length,
-                itemBuilder: (context, index) {
-                  return SessionCard(session: sessions[index]);
-                },
+              return RefreshIndicator(
+                onRefresh: _refreshNow,
+                child: ListView.builder(
+                  padding: const EdgeInsets.all(16),
+                  itemCount: sessions.length,
+                  itemBuilder: (context, index) {
+                    return SessionCard(
+                      session: sessions[index],
+                      onSessionChanged: () => unawaited(_refreshNow()),
+                    );
+                  },
+                ),
               );
             },
           ),

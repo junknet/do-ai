@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'sessions_screen.dart';
+import 'settings_screen.dart';
 
 /// 主页面 - 参考 FlClash 的导航栏设计
 class HomeScreen extends ConsumerStatefulWidget {
@@ -15,7 +16,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
 
   final List<Widget> _pages = [
     const SessionsScreen(),
-    const Center(child: Text('设置')),
+    const SettingsScreen(),
   ];
 
   @override
